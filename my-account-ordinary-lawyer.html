@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/slick.css" />
+  <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="./assets/css/select2.min.css">
+  <link rel="stylesheet" href="./assets/css/style-tailwind.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- start top header -->
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <a href="#" class="lang">
+            <img src="./assets/images/country.png" alt="">
+            <span>
+              <select name="" id="" class="select-language">
+                <option value="">جمهورية مصر العربية</option>
+              </select>
+            </span>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <h5 class="company-email">michelle.schneider@mail.com</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end top header -->
+
+  <!-- start middle header -->
+  <div class="middle-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="social">
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-snapchat"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="">
+            <p>الخبرة العملية التي تحتاجها والحلول القانونية التي تريدها</p>
+            <h6 class="office-name">اسم مكتب المحاماه بجمهورية مصر العربية</h6>
+          </div>
+        </div>
+        <div class="col-7 col-md-6 col-lg-2">
+          <div class="card account-card">
+            <div class="row">
+              <div class="col-3 col-md-3 col-lg-3">
+                <div class="card-image">
+                  <img src="./assets/images/patient3.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-9 col-md-9 col-lg-9">
+                <div class="card-body">
+                  <p>عمر علي سليمان</p>
+                  <span>حسابي</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-md-6 col-lg-2">
+          <div class="notification">
+            <i class="fas fa-bell"></i>
+            <span>
+              <select name="" id="" class="select-language">
+                <option value="">الاشعارات</option>
+              </select>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end nav middle header -->
+
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              عنا
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item dropdown-item-active" href="#">عنا نحن</a>
+              <a class="dropdown-item" href="#">عنا 2</a>
+              <a class="dropdown-item" href="#">عنا 3</a>
+              <a class="dropdown-item" href="#">عنا 4</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">المنشورات القناونية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">فريق العمل</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              الاستشارات القانوينة
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item dropdown-item-active" href="#">استشارات مجانية</a>
+              <a class="dropdown-item" href="#">استشارات اونلاين</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">المكتبة القانونة</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <div class="my-account ordanry-lawer-page">
+    <div class="container">
+      <h5 class="my-account-header">حسابي</h5>
+      <ul class="nav nav-pills mb-3 my-account-tabs ordanry-lawer-page-tabs" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-pills-personal-info-tab" data-toggle="pill" href="#pills-personal-info"
+            role="tab" aria-controls="pills-personal-info" aria-selected="true">البيانات الشخصية</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-pills-consult-order-tab" data-toggle="pill" href="#pills-consult-order"
+            role="tab" aria-controls="pills-consult-order" aria-selected="false">منشوراتي</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-pills-favorite-tab" data-toggle="pill" href="#pills-favorite" role="tab"
+            aria-controls="pills-favorite" aria-selected="false">المفضلة</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active ordanry-lawer" id="pills-personal-info" role="tabpanel"
+          aria-labelledby="pills-home-tab">
+          <div class="personal-img">
+            <img src="./assets/images/cons1.png" alt="">
+            <a href="" class="change-pic btn">تعديل الصورة الشخصية</a>
+          </div>
+          <form action="" class="personal-form">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">الاسم ثلاثي</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="عمر علي سليمان">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">رقم الجول</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="(486)811-2623">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">البريد الالكتروني</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">الدولة</label>
+                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <option>اختر التصنيف</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-8"></div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">التخصص</label>
+                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <option>قانون الاسرة</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-8">
+                <a href="" class="add-anouther-specilist">
+                  <i class="fas fa-plus-circle"></i>
+                  <span>أضف تخصص اخر</span>
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">رقم الترخيص الكارنيه</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="(486)811-2623">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1"></label>
+                  <div class="input-group">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input custom-id-pic" id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01">
+                      <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الهويه الوطنيه</label>
+                    </div>
+                  </div>
+                  <span id="custom-id-pic-name"></span>
+                  <a href="" id="custom-id-pic-delete">حذف</a>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1"></label>
+                  <div class="input-group">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input custom-license" id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01">
+                      <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الترخيص / الكارنيه </label>
+                    </div>
+                  </div>
+                  <span id="custom-license-name"></span>
+                  <a href="" id="custom-license-delete">حذف</a>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12 mb-3">
+                <h6 class="seprate-title">الشهادات العلمية</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">اسم الشهادة</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1"
+                    placeholder="بكالوريوس حقوق مدنية جامعة القاهرة">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">سنة التخرج</label>
+                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <option>2011</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1"></label>
+                  <div class="input-group">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input custom-cirtificate" id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01">
+                      <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الشهادة</label>
+                    </div>
+                  </div>
+                  <span id="custom-cirtificate-name"></span>
+                  <a href="" id="custom-cirtificate-delete">حذف</a>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <a href="" class="add-anouther-specilist add-anouther-certifcate">
+                  <i class="fas fa-plus-circle"></i>
+                  <span>أضف شهادة اخرى</span>
+                </a>
+              </div>
+              <div class="col-sm-12 col-lg-12 mb-3 mt-4">
+                <h6 class="seprate-title">الخبرات العلميه</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">اسم الشركه / المكتب </label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-2">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">تاريخ البداية</label>
+                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <option>2011</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-2">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">تاريخ نهاية العمل</label>
+                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <option>2011</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">المسمي الوظيفي بالشركه</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <a href="" class="add-anouther-specilist add-anouther-certifcate">
+                  <i class="fas fa-plus-circle"></i>
+                  <span>أضف خبرات اخرى</span>
+                </a>
+              </div>
+            </div>
+            <div class="change-passowrd">
+              <a href="">تعديل كلمة المرور</a>
+            </div>
+            <div class="btn-change-data">
+              <a href="" class="btn">تعديل البيانات</a>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane fade about-arab-lower our-library legal-posts department-details ordanry-lawer-2"
+          id="pills-consult-order" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="legal-posts-content department-details content">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="department-details-search">
+                    <div class="department-details-cards">
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-th-list"></i><span>اسم القسم التابع للمنشور</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحا
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-th-list"></i><span>اسم القسم التابع للمنشور</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحا
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-th-list"></i><span>اسم القسم التابع للمنشور</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحا
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-th-list"></i><span>اسم القسم التابع للمنشور</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحا
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-th-list"></i><span>اسم القسم التابع للمنشور</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحا
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade about-arab-lower our-library legal-posts department-details ordanry-lawer-2"
+          id="pills-favorite" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="legal-posts-content department-details content">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="department-details-search">
+                    <div class="department-details-cards">
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-pen"></i><span>محمد عبد الوهاب عبد الرحمن - محامي</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحاً
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-pen"></i><span>محمد عبد الوهاب عبد الرحمن - محامي</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحاً
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-pen"></i><span>محمد عبد الوهاب عبد الرحمن - محامي</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحاً
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-pen"></i><span>محمد عبد الوهاب عبد الرحمن - محامي</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحاً
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                      <div class="card">
+                        <a href="">
+                          <i class="far fa-star"></i>
+                        </a>
+                        <div class="card-text">
+                          <i class="fas fa-folder-open"></i>
+                          <p><a href="">
+                              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                              العربى،
+                              حيث
+                              يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                            </a></p>
+                        </div>
+                        <div class="card-body">
+                          <span class="post-info">
+                            <p>
+                              <i class="fas fa-pen"></i><span>محمد عبد الوهاب عبد الرحمن - محامي</span>
+                            </p>
+                            <p>
+                              <i class="fas fa-calendar"></i><span class="date">03/02/2003</span><span
+                                class="time">05:45 صباحاً
+
+                            </p>
+                            <p>
+                              <i class="fas fa-flag"></i><span>جمهورية مصر العربية</span>
+                            </p>
+                          </span>
+                        </div>
+                      </div>
+                      <!-- REBEAT -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- start footer -->
+  <footer>
+    <div class="">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="footer-img">
+            <img src="./assets/images/footer-logo.png" alt="">
+            <p>الخبرة العملية التي تحتاجها والحلول القانونية التي تريدها</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
+          <div class="links">
+            <ul class="list-unstyled">
+              <li><a href="">استشارات مجانيه</a></li>
+              <li><a href="">استشارات اون لاين</a></li>
+              <li><a href="">فريق العمل </a></li>
+              <li><a href="">المنشورات القانونية</a></li>
+              <li><a href="">المكتبه القانونية</a></li>
+              <li><a href="">عن محامي العرب</a></li>
+              <li><a href="">اتصل بنا</a></li>
+              <li><a href="">مكاتب المحاماه</a></li>
+              <li><a href="">الاحصائيات </a></li>
+              <li><a href="">الشروط والاحكام</a></li>
+              <li><a href="">خدماتنا القانونية</a></li>
+              <li>
+                <div class="social">
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-snapchat"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                </div>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copy">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <p>جميع الحقوق محفوظة شركة محامي العرب للمحاماة والدراسات القانونية والتحكيم</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer -->
+
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- <script src="https://rawgit.com/select2/select2/4.0.5/dist/js/select2.full.min.js"></script> -->
+  <script src="./assets/js/select2.full.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
