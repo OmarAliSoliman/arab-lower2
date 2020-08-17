@@ -4290,6 +4290,7 @@ footer {
       margin-top: 60px;
     }
     .logo {
+      display: inline-block;
       p {
         font-size: 14px;
       }
@@ -4508,6 +4509,7 @@ footer {
     .logo {
       text-align: center;
       margin-top: 20px;
+      display: block !important;
     }
     .account-card {
       img {

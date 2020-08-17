@@ -3771,6 +3771,9 @@ footer .links ul li:last-child::before {
   .middle-header .social {
     margin-top: 60px;
   }
+  .middle-header .logo {
+    display: inline-block;
+  }
   .middle-header .logo p {
     font-size: 14px;
   }
@@ -3950,6 +3953,7 @@ footer .links ul li:last-child::before {
   .middle-header .logo {
     text-align: center;
     margin-top: 20px;
+    display: block !important;
   }
   .middle-header .account-card img {
     width: 60px;
