@@ -54,8 +54,8 @@ img {
   border: 1px solid #bac6d3;
 }
 .pagination .active .page-link {
-  background-color: #1a355a !important;
-  border: 1px solid #1a355a !important;
+  background-color: #1a355b !important;
+  border: 1px solid #1a355b !important;
   color: #fff;
 }
 
@@ -141,7 +141,7 @@ img {
 }
 .top-header .company-email {
   text-align: left;
-  color: #1a355a;
+  color: #1a355b;
   font-size: 14px;
   margin-top: 10px;
 }
@@ -156,7 +156,7 @@ img {
   font-size: 23px;
 }
 .middle-header .social a i {
-  color: #1a355a;
+  color: #1a355b;
   margin-left: 10px;
   transition: 0.5s;
 }
@@ -209,17 +209,24 @@ img {
   padding: 0;
   padding-right: 6px;
 }
+.middle-header .account-card .card-body a {
+  text-decoration: none;
+}
 .middle-header .account-card .card-body p {
   margin: 0;
   font-size: 16px;
-  color: #1a355a;
+  color: #1a355b;
 }
-.middle-header .account-card .card-body span {
+.middle-header .account-card .card-body .my-account {
   font-size: 14px;
   color: #888;
   color: #888;
   display: block;
-  margin-top: -4px;
+  margin-top: -1px;
+}
+.middle-header .account-card .card-body .log-out {
+  color: #d52818;
+  font-size: 14px;
 }
 .middle-header .notification {
   margin-top: 40px;
@@ -231,7 +238,7 @@ img {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-color: #1a355a;
+  background-color: #1a355b;
   color: #fff;
   line-height: 20px;
   text-align: center;
@@ -289,7 +296,7 @@ img {
   margin: 0;
 }
 .middle-header .notification-body .notification-li li .notification-name {
-  color: #1a355a;
+  color: #1a355b;
   font-size: 15px;
 }
 .middle-header .notification-body .notification-li li .name, .middle-header .notification-body .notification-li li .time {
@@ -306,14 +313,28 @@ img {
 .middle-header .notification-body .notification-li .all-notification a {
   display: inline-block;
   color: #fff;
-  background-color: #1a355a;
+  background-color: #1a355b;
 }
 .middle-header .notification-body .notification-li .all-notification:hover {
   background-color: transparent;
 }
+.middle-header .sign-up-in {
+  margin-top: 40px;
+}
+.middle-header .sign-up-in span {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.middle-header .sign-up-in span i {
+  color: #1a355b;
+}
+.middle-header .sign-up-in a {
+  text-decoration: none;
+  font-size: 15px !important;
+}
 
 .navbar {
-  background-color: #1a355a;
+  background-color: #1a355b;
   margin-top: 15px;
   padding: 0;
 }
@@ -482,7 +503,7 @@ img {
   background-color: transparent;
 }
 .services .btn-more-service {
-  border: 1px solid #1a355a;
+  border: 1px solid #1a355b;
   background-color: #fff;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -569,7 +590,7 @@ img {
   opacity: 1;
 }
 .posts .btn-more-service {
-  border: 1px solid #1a355a;
+  border: 1px solid #1a355b;
   background-color: #fff;
   margin-top: 40px;
   margin-bottom: 120px;
@@ -618,7 +639,7 @@ img {
   height: 5px !important;
 }
 .consults .consult-slider .slider-item .card .card-body .card-text a {
-  color: #1a355a;
+  color: #1a355b;
   text-decoration: none;
 }
 .consults .consult-slider .slider-item .card .card-body .card-text i {
@@ -626,7 +647,7 @@ img {
   margin-right: 4px;
 }
 .consults .consult-slider .slider-item .card .card-body .card-text span {
-  color: #1a355a;
+  color: #1a355b;
 }
 .consults .consult-slider .slick-arrow {
   top: 100%;
@@ -783,7 +804,7 @@ img {
 .books-search .books-slider .slick-dots li button {
   width: 25px;
   height: 4px;
-  background-color: #1a355a;
+  background-color: #1a355b;
   padding: 1px;
   border-radius: 20px;
 }
@@ -1030,7 +1051,7 @@ img {
 }
 .statics .card .card-text {
   font-size: 20px;
-  color: #1a355a;
+  color: #1a355b;
 }
 
 .condition .condition-card {
@@ -1107,7 +1128,7 @@ img {
   color: #ccad53;
 }
 .our-library .card .card-text span {
-  color: #1a355a;
+  color: #1a355b;
   margin-right: 4px;
 }
 
@@ -1127,7 +1148,7 @@ img {
 }
 .contact-us .contact-us-content .list-contact .contact-information .card h6 {
   font-weight: bold;
-  color: #1a355a;
+  color: #1a355b;
 }
 .contact-us .contact-us-content .list-contact .contact-information .card p {
   margin: 0;
@@ -1241,7 +1262,7 @@ img {
   height: 5px !important;
 }
 .online-consult .online-consult-content .online-consult-cards .card .card-body .card-text a {
-  color: #1a355a;
+  color: #1a355b;
   text-decoration: none;
 }
 .online-consult .online-consult-content .online-consult-cards .card .card-body .card-text i {
@@ -1249,7 +1270,7 @@ img {
   margin-left: 4px;
 }
 .online-consult .online-consult-content .online-consult-cards .card .card-body .card-text span {
-  color: #1a355a;
+  color: #1a355b;
 }
 .online-consult .online-consult-content .online-consult-cards .card .card-body .card-link {
   color: #ccad53;
@@ -1261,7 +1282,7 @@ img {
 .consult-order-content .consult-order-content-header {
   font-size: 30px;
   margin-top: 45px;
-  color: #1a355a;
+  color: #1a355b;
   text-align: center;
   position: relative;
   padding-bottom: 30px;
@@ -1306,7 +1327,7 @@ img {
   margin-left: 4px;
 }
 .consult-order-content .card .card-text span {
-  color: #1a355a;
+  color: #1a355b;
 }
 .consult-order-content .consult-order-form .form-group label {
   font-weight: normal !important;
@@ -1357,7 +1378,7 @@ img {
 .online-payment .online-payment-header {
   font-size: 30px;
   margin-top: 45px;
-  color: #1a355a;
+  color: #1a355b;
   text-align: center;
   position: relative;
   padding-bottom: 30px;
@@ -1629,7 +1650,7 @@ img {
   left: 0px;
   display: inline-block;
   font-size: 14px;
-  color: #1a355a;
+  color: #1a355b;
   background-color: #f3f3f3;
   width: 50px;
   text-align: center;
@@ -1662,7 +1683,7 @@ img {
   text-align: right;
   padding-right: 25px;
   color: #fff;
-  background-color: #1a355a;
+  background-color: #1a355b;
   border-radius: 50%;
   left: -30px;
   top: -30px;
@@ -1671,12 +1692,12 @@ img {
 }
 .legal-posts .department-details-cards .card .card-text {
   position: relative;
-  border-bottom: 1px solid #1a355a;
+  border-bottom: 1px solid #1a355b;
 }
 .legal-posts .department-details-cards .card .card-text i {
   position: absolute;
   right: 0;
-  color: #1a355a;
+  color: #1a355b;
   font-size: 20px;
   top: 6px;
 }
@@ -1688,7 +1709,7 @@ img {
   cursor: pointer;
 }
 .legal-posts .department-details-cards .card .card-text p a {
-  color: #1a355a;
+  color: #1a355b;
   text-decoration: none;
 }
 .legal-posts .department-details-cards .card .card-text p:hover a {
@@ -1712,7 +1733,7 @@ img {
   margin: 0;
 }
 .legal-posts .department-details-cards .card .card-body .post-info p a {
-  color: #1a355a;
+  color: #1a355b;
 }
 .legal-posts .department-details-cards .card .card-body .post-info i {
   margin-left: 5px;
@@ -1720,7 +1741,7 @@ img {
   margin-top: 10px;
 }
 .legal-posts .department-details-cards .card .card-body .post-info span {
-  color: #1a355a;
+  color: #1a355b;
   font-size: 16px;
 }
 
@@ -1749,7 +1770,7 @@ img {
 }
 .work-team .work-team-content .work-team-cards .card .card-link {
   display: inline-block;
-  border: 1px solid #1a355a;
+  border: 1px solid #1a355b;
   padding: 6px;
   border-radius: 5px;
   background-color: #fff !important;
@@ -1810,7 +1831,7 @@ img {
   margin-top: 50px;
 }
 .post-details .add-fav-btn .btn {
-  background-color: #1a355a;
+  background-color: #1a355b;
   color: #fff;
   margin: 38px 0 30px 0;
 }
@@ -1849,7 +1870,7 @@ img {
   text-align: right;
   padding-right: 25px;
   color: #fff;
-  background-color: #1a355a;
+  background-color: #1a355b;
   border-radius: 50%;
   left: -30px !important;
   top: -30px !important;
@@ -1863,7 +1884,7 @@ img {
 .post-details .another-subjects-cards .card .card-text i {
   position: absolute;
   right: 0;
-  color: #1a355a;
+  color: #1a355b;
   font-size: 20px;
   top: 6px;
 }
@@ -1875,7 +1896,7 @@ img {
   cursor: pointer;
 }
 .post-details .another-subjects-cards .card .card-text p a {
-  color: #1a355a;
+  color: #1a355b;
   text-decoration: none;
 }
 .post-details .another-subjects-cards .card .card-text p:hover a {
@@ -1899,7 +1920,7 @@ img {
   margin: 0;
 }
 .post-details .another-subjects-cards .card .card-body .post-info p a {
-  color: #1a355a;
+  color: #1a355b;
 }
 .post-details .another-subjects-cards .card .card-body .post-info i {
   margin-left: 5px;
@@ -1907,7 +1928,7 @@ img {
   margin-top: 10px;
 }
 .post-details .another-subjects-cards .card .card-body .post-info span {
-  color: #1a355a;
+  color: #1a355b;
   font-size: 16px;
 }
 
@@ -1960,7 +1981,7 @@ img {
   color: #d52818;
 }
 .join-to-the-team-1 .joining-form .add-day span {
-  color: #1a355a;
+  color: #1a355b;
 }
 .join-to-the-team-1 .btn-send-order {
   text-align: center;
@@ -2182,7 +2203,7 @@ img {
   color: #ccad53;
 }
 .legal-library .legal-library-content .legal-library-cards .card .card-body .card-text span {
-  color: #1a355a;
+  color: #1a355b;
 }
 .legal-library .legal-library-content .legal-library-cards .card .card-body .card-link {
   text-align: left;
@@ -2246,12 +2267,12 @@ img {
 }
 .my-account-consult-details .my-acount-card-info .card .card-body .card-text p {
   font-size: 16px;
-  color: #1a355a;
+  color: #1a355b;
   margin-right: 4px;
   margin-top: 2px;
 }
 .my-account-consult-details .my-acount-card-info .card .card-body .card-text p a {
-  color: #1a355a;
+  color: #1a355b;
   text-decoration: none;
 }
 .my-account-consult-details .my-account-price .card {
@@ -2280,7 +2301,7 @@ img {
 }
 .my-account-consult-details .my-acount-new-appointemtn a {
   font-size: 16px;
-  color: #1a355a;
+  color: #1a355b;
   text-decoration: none;
 }
 .my-account-consult-details .my-acount-new-appointemtn .appointment-accept {
@@ -2305,7 +2326,7 @@ img {
   margin-bottom: 100px;
 }
 .audio-call .card {
-  background-color: #1a355a;
+  background-color: #1a355b;
   text-align: center;
   border-radius: 5px !important;
   padding-top: 38px;
@@ -2374,7 +2395,7 @@ img {
   padding-bottom: 45px;
   margin-top: 45px;
   margin-bottom: 60px;
-  color: #1a355a;
+  color: #1a355b;
 }
 .my-account .my-account-header::after {
   right: 48%;
@@ -2592,7 +2613,7 @@ img {
   margin-top: 0;
 }
 .my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .dont-answer {
-  background-color: #1a355a;
+  background-color: #1a355b;
 }
 .my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .post-info p .voice-call {
   margin-right: 150px;
@@ -2646,7 +2667,7 @@ img {
 .ordanry-lawer-page .ordanry-lawer .add-anouther-specilist {
   display: inline-block;
   margin-top: 60px;
-  color: #1a355a;
+  color: #1a355b;
 }
 .ordanry-lawer-page .ordanry-lawer .add-anouther-specilist i {
   color: #b31633;
@@ -2733,9 +2754,9 @@ img {
   z-index: 2;
 }
 .team-lower #pills-my-consult .accept-done {
-  background-color: #1a355a !important;
+  background-color: #1a355b !important;
   color: #fff !important;
-  border: 1px solid #1a355a;
+  border: 1px solid #1a355b;
 }
 .team-lower .team-lower-tab-2 .card-text::after {
   width: 80% !important;
@@ -2793,7 +2814,7 @@ img {
   margin-bottom: 20px;
 }
 .team-lower #pills-legal-service-order .card-appointment ul li {
-  color: #1a355a;
+  color: #1a355b;
   margin-bottom: 10px;
   font-size: 18px;
 }
@@ -2853,7 +2874,7 @@ img {
   font-size: 15px;
 }
 .team-lower #pills-legal-team .account-reseat .card-body p {
-  color: #1a355a;
+  color: #1a355b;
   font-size: 15px;
 }
 .team-lower #pills-legal-team .cards-bankaccount-prev-order {
@@ -2872,7 +2893,7 @@ img {
   font-size: 15px;
 }
 .team-lower #pills-legal-team .cards-bankaccount-prev-order .card-body p {
-  color: #1a355a;
+  color: #1a355b;
   font-size: 15px;
 }
 .team-lower #pills-legal-team .cards-bankaccount-prev-order .card-lower-bank-account .card-header {
@@ -2931,14 +2952,14 @@ img {
   color: #ccad53;
 }
 .lower-page .lower-pic .lower-social span {
-  color: #1a355a;
+  color: #1a355b;
 }
 .lower-page .lower-pic .lower-social h6 {
   margin: 0;
-  color: #1a355a;
+  color: #1a355b;
 }
 .lower-page .lower-pic .social a {
-  color: #1a355a;
+  color: #1a355b;
   transition: all 0.5s;
 }
 .lower-page .lower-pic .social a:hover {
@@ -2965,7 +2986,7 @@ img {
   color: #fff;
 }
 .lower-page .lower-pic .btn-lower-option .btn:last-child {
-  background-color: #1a355a;
+  background-color: #1a355b;
   color: #fff;
 }
 .lower-page .sience-certificate {
@@ -3024,7 +3045,7 @@ img {
   padding-bottom: 20px;
 }
 .lower-page .legal-post-slider .legal-post-slider-content .fa-folder-open {
-  color: #1a355a;
+  color: #1a355b;
   font-size: 20px;
   margin-left: 10px;
 }
@@ -3073,7 +3094,7 @@ img {
   padding-right: 50px;
 }
 .lower-page .free-post-slider .free-post-slider-content .fa-folder-open {
-  color: #1a355a;
+  color: #1a355b;
   font-size: 20px;
   margin-left: 10px;
   position: absolute;
@@ -3482,7 +3503,7 @@ img {
 }
 .law-services .low-service-par h5 {
   font-size: 18px;
-  color: #1a355a;
+  color: #1a355b;
   margin-top: 40px;
 }
 .law-services .low-service-par p {
@@ -3511,7 +3532,7 @@ img {
   position: absolute;
   top: 35px;
   left: 20px;
-  color: #1a355a;
+  color: #1a355b;
   font-size: 14px;
   text-decoration: none;
 }
@@ -3519,7 +3540,7 @@ img {
   position: absolute;
   bottom: 5px;
   left: 20px;
-  color: #1a355a;
+  color: #1a355b;
   z-index: 2;
   font-size: 14px;
   text-decoration: none;
@@ -3578,7 +3599,7 @@ img {
 .law-services .low-service-replaies .attachment {
   display: inline-block;
   background-color: #fff;
-  color: #1a355a;
+  color: #1a355b;
   font-size: 16px;
   padding: 10px;
   border-radius: 5px;
@@ -3590,7 +3611,7 @@ img {
   height: 50px !important;
 }
 .law-services .text-box-reblay .add-reblay {
-  background-color: #1a355a;
+  background-color: #1a355b;
   color: #fff;
   margin-top: 10px;
 }
@@ -3862,7 +3883,7 @@ footer .links ul li:last-child::before {
   }
 
   #v-pills-online-consult .department-details-search .department-details-cards .card .dont-answer {
-    background-color: #1a355a;
+    background-color: #1a355b;
   }
   #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .post-info p .voice-call {
     margin-right: 50px !important;
@@ -4034,7 +4055,7 @@ footer .links ul li:last-child::before {
     margin-top: 10px;
   }
   #v-pills-online-consult .department-details-search .department-details-cards .card .dont-answer {
-    background-color: #1a355a;
+    background-color: #1a355b;
   }
   #v-pills-online-consult .department-details-search .department-details-cards .card .card-body .post-info p .voice-call {
     margin-right: 0 !important;
@@ -4154,6 +4175,56 @@ footer .links ul li:last-child::before {
   display: inline-block;
   text-align: center;
   color: #000;
+}
+
+.btn-primary {
+  background-color: #1a355b;
+  border: 0;
+}
+.btn-primary:hover {
+  background-color: #1a355b;
+}
+
+.btn-success {
+  border: 0;
+  background-color: #1a355b;
+}
+.btn-success:hover {
+  background-color: #1a355b;
+}
+
+.btn-info {
+  border: 0;
+  background-color: #B31633;
+}
+.btn-info:hover {
+  background-color: #B31633;
+}
+
+.btn-warning {
+  border: 0;
+  background-color: #ccad53;
+  color: #fff;
+}
+.btn-warning:hover {
+  background-color: #ccad53;
+  color: #fff;
+}
+
+.bg-primary, .alert-primary, .text-primary {
+  background-color: #ccad53;
+}
+
+.bg-warning, .alert-warning, .text-warning {
+  background-color: #ccad53;
+}
+
+.bg-success, .alert-success, .text-success {
+  background-color: #1a355b;
+}
+
+.bg-info, .alert-info, .text-info {
+  background-color: #B31633;
 }
 
 /*# sourceMappingURL=style.css.map */

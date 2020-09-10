@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
 
 
-$mainColor: #1a355a;
+$mainColor: #1a355b;
 $secondColor: #d52818;
 $thirdColor: #ccad53;
 
@@ -242,17 +242,24 @@ img {
     .card-body {
       padding: 0;
       padding-right: 6px;
+      a{
+        text-decoration: none;
+      }
       p {
         margin: 0;
         font-size: 16px;
         color: $mainColor;
       }
-      span {
+      .my-account {
         font-size: 14px;
         color: #888;
         color: #888;
         display: block;
-        margin-top: -4px;
+        margin-top: -1px;
+      }
+      .log-out{
+        color: $secondColor;
+        font-size: 14px;
       }
     }
   }
@@ -350,6 +357,22 @@ img {
           background-color: transparent;
         }
       }
+    }
+  }
+
+  
+  .sign-up-in{
+    margin-top: 40px;
+    span{
+      display: inline-block;
+      margin-bottom: 5px;
+      i{
+        color: $mainColor;
+      }
+    }
+    a{
+      text-decoration: none;
+      font-size: 15px !important;
     }
   }
 
@@ -4781,3 +4804,54 @@ footer {
   text-align: center;
   color: #000;
 }
+
+
+
+.btn-primary{
+  background-color: $mainColor;
+  border: 0;
+  &:hover{
+    background-color: $mainColor;
+  }
+}
+
+.btn-success{
+  border: 0;
+  background-color: $mainColor;
+  &:hover{
+    background-color: $mainColor;
+  }
+}
+
+.btn-info{
+  border: 0;
+  background-color: #B31633;
+  &:hover{
+    background-color: #B31633;
+  }
+}
+
+.btn-warning{
+  border: 0;
+  background-color: $thirdColor;
+  color: #fff;
+  &:hover{
+    background-color: $thirdColor;
+    color: #fff;
+  }
+}
+
+.bg-primary, .alert-primary, .text-primary{
+  background-color: $thirdColor;
+}
+
+.bg-warning, .alert-warning, .text-warning{
+  background-color: $thirdColor;
+}
+.bg-success, .alert-success, .text-success{
+  background-color: $mainColor;
+}
+.bg-info, .alert-info, .text-info{
+  background-color: #B31633;
+}
+
