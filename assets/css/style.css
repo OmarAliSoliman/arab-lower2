@@ -63,11 +63,21 @@ img {
   outline: 0 !important;
 }
 
-#custom-pic-name, #custom-pdf-1-name, #custom-pdf-2-name, .custom-id-pic-name, .custom-license-name, .custom-cirtificate-name {
+#custom-pic-name,
+#custom-pdf-1-name,
+#custom-pdf-2-name,
+.custom-id-pic-name,
+.custom-license-name,
+.custom-cirtificate-name {
   display: none;
 }
 
-#delete-pic-file, #delete-pdf-1-file, #delete-pdf-2-file, #custom-id-pic-delete, #custom-license-delete, #custom-cirtificate-delete {
+#delete-pic-file,
+#delete-pdf-1-file,
+#delete-pdf-2-file,
+#custom-id-pic-delete,
+#custom-license-delete,
+#custom-cirtificate-delete {
   display: none;
 }
 
@@ -185,46 +195,35 @@ img {
   font-size: 14px;
   margin-top: 10px;
 }
-.middle-header .account-card {
-  margin-top: 40px;
-  border-radius: 0;
+.middle-header .account-drop-down {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100% !important;
+}
+.middle-header .account-drop-down .btn {
+  background-color: transparent;
+  position: relative;
   border: 0;
-  text-decoration: none;
-}
-.middle-header .account-card .row {
-  margin: 0;
-  padding: 0;
-}
-.middle-header .account-card .row .col-lg-3,
-.middle-header .account-card .row .col-lg-9 {
-  padding: 0;
-  margin: 0;
-}
-.middle-header .account-card .card-image img {
-  width: 50px;
-  height: 40px;
-  border-radius: 50%;
-}
-.middle-header .account-card .card-body {
-  padding: 0;
-  padding-right: 6px;
-}
-.middle-header .account-card .card-body a {
-  text-decoration: none;
-}
-.middle-header .account-card .card-body p {
-  margin: 0;
-  font-size: 16px;
   color: #1a355b;
 }
-.middle-header .account-card .card-body .my-account {
-  font-size: 14px;
-  color: #888;
-  color: #888;
-  display: block;
-  margin-top: -1px;
+.middle-header .account-drop-down .btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  background-color: transparent;
 }
-.middle-header .account-card .card-body .log-out {
+.middle-header .account-drop-down img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.middle-header .account-drop-down .fa-user-circle {
+  color: #1a355b;
+}
+.middle-header .account-drop-down .fa-sign-out-alt {
+  color: #d52818;
+}
+.middle-header .account-drop-down .log-out {
   color: #d52818;
   font-size: 14px;
 }
@@ -299,7 +298,8 @@ img {
   color: #1a355b;
   font-size: 15px;
 }
-.middle-header .notification-body .notification-li li .name, .middle-header .notification-body .notification-li li .time {
+.middle-header .notification-body .notification-li li .name,
+.middle-header .notification-body .notification-li li .time {
   font-size: 12px;
   color: #626262;
 }
@@ -3451,7 +3451,7 @@ img {
   position: relative;
   padding-right: 25px;
   font-size: 14px;
-  color: #C5C5C5;
+  color: #c5c5c5;
 }
 .my-account-special-detials .cost-add-note .card-text i {
   position: absolute;
@@ -3469,12 +3469,14 @@ img {
 
 .law-services .card-law-info {
   padding: 20px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   border: 0;
   text-align: center;
   margin-top: 16px;
 }
-.law-services .card-law-info .col-lg-3, .law-services .card-law-info .col-lg-2, .law-services .card-law-info .col-lg-4 {
+.law-services .card-law-info .col-lg-3,
+.law-services .card-law-info .col-lg-2,
+.law-services .card-law-info .col-lg-4 {
   padding: 0;
 }
 .law-services .card-law-info .card-body {
@@ -3565,7 +3567,7 @@ img {
 }
 .law-services .low-service-replaies .card .card-header span {
   font-size: 14px;
-  color: #C5C5C5;
+  color: #c5c5c5;
   display: inline-block;
 }
 .law-services .low-service-replaies .card .card-body {
@@ -3591,7 +3593,7 @@ img {
 .law-services .low-service-replaies .msg-name-send {
   display: inline-block;
   margin-left: 5px;
-  color: #C5C5C5;
+  color: #c5c5c5;
 }
 .law-services .low-service-replaies .name-sender {
   color: #d52818;
@@ -3624,7 +3626,8 @@ img {
   text-align: center;
   padding: 20px;
 }
-.law-services .law-service-sidebar .card-total-inves h6, .law-services .law-service-sidebar .card-total-inves h5 {
+.law-services .law-service-sidebar .card-total-inves h6,
+.law-services .law-service-sidebar .card-total-inves h5 {
   margin: 0;
 }
 .law-services .law-service-sidebar .card-total-inves .card-title {
@@ -3675,7 +3678,7 @@ img {
 }
 .law-services .law-service-sidebar .card-work-lower .card-body span {
   font-size: 14px;
-  color: #C5C5C5;
+  color: #c5c5c5;
   display: inline-block;
 }
 
@@ -4195,10 +4198,10 @@ footer .links ul li:last-child::before {
 
 .btn-info {
   border: 0;
-  background-color: #B31633;
+  background-color: #b31633;
 }
 .btn-info:hover {
-  background-color: #B31633;
+  background-color: #b31633;
 }
 
 .btn-warning {
@@ -4211,20 +4214,28 @@ footer .links ul li:last-child::before {
   color: #fff;
 }
 
-.bg-primary, .alert-primary, .text-primary {
+.bg-primary,
+.alert-primary,
+.text-primary {
   background-color: #ccad53;
 }
 
-.bg-warning, .alert-warning, .text-warning {
+.bg-warning,
+.alert-warning,
+.text-warning {
   background-color: #ccad53;
 }
 
-.bg-success, .alert-success, .text-success {
+.bg-success,
+.alert-success,
+.text-success {
   background-color: #1a355b;
 }
 
-.bg-info, .alert-info, .text-info {
-  background-color: #B31633;
+.bg-info,
+.alert-info,
+.text-info {
+  background-color: #b31633;
 }
 
 /*# sourceMappingURL=style.css.map */
