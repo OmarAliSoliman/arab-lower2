@@ -137,6 +137,7 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #f3f3f3;
+  position: relative;
 
   .lang {
     color: #000;
@@ -177,6 +178,102 @@ img {
     color: $mainColor;
     font-size: 14px;
     margin-top: 10px;
+  }
+  .notification {
+    margin-top: 6px;
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    .notification-number {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: $mainColor;
+      color: #fff;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 50%;
+      font-size: 11px;
+      position: absolute;
+      top: -10px;
+      right: -18px;
+    }
+    #notification-span {
+      cursor: pointer;
+    }
+    i {
+      color: $thirdColor;
+    }
+
+    span {
+      font-size: 13px;
+      margin-right: 5px;
+    }
+
+    .select-language {
+      border: 0;
+      color: #888;
+    }
+  }
+  .notification-body {
+    background-color: #fff;
+    width: 35%;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    z-index: 9;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    height: 300px;
+    overflow: auto;
+    display: none;
+    .notification-li {
+      a {
+        text-decoration: none;
+      }
+      li {
+        position: relative;
+        padding: 20px;
+        padding-right: 70px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        padding-top: 10px;
+        img {
+          width: 53px;
+          height: 53px;
+          border-radius: 50%;
+          position: absolute;
+          right: 10px;
+        }
+        p {
+          margin: 0;
+        }
+        .notification-name {
+          color: $mainColor;
+          font-size: 15px;
+        }
+        .name,
+        .time {
+          font-size: 12px;
+          color: #626262;
+        }
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+      .all-notification {
+        border-bottom: 0;
+        padding-bottom: 0;
+        a {
+          display: inline-block;
+          color: #fff;
+          background-color: $mainColor;
+        }
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
   }
 }
 
@@ -272,13 +369,14 @@ img {
 
   .account-drop-down {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 50px;
     width: 100% !important;
     .btn {
       background-color: transparent;
       position: relative;
       border: 0;
       color: $mainColor;
+      width: 100%;
       &:focus{
         outline: 0 !important;
         box-shadow: none !important;
@@ -289,8 +387,14 @@ img {
       border-radius: 50%;
       width: 50px;
       height: 50px;
-      // position: absolute;
+      margin-top: -12px;
+      float: right;
       margin-bottom: 5px;
+    }
+    .account-name{
+      float: right;
+      margin-right: 15px;
+      // margin-top: 10px;
     }
     .fa-user-circle {
       color: $mainColor;
@@ -304,108 +408,14 @@ img {
     }
   }
 
-  .notification {
-    margin-top: 40px;
-    color: #000;
-    text-decoration: none;
-    position: relative;
-    .notification-number {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      background-color: $mainColor;
-      color: #fff;
-      line-height: 20px;
-      text-align: center;
-      border-radius: 50%;
-      font-size: 11px;
-      position: absolute;
-      top: -10px;
-      right: -18px;
-    }
-    #notification-span {
-      cursor: pointer;
-    }
-    i {
-      color: $thirdColor;
-    }
 
-    span {
-      font-size: 13px;
-      margin-right: 5px;
-    }
 
-    .select-language {
-      border: 0;
-      color: #888;
-    }
-  }
-
-  .notification-body {
-    background-color: #fff;
-    width: 35%;
-    position: absolute;
-    left: 20px;
-    top: 70px;
-    z-index: 9;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    height: 300px;
-    overflow: auto;
-    display: none;
-    .notification-li {
-      a {
-        text-decoration: none;
-      }
-      li {
-        position: relative;
-        padding: 20px;
-        padding-right: 70px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-        padding-top: 10px;
-        img {
-          width: 53px;
-          height: 53px;
-          border-radius: 50%;
-          position: absolute;
-          right: 10px;
-        }
-        p {
-          margin: 0;
-        }
-        .notification-name {
-          color: $mainColor;
-          font-size: 15px;
-        }
-        .name,
-        .time {
-          font-size: 12px;
-          color: #626262;
-        }
-        &:hover {
-          background-color: #f2f2f2;
-        }
-      }
-      .all-notification {
-        border-bottom: 0;
-        padding-bottom: 0;
-        a {
-          display: inline-block;
-          color: #fff;
-          background-color: $mainColor;
-        }
-        &:hover {
-          background-color: transparent;
-        }
-      }
-    }
-  }
 
   .sign-up-in {
-    margin-top: 40px;
+    margin-top: 60px;
     span {
-      display: inline-block;
       margin-bottom: 5px;
+      margin-right: 20px;
       i {
         color: $mainColor;
       }
@@ -4543,7 +4553,7 @@ footer {
   .law-services .law-service-photo .card-img {
     margin-bottom: 10px;
   }
-  .middle-header .notification-body {
+  .top-header .notification-body {
     width: 90%;
     margin: auto;
     top: 100%;
@@ -4783,6 +4793,14 @@ footer {
   }
   #countdown {
     bottom: 12%;
+  }
+  .top-header{
+    .notification{
+      margin-top: 20px;
+    }
+    .notification-number{
+      right: 30% !important ;
+    }
   }
 }
 

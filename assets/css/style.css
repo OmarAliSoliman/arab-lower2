@@ -121,6 +121,7 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #f3f3f3;
+  position: relative;
 }
 .top-header .lang {
   color: #000;
@@ -154,6 +155,98 @@ img {
   color: #1a355b;
   font-size: 14px;
   margin-top: 10px;
+}
+.top-header .notification {
+  margin-top: 6px;
+  margin-right: 20px;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+.top-header .notification .notification-number {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #1a355b;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 11px;
+  position: absolute;
+  top: -10px;
+  right: -18px;
+}
+.top-header .notification #notification-span {
+  cursor: pointer;
+}
+.top-header .notification i {
+  color: #ccad53;
+}
+.top-header .notification span {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.top-header .notification .select-language {
+  border: 0;
+  color: #888;
+}
+.top-header .notification-body {
+  background-color: #fff;
+  width: 35%;
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  z-index: 9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: 300px;
+  overflow: auto;
+  display: none;
+}
+.top-header .notification-body .notification-li a {
+  text-decoration: none;
+}
+.top-header .notification-body .notification-li li {
+  position: relative;
+  padding: 20px;
+  padding-right: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+}
+.top-header .notification-body .notification-li li img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+}
+.top-header .notification-body .notification-li li p {
+  margin: 0;
+}
+.top-header .notification-body .notification-li li .notification-name {
+  color: #1a355b;
+  font-size: 15px;
+}
+.top-header .notification-body .notification-li li .name,
+.top-header .notification-body .notification-li li .time {
+  font-size: 12px;
+  color: #626262;
+}
+.top-header .notification-body .notification-li li:hover {
+  background-color: #f2f2f2;
+}
+.top-header .notification-body .notification-li .all-notification {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.top-header .notification-body .notification-li .all-notification a {
+  display: inline-block;
+  color: #fff;
+  background-color: #1a355b;
+}
+.top-header .notification-body .notification-li .all-notification:hover {
+  background-color: transparent;
 }
 
 .middle-header {
@@ -197,7 +290,7 @@ img {
 }
 .middle-header .account-drop-down {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 50px;
   width: 100% !important;
 }
 .middle-header .account-drop-down .btn {
@@ -205,6 +298,7 @@ img {
   position: relative;
   border: 0;
   color: #1a355b;
+  width: 100%;
 }
 .middle-header .account-drop-down .btn:focus {
   outline: 0 !important;
@@ -215,7 +309,13 @@ img {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  margin-top: -12px;
+  float: right;
   margin-bottom: 5px;
+}
+.middle-header .account-drop-down .account-name {
+  float: right;
+  margin-right: 15px;
 }
 .middle-header .account-drop-down .fa-user-circle {
   color: #1a355b;
@@ -227,103 +327,12 @@ img {
   color: #d52818;
   font-size: 14px;
 }
-.middle-header .notification {
-  margin-top: 40px;
-  color: #000;
-  text-decoration: none;
-  position: relative;
-}
-.middle-header .notification .notification-number {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-color: #1a355b;
-  color: #fff;
-  line-height: 20px;
-  text-align: center;
-  border-radius: 50%;
-  font-size: 11px;
-  position: absolute;
-  top: -10px;
-  right: -18px;
-}
-.middle-header .notification #notification-span {
-  cursor: pointer;
-}
-.middle-header .notification i {
-  color: #ccad53;
-}
-.middle-header .notification span {
-  font-size: 13px;
-  margin-right: 5px;
-}
-.middle-header .notification .select-language {
-  border: 0;
-  color: #888;
-}
-.middle-header .notification-body {
-  background-color: #fff;
-  width: 35%;
-  position: absolute;
-  left: 20px;
-  top: 70px;
-  z-index: 9;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  height: 300px;
-  overflow: auto;
-  display: none;
-}
-.middle-header .notification-body .notification-li a {
-  text-decoration: none;
-}
-.middle-header .notification-body .notification-li li {
-  position: relative;
-  padding: 20px;
-  padding-right: 70px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  padding-top: 10px;
-}
-.middle-header .notification-body .notification-li li img {
-  width: 53px;
-  height: 53px;
-  border-radius: 50%;
-  position: absolute;
-  right: 10px;
-}
-.middle-header .notification-body .notification-li li p {
-  margin: 0;
-}
-.middle-header .notification-body .notification-li li .notification-name {
-  color: #1a355b;
-  font-size: 15px;
-}
-.middle-header .notification-body .notification-li li .name,
-.middle-header .notification-body .notification-li li .time {
-  font-size: 12px;
-  color: #626262;
-}
-.middle-header .notification-body .notification-li li:hover {
-  background-color: #f2f2f2;
-}
-.middle-header .notification-body .notification-li .all-notification {
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-.middle-header .notification-body .notification-li .all-notification a {
-  display: inline-block;
-  color: #fff;
-  background-color: #1a355b;
-}
-.middle-header .notification-body .notification-li .all-notification:hover {
-  background-color: transparent;
-}
 .middle-header .sign-up-in {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .middle-header .sign-up-in span {
-  display: inline-block;
   margin-bottom: 5px;
+  margin-right: 20px;
 }
 .middle-header .sign-up-in span i {
   color: #1a355b;
@@ -3948,7 +3957,7 @@ footer .links ul li:last-child::before {
     margin-bottom: 10px;
   }
 
-  .middle-header .notification-body {
+  .top-header .notification-body {
     width: 90%;
     margin: auto;
     top: 100%;
@@ -4130,6 +4139,13 @@ footer .links ul li:last-child::before {
 
   #countdown {
     bottom: 12%;
+  }
+
+  .top-header .notification {
+    margin-top: 20px;
+  }
+  .top-header .notification-number {
+    right: 30% !important;
   }
 }
 @media (max-width: 376px) {
