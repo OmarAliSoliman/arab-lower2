@@ -328,14 +328,28 @@ img {
   font-size: 14px;
 }
 .middle-header .sign-up-in {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .middle-header .sign-up-in span {
   margin-bottom: 5px;
-  margin-right: 20px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-right: 0;
+  border-radius: 5px;
 }
 .middle-header .sign-up-in span i {
   color: #1a355b;
+  border-left: 1px solid #ddd;
+  background-color: #1a355b;
+  padding: 8px;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .middle-header .sign-up-in a {
   text-decoration: none;

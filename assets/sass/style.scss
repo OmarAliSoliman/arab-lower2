@@ -412,12 +412,26 @@ img {
 
 
   .sign-up-in {
-    margin-top: 60px;
+    margin-top: 50px;
     span {
       margin-bottom: 5px;
-      margin-right: 20px;
+      margin-right: 10px;
+      border: 1px solid #ddd;
+      padding: 8px;
+      padding-bottom: 7px;
+      padding-top: 5px;
+      padding-right: 0;
+      border-radius: 5px;
       i {
         color: $mainColor;
+        border-left: 1px solid #ddd;
+        background-color: $mainColor;
+        padding: 8px;
+        color: #fff;
+        font-size: 13px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
       }
     }
     a {
