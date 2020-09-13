@@ -4916,23 +4916,27 @@ footer {
 }
 
 .bg-primary,
-.alert-primary,
-.text-primary {
-  background-color: $thirdColor;
+.alert-primary {
+  background-color: $mainColor !important;
+  color: #fff;
 }
 
 .bg-warning,
-.alert-warning,
-.text-warning {
-  background-color: $thirdColor;
+.alert-warning{
+  background-color: $thirdColor !important;
+  color: #000;
 }
 .bg-success,
-.alert-success,
-.text-success {
-  background-color: $mainColor;
+.alert-success {
+  background-color: $mainColor !important;
+  color: #fff;
 }
 .bg-info,
-.alert-info,
-.text-info {
+.alert-info {
   background-color: #b31633;
 }
+
+.text-primary{color: $thirdColor !important;}
+.text-warning {color: $thirdColor !important;}
+.text-success{color: $mainColor !important;}
+.text-info{color: #b31633 !important;}

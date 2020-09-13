@@ -4245,27 +4245,42 @@ footer .links ul li:last-child::before {
 }
 
 .bg-primary,
-.alert-primary,
-.text-primary {
-  background-color: #ccad53;
+.alert-primary {
+  background-color: #1a355b !important;
+  color: #fff;
 }
 
 .bg-warning,
-.alert-warning,
-.text-warning {
-  background-color: #ccad53;
+.alert-warning {
+  background-color: #ccad53 !important;
+  color: #000;
 }
 
 .bg-success,
-.alert-success,
-.text-success {
-  background-color: #1a355b;
+.alert-success {
+  background-color: #1a355b !important;
+  color: #fff;
 }
 
 .bg-info,
-.alert-info,
-.text-info {
+.alert-info {
   background-color: #b31633;
+}
+
+.text-primary {
+  color: #ccad53 !important;
+}
+
+.text-warning {
+  color: #ccad53 !important;
+}
+
+.text-success {
+  color: #1a355b !important;
+}
+
+.text-info {
+  color: #b31633 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
