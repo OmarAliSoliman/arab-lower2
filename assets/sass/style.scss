@@ -1026,23 +1026,18 @@ img {
   }
   .who-us {
     margin-top: 70px;
-    margin-bottom: 150px;
-    // .container{position: relative;}
-    .who-img{
-      border: 1px solid #000;
-      max-width: 500px;
-    }
-    img {
-      height: 475px;
-      border: 1px solid #000;
-    }
+    margin-bottom: 100px;
     .who-content {
-      margin-top: 40px;
-      padding-right: 550px;
-      width: 100%;
+      img{
+        float: right;
+        max-width: 550px;
+        // margin: 20px;
+        margin-left: 30px;
+      }
       h6 {
         color: $thirdColor;
         position: relative;
+        display: inline-block;
         padding-top: 40px;
         &::after {
           @extend %line-after;
