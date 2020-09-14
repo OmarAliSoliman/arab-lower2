@@ -4287,4 +4287,8 @@ footer .links ul li:last-child::before {
   color: #b31633 !important;
 }
 
+label {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
