@@ -417,20 +417,11 @@
 
   <script>
     $(document).ready(function () {
-      activaTab('pills-lower-rigister');
+      if(window.location.hash != ""){
+        $("#pills-lower-rigister-tab").click()
+      }
     });
-
-    function activaTab(tab) {
-      $('.nav-pills a[href="#' + tab + '"]').tab('show');
-    };
   </script>
 </body>
 
 </html>
-
-
-
-<!-- 
-    var hash = window.location.hash;
-  hash && $('ul.nav a[href="' + hash + '"]').tab('show');
- -->
