@@ -1026,11 +1026,20 @@ img {
   }
   .who-us {
     margin-top: 70px;
+    margin-bottom: 150px;
+    // .container{position: relative;}
+    .who-img{
+      border: 1px solid #000;
+      max-width: 500px;
+    }
     img {
       height: 475px;
+      border: 1px solid #000;
     }
     .who-content {
       margin-top: 40px;
+      padding-right: 550px;
+      width: 100%;
       h6 {
         color: $thirdColor;
         position: relative;
@@ -1273,28 +1282,34 @@ img {
   .condition-card {
     margin-top: 80px;
     margin-bottom: 90px;
-    .card {
-      border-radius: 0;
-      border: 0;
-      margin-bottom: 52px;
-      .card-title {
-        font-size: 18px;
-        position: relative;
-        &::before {
-          content: "";
-          background-color: $thirdColor;
-          width: 15px;
-          height: 15px;
-          border-radius: 50%;
-          position: absolute;
-          right: -20px;
-          top: 3px;
+
+    .modal-body{
+      padding: 30px;
+      ul{
+        li{
+          position: relative;
+          margin-bottom: 20px;
+          &::before {
+            content: "";
+            background-color: $thirdColor;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            position: absolute;
+            right: -20px;
+            top: 4px;
+          }
+          h5{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+          p{
+            font-size: 15px;
+            color: #444;
+            line-height: 30px;
+          }
         }
-      }
-      .card-text {
-        font-size: 16px;
-        color: #626262;
-        line-height: 25px;
       }
     }
   }

@@ -859,12 +859,20 @@ img {
 }
 .about-arab-lower .who-us {
   margin-top: 70px;
+  margin-bottom: 150px;
+}
+.about-arab-lower .who-us .who-img {
+  border: 1px solid #000;
+  max-width: 500px;
 }
 .about-arab-lower .who-us img {
   height: 475px;
+  border: 1px solid #000;
 }
 .about-arab-lower .who-us .who-content {
   margin-top: 40px;
+  padding-right: 550px;
+  width: 100%;
 }
 .about-arab-lower .who-us .who-content h6 {
   color: #ccad53;
@@ -1081,16 +1089,14 @@ img {
   margin-top: 80px;
   margin-bottom: 90px;
 }
-.condition .condition-card .card {
-  border-radius: 0;
-  border: 0;
-  margin-bottom: 52px;
+.condition .condition-card .modal-body {
+  padding: 30px;
 }
-.condition .condition-card .card .card-title {
-  font-size: 18px;
+.condition .condition-card .modal-body ul li {
   position: relative;
+  margin-bottom: 20px;
 }
-.condition .condition-card .card .card-title::before {
+.condition .condition-card .modal-body ul li::before {
   content: "";
   background-color: #ccad53;
   width: 15px;
@@ -1098,12 +1104,17 @@ img {
   border-radius: 50%;
   position: absolute;
   right: -20px;
-  top: 3px;
+  top: 4px;
 }
-.condition .condition-card .card .card-text {
-  font-size: 16px;
-  color: #626262;
-  line-height: 25px;
+.condition .condition-card .modal-body ul li h5 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.condition .condition-card .modal-body ul li p {
+  font-size: 15px;
+  color: #444;
+  line-height: 30px;
 }
 
 .our-library .image-header h5::after {
