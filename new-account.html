@@ -414,6 +414,23 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./assets/js/select2.full.min.js"></script>
   <script src="./assets/js/main.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      activaTab('pills-lower-rigister');
+    });
+
+    function activaTab(tab) {
+      $('.nav-pills a[href="#' + tab + '"]').tab('show');
+    };
+  </script>
 </body>
 
 </html>
+
+
+
+<!-- 
+    var hash = window.location.hash;
+  hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+ -->
