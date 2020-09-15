@@ -771,6 +771,9 @@ img {
       .card {
         border-radius: 0;
         border: 0;
+        // height: auto;
+        // height: 350px;
+        // overflow: auto;
         .card-img {
           background-size: cover;
           background-position: center;
@@ -1281,7 +1284,7 @@ img {
     margin-bottom: 90px;
 
     .modal-body{
-      padding: 30px;
+      padding: 50px;
       ul{
         li{
           position: relative;
@@ -1293,15 +1296,15 @@ img {
             height: 15px;
             border-radius: 50%;
             position: absolute;
-            right: -20px;
+            right: -25px;
             top: 4px;
           }
-          h5{
+          h1, h2, h3, h4, h5, h6{
             font-weight: bold;
             font-size: 18px;
             margin-bottom: 10px;
           }
-          p{
+          p, span, div, a{
             font-size: 15px;
             color: #444;
             line-height: 30px;
@@ -4946,6 +4949,7 @@ footer {
 .bg-info,
 .alert-info {
   background-color: #b31633;
+  color: #fff;
 }
 
 .text-primary{color: $thirdColor !important;}

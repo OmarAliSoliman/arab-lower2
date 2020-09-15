@@ -265,7 +265,9 @@ $(document).ready(function () {
   
 
   if($('.select-form-control').length){
-    $('.select-form-control').select2();
+    $('.select-form-control').select2({
+      dir: "rtl"
+    });
   }
 
 
