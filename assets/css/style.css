@@ -196,11 +196,13 @@ img {
   width: 35%;
   position: absolute;
   left: 20px;
-  top: 70px;
+  top: 60px;
   z-index: 9;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   border: 1px solid rgba(0, 0, 0, 0.15);
-  height: 300px;
+  height: auto;
+  max-height: 300px;
+  padding-bottom: 10px;
   overflow: auto;
   display: none;
 }
@@ -4288,6 +4290,10 @@ footer .links ul li:last-child::before {
 }
 
 label {
+  cursor: pointer;
+}
+
+a {
   cursor: pointer;
 }
 
