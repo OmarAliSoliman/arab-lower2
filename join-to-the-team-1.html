@@ -150,9 +150,13 @@
         <h5 class="condition-subject">ثانياً : مواعيد العمل من اجل تفعيل الاستشارات الاون لاين</h5>
       </div>
       <div class="container">
-        <div class="joining-form">
-          <form action="">
-            <div class="row">
+        <div class="joining-form" id="repeater">
+          <a class="add-day repeater-add-btn">
+            <i class="fas fa-plus-circle"></i>
+            <span>اضف يوم اخر</span>
+          </a>
+          <form action="" class="items" data-group="test">
+            <div class="row" class="item-content">
               <div class="col-sm-12 col-mf-6 col-lg-5">
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">اليوم من كل اسبوع</label>
@@ -190,9 +194,9 @@
                 </div>
               </div>
             </div>
-            <a href="" class="add-day">
-              <i class="fas fa-plus-circle"></i>
-              <span>اضف يوم اخر</span>
+            <a class="add-day remove-btn">
+              <i class="fas fa-minus-circle"></i>
+              <span>حذف يوم</span>
             </a>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -264,6 +268,7 @@
   <script src="./assets/js/slick.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./assets/js/select2.full.min.js"></script>
+  <script src="./assets/js/repeater.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 

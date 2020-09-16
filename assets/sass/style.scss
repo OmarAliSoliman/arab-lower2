@@ -2393,6 +2393,7 @@ img {
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 40px;
+    padding-bottom: 60px;
     .form-group {
       .form-control {
         height: 70px;
@@ -2418,6 +2419,21 @@ img {
       color: #fff;
       width: 200px;
     }
+  }
+  #repeater{
+    position: relative;
+    .items{
+      margin-top: 20px;
+    }
+  }
+  .repeater-add-btn{
+    position: absolute;
+    bottom: 10px;
+  }
+  .remove-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
   }
 }
 
@@ -2936,7 +2952,7 @@ img {
           display: inline-block;
           color: #b31633;
           font-size: 16px;
-          margin-top: 20px;
+          margin-top: 40px;
         }
       }
       .btn-change-data {
@@ -3276,6 +3292,31 @@ img {
       }
     }
   }
+  #repeater{
+    position: relative;
+  }
+  .repeater-add-btn{
+    position: absolute;
+    bottom: -20px;
+  }
+  .remove-btn{
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+  }
+
+  #repeater3{
+    position: relative;
+    .repeater-add-btn{
+      position: absolute;
+      bottom: 10px;
+    }
+    .remove-btn{
+      position: absolute;
+      bottom: -20px;
+      left: 20px;
+    }
+  }
 }
 
 // ================================================================================================================================================
@@ -3483,6 +3524,17 @@ img {
         margin-top: 10px;
       }
     }
+  }
+  #repeater{
+    position: relative;
+  }
+  .repeater-add-btn{
+    position: absolute;
+    bottom: -20px;
+  }
+  .remove-btn{
+    position: absolute;
+    left: 20px;
   }
 }
 // ================================================================================================================================================
@@ -5020,3 +5072,5 @@ footer {
 label{cursor: pointer;}
 
 a{cursor: pointer;}
+
+

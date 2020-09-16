@@ -253,89 +253,113 @@
               <div class="col-sm-12 col-lg-12 mb-3">
                 <h6 class="seprate-title">الشهادات العلمية</h6>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">اسم الشهادة</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1"
-                    placeholder="بكالوريوس حقوق مدنية جامعة القاهرة">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">سنة التخرج</label>
-                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
-                    <option>2011</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1"></label>
-                  <div class="input-group">
-                    <div class="custom-file">
-                      <input type="file" class="custom-file-input custom-cirtificate" id="inputGroupFile01"
-                        aria-describedby="inputGroupFileAddon01">
-                      <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الشهادة</label>
-                    </div>
-                  </div>
-                  <span id="custom-cirtificate-name"></span>
-                  <a href="" id="custom-cirtificate-delete">حذف</a>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="" class="add-anouther-specilist add-anouther-certifcate">
+              <div id="repeater" class="col-sm-12 col-lg-12">
+                <a class="add-anouther-specilist add-anouther-certifcate repeater-add-btn">
                   <i class="fas fa-plus-circle"></i>
                   <span>أضف شهادة اخرى</span>
                 </a>
+                <div class="items">
+                  <div class="item-content">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">اسم الشهادة</label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="بكالوريوس حقوق مدنية جامعة القاهرة">
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">سنة التخرج</label>
+                          <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                            <option>2011</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1"></label>
+                          <div class="input-group">
+                            <div class="custom-file">
+                              <input type="file" class="custom-file-input custom-cirtificate" id="inputGroupFile01"
+                                aria-describedby="inputGroupFileAddon01">
+                              <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الشهادة</label>
+                            </div>
+                          </div>
+                          <span id="custom-cirtificate-name"></span>
+                          <a href="" id="custom-cirtificate-delete">حذف</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <a class="add-anouther-specilist add-anouther-certifcate remove-btn">
+                          <i class="fas fa-minus-circle"></i>
+                          <span>حذف شهادة</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-sm-12 col-lg-12 mb-3 mt-4">
                 <h6 class="seprate-title">الخبرات العلميه</h6>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">اسم الشركه / المكتب </label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-2">
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">تاريخ البداية</label>
-                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
-                    <option>2011</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-2">
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">تاريخ نهاية العمل</label>
-                  <select class="form-control select-form-control" id="exampleFormControlSelect1">
-                    <option>2011</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">المسمي الوظيفي بالشركه</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="" class="add-anouther-specilist add-anouther-certifcate">
+              <div id="repeater2" class="col-sm-12 col-lg-12">
+                <a class="add-anouther-specilist add-anouther-certifcate repeater-add-btn">
                   <i class="fas fa-plus-circle"></i>
                   <span>أضف خبرات اخرى</span>
                 </a>
+                <div class="items" data-group="test">
+                  <div class="item-contetn">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">اسم الشركه / المكتب </label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-2">
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">تاريخ البداية</label>
+                          <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                            <option>2011</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-2">
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">تاريخ نهاية العمل</label>
+                          <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                            <option>2011</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">المسمي الوظيفي بالشركه</label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <a class="add-anouther-specilist add-anouther-certifcate remove-btn">
+                          <i class="fas fa-plus-circle"></i>
+                          <span>حذف خبره</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="change-passowrd">
@@ -738,6 +762,7 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <!-- <script src="https://rawgit.com/select2/select2/4.0.5/dist/js/select2.full.min.js"></script> -->
   <script src="./assets/js/select2.full.min.js"></script>
+  <script src="./assets/js/repeater.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 

@@ -2057,6 +2057,7 @@ img {
   background-color: #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 40px;
+  padding-bottom: 60px;
 }
 .join-to-the-team-1 .joining-form .form-group .form-control {
   height: 70px;
@@ -2080,6 +2081,21 @@ img {
   background-color: #b31633;
   color: #fff;
   width: 200px;
+}
+.join-to-the-team-1 #repeater {
+  position: relative;
+}
+.join-to-the-team-1 #repeater .items {
+  margin-top: 20px;
+}
+.join-to-the-team-1 .repeater-add-btn {
+  position: absolute;
+  bottom: 10px;
+}
+.join-to-the-team-1 .remove-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
 }
 
 .free-consult .free-consult-content .department-details-search .free-consult-order-btn {
@@ -2543,7 +2559,7 @@ img {
   display: inline-block;
   color: #b31633;
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .my-account #pills-personal-info .personal-form .btn-change-data {
   text-align: center;
@@ -2825,6 +2841,30 @@ img {
 .ordanry-lawer-page .ordanry-lawer-2 .department-details-search .department-details-cards .card .post-info {
   padding-right: 10px;
 }
+.ordanry-lawer-page #repeater {
+  position: relative;
+}
+.ordanry-lawer-page .repeater-add-btn {
+  position: absolute;
+  bottom: -20px;
+}
+.ordanry-lawer-page .remove-btn {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+}
+.ordanry-lawer-page #repeater3 {
+  position: relative;
+}
+.ordanry-lawer-page #repeater3 .repeater-add-btn {
+  position: absolute;
+  bottom: 10px;
+}
+.ordanry-lawer-page #repeater3 .remove-btn {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+}
 
 .team-lower .my-account-tabs .nav-item .nav-link {
   margin-left: 45px;
@@ -2999,6 +3039,17 @@ img {
   color: #d52818 !important;
   display: inline-block;
   margin-top: 10px;
+}
+.team-lower #repeater {
+  position: relative;
+}
+.team-lower .repeater-add-btn {
+  position: absolute;
+  bottom: -20px;
+}
+.team-lower .remove-btn {
+  position: absolute;
+  left: 20px;
 }
 
 .lower-page .lower-pic {

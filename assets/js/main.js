@@ -1,5 +1,22 @@
 $(document).ready(function () {
 
+  if($('#repeater').length){
+    $("#repeater").createRepeater({
+      showFirstItemToDefault: true,
+    });
+  } 
+  if($('#repeater2').length){
+    $("#repeater2").createRepeater({
+      showFirstItemToDefault: true,
+    });
+  } 
+
+  if($('#repeater3').length){
+    $("#repeater3").createRepeater({
+      showFirstItemToDefault: true,
+    });
+  } 
+
   if($('.header-slider').length){
     $('.header-slider').slick({
       dots: true,
@@ -269,6 +286,5 @@ $(document).ready(function () {
       dir: "rtl"
     });
   }
-
 
 });
