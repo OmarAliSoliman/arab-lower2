@@ -672,6 +672,7 @@ img {
   text-overflow: ellipsis;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+  z-index: 4;
   font-size: 15px;
 }
 .consults .consult-slider .slider-item .card .card-body .card-text a {
@@ -2015,7 +2016,40 @@ img {
   background-color: #fff;
   margin-top: 30px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  padding: 30px;
+  padding: 40px;
+  padding-right: 70px;
+}
+.join-to-the-team-condition .condition-card .card {
+  border: 0;
+  margin-bottom: 50px;
+}
+.join-to-the-team-condition .condition-card h1, .join-to-the-team-condition .condition-card h2, .join-to-the-team-condition .condition-card h3, .join-to-the-team-condition .condition-card h4, .join-to-the-team-condition .condition-card h5, .join-to-the-team-condition .condition-card h6 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.join-to-the-team-condition .condition-card h1::before, .join-to-the-team-condition .condition-card h2::before, .join-to-the-team-condition .condition-card h3::before, .join-to-the-team-condition .condition-card h4::before, .join-to-the-team-condition .condition-card h5::before, .join-to-the-team-condition .condition-card h6::before {
+  content: "";
+  background-color: #ccad53;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  right: -25px;
+  top: 4px;
+}
+.join-to-the-team-condition .condition-card p, .join-to-the-team-condition .condition-card span, .join-to-the-team-condition .condition-card div, .join-to-the-team-condition .condition-card a {
+  font-size: 15px;
+  color: #444;
+  line-height: 30px;
+}
+.join-to-the-team-condition .condition-card .approve-conditions {
+  margin-top: 60px;
+}
+.join-to-the-team-condition .condition-card .approve-conditions .btn-aprrove-conditions {
+  background-color: #B31633;
+  color: #fff;
 }
 
 .join-to-the-team-1 .joining-form {
