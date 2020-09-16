@@ -618,9 +618,13 @@ img {
   border: 1px solid #1a355b;
   background-color: #fff;
   margin-top: 40px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 
+.consults {
+  margin-bottom: 122px;
+  margin-top: 90px;
+}
 .consults .section-header {
   margin-bottom: 60px !important;
 }
@@ -707,14 +711,14 @@ img {
   font-weight: normal !important;
 }
 .consults .consult-slider .slick-prev {
-  left: 50%;
+  left: 48%;
   z-index: 99;
 }
 .consults .consult-slider .slick-prev::before {
   content: "";
 }
 .consults .consult-slider .slick-next {
-  left: 55%;
+  left: 52%;
 }
 .consults .consult-slider .slick-next::before {
   content: "";
@@ -722,7 +726,6 @@ img {
 
 .numbers {
   background-color: #b31633;
-  margin-top: 122px;
   padding: 57px 81px;
 }
 .numbers .card {

@@ -748,11 +748,13 @@ img {
     border: 1px solid $mainColor;
     background-color: #fff;
     margin-top: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
   }
 }
 
 .consults {
+  margin-bottom: 122px;
+  margin-top: 90px;
   .section-header {
     @extend %section-header;
     margin-bottom: 60px !important;
@@ -848,14 +850,14 @@ img {
       }
     }
     .slick-prev {
-      left: 50%;
+      left: 48%;
       z-index: 99;
       &::before {
         content: "\f359";
       }
     }
     .slick-next {
-      left: 55%;
+      left: 52%;
       &::before {
         content: "\f35a";
       }
@@ -866,7 +868,6 @@ img {
 // start numbers
 .numbers {
   background-color: #b31633;
-  margin-top: 122px;
   padding: 57px 81px;
   .card {
     background-color: transparent;
