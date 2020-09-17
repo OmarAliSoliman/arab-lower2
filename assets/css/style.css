@@ -4472,4 +4472,8 @@ a {
   height: calc(1.5em + 0.75rem + 28px);
 }
 
+.active-post i {
+  background-color: #D7B22C !important;
+}
+
 /*# sourceMappingURL=style.css.map */
