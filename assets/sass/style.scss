@@ -379,7 +379,7 @@ img {
       border: 0;
       color: $mainColor;
       width: 100%;
-      &:focus{
+      &:focus {
         outline: 0 !important;
         box-shadow: none !important;
         background-color: transparent;
@@ -393,7 +393,7 @@ img {
       float: right;
       margin-bottom: 5px;
     }
-    .account-name{
+    .account-name {
       float: right;
       margin-right: 15px;
       // margin-top: 10px;
@@ -401,7 +401,7 @@ img {
     .fa-user-circle {
       color: $mainColor;
     }
-    .fa-sign-out-alt{
+    .fa-sign-out-alt {
       color: $secondColor;
     }
     .log-out {
@@ -409,9 +409,6 @@ img {
       font-size: 14px;
     }
   }
-
-
-
 
   .sign-up-in {
     margin-top: 50px;
@@ -824,7 +821,7 @@ img {
               color: $mainColor;
             }
           }
-          .card-link{
+          .card-link {
             position: absolute;
             right: 20px;
             bottom: 20px;
@@ -1056,7 +1053,7 @@ img {
     margin-top: 70px;
     margin-bottom: 100px;
     .who-content {
-      img{
+      img {
         float: right;
         width: auto;
         max-width: 550px;
@@ -1309,10 +1306,10 @@ img {
     margin-top: 80px;
     margin-bottom: 90px;
 
-    .modal-body{
+    .modal-body {
       padding: 50px;
-      ul{
-        li{
+      ul {
+        li {
           position: relative;
           margin-bottom: 20px;
           &::before {
@@ -1325,12 +1322,20 @@ img {
             right: -25px;
             top: 4px;
           }
-          h1, h2, h3, h4, h5, h6{
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6 {
             font-weight: bold;
             font-size: 18px;
             margin-bottom: 10px;
           }
-          p, span, div, a{
+          p,
+          span,
+          div,
+          a {
             font-size: 15px;
             color: #444;
             line-height: 30px;
@@ -2352,11 +2357,16 @@ img {
       }
     }
 
-    .card{
+    .card {
       border: 0;
       margin-bottom: 50px;
     }
-    h1, h2, h3, h4, h5, h6{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       font-weight: bold;
       font-size: 18px;
       margin-bottom: 10px;
@@ -2372,15 +2382,18 @@ img {
         top: 4px;
       }
     }
-    p, span, div, a{
+    p,
+    span,
+    div,
+    a {
       font-size: 15px;
       color: #444;
       line-height: 30px;
     }
-    .approve-conditions{
+    .approve-conditions {
       margin-top: 60px;
-      .btn-aprrove-conditions{
-        background-color: #B31633;
+      .btn-aprrove-conditions {
+        background-color: #b31633;
         color: #fff;
       }
     }
@@ -2421,17 +2434,17 @@ img {
       width: 200px;
     }
   }
-  #repeater{
+  #repeater {
     position: relative;
-    .items{
+    .items {
       margin-top: 20px;
     }
   }
-  .repeater-add-btn{
+  .repeater-add-btn {
     position: absolute;
     bottom: 10px;
   }
-  .remove-btn{
+  .remove-btn {
     position: absolute;
     bottom: 10px;
     left: 50px;
@@ -3293,26 +3306,26 @@ img {
       }
     }
   }
-  #repeater{
+  #repeater {
     position: relative;
   }
-  .repeater-add-btn{
+  .repeater-add-btn {
     position: absolute;
     bottom: -20px;
   }
-  .remove-btn{
+  .remove-btn {
     position: absolute;
     bottom: -20px;
     left: 20px;
   }
 
-  #repeater3{
+  #repeater3 {
     position: relative;
-    .repeater-add-btn{
+    .repeater-add-btn {
       position: absolute;
       bottom: 10px;
     }
-    .remove-btn{
+    .remove-btn {
       position: absolute;
       bottom: -20px;
       left: 20px;
@@ -3526,14 +3539,14 @@ img {
       }
     }
   }
-  #repeater{
+  #repeater {
     position: relative;
   }
-  .repeater-add-btn{
+  .repeater-add-btn {
     position: absolute;
     bottom: -20px;
   }
-  .remove-btn{
+  .remove-btn {
     position: absolute;
     left: 20px;
   }
@@ -4935,11 +4948,11 @@ footer {
   #countdown {
     bottom: 12%;
   }
-  .top-header{
-    .notification{
+  .top-header {
+    .notification {
       margin-top: 20px;
     }
-    .notification-number{
+    .notification-number {
       right: 30% !important ;
     }
   }
@@ -5049,7 +5062,7 @@ footer {
 }
 
 .bg-warning,
-.alert-warning{
+.alert-warning {
   background-color: $thirdColor !important;
   color: #000;
 }
@@ -5064,69 +5077,79 @@ footer {
   color: #fff;
 }
 
-.text-primary{color: $thirdColor !important;}
-.text-warning {color: $thirdColor !important;}
-.text-success{color: $mainColor !important;}
-.text-info{color: #b31633 !important;}
+.text-primary {
+  color: $thirdColor !important;
+}
+.text-warning {
+  color: $thirdColor !important;
+}
+.text-success {
+  color: $mainColor !important;
+}
+.text-info {
+  color: #b31633 !important;
+}
 
+label {
+  cursor: pointer;
+}
 
-label{cursor: pointer;}
+a {
+  cursor: pointer;
+}
 
-a{cursor: pointer;}
-
-
-.department-posts{
-  .card{
-    .card-text{
+.department-posts {
+  .card {
+    .card-text {
       padding-bottom: 10px;
       border-bottom: 1px solid #b1b1b1 !important;
     }
   }
 }
 
-.department-details-pagination{
+.department-details-pagination {
   width: 100% !important;
 }
 
-.book-details{
-  .book-details-cards{
+.book-details {
+  .book-details-cards {
     margin-top: 60px;
     margin-bottom: 50px;
-    .book-deatails-img{
-      .card{
+    .book-deatails-img {
+      .card {
         background-color: transparent;
-        .card-img{
+        .card-img {
           background-size: cover;
           background-position: center;
           height: 500px;
         }
       }
     }
-    .book-details-content{
+    .book-details-content {
       margin: 10px;
-      h5{
+      h5 {
         font-size: 30px;
         margin-bottom: 20px;
         font-weight: bold;
       }
-      p{
+      p {
         font-size: 16px;
         margin-bottom: 10px;
         color: #444;
       }
-      .par{
+      .par {
         margin-top: 15px;
         color: #555;
         line-height: 30px;
         margin-bottom: 30px;
       }
-      a{
+      a {
         background-color: $mainColor;
         border: 0;
-        span{
+        span {
           color: #fff;
         }
-        i{
+        i {
           color: #fff;
           margin-right: 5px;
         }
@@ -5135,16 +5158,39 @@ a{cursor: pointer;}
   }
 }
 
-.online-consult .online-consult-content .search-bar .search-bar-form{
+.online-consult .online-consult-content .search-bar .search-bar-form {
   height: 109px;
 }
 
-.online-consult .online-consult-content .search-bar .search-bar-form .btn{
+.online-consult .online-consult-content .search-bar .search-bar-form .btn {
   height: calc(1.5em + 0.75rem + 28px);
 }
 
-.active-post{
-  i{
-    background-color: #D7B22C !important;
+.active-post {
+  i {
+    background-color: #d7b22c !important;
   }
 }
+
+.join-to-the-team-1, .join-to-the-team-condition {
+  .condition-card {
+    .condition-subject {
+      &::before {
+        content: "" !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+    }
+  }
+}
+
+// .join-to-the-team-condition .condition-card h1::before,
+// .join-to-the-team-condition .condition-card h2::before,
+// .join-to-the-team-condition .condition-card h3::before,
+// .join-to-the-team-condition .condition-card h4::before,
+// .join-to-the-team-condition .condition-card h5::before,
+// .join-to-the-team-condition .condition-card h6::before {
+//   content: "" !important;
+//   width: 0 !important;
+//   height: 0 !important;
+// }

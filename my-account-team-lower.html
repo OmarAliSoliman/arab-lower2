@@ -283,20 +283,20 @@
                   <i class="fas fa-plus-circle"></i>
                   <span>أضف شهادة اخرى</span>
                 </a>
-                <div class="items" data-group="test">
+                <div class="items" data-group="cirtificate">
                   <div class="item-content">
                     <div class="row">
                       <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="form-group">
                           <label for="exampleFormControlInput1">اسم الشهادة</label>
-                          <input type="text" class="form-control" id="exampleFormControlInput1"
+                          <input type="text" name="" data-name="cirtificate-name" class="form-control" id="exampleFormControlInput1"
                             placeholder="بكالوريوس حقوق مدنية جامعة القاهرة">
                         </div>
                       </div>
                       <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">سنة التخرج</label>
-                          <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                          <select class="form-control select-form-control" name="" data-name="cirtificate-year" id="exampleFormControlSelect1">
                             <option>2011</option>
                             <option>2</option>
                             <option>3</option>
@@ -310,7 +310,7 @@
                           <label for="exampleFormControlSelect1"></label>
                           <div class="input-group">
                             <div class="custom-file">
-                              <input type="file" class="custom-file-input custom-cirtificate" id="inputGroupFile01"
+                              <input type="file" name="" data-name="cirtificate-file" class="custom-file-input custom-cirtificate" id="inputGroupFile01"
                                 aria-describedby="inputGroupFileAddon01">
                               <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الشهادة</label>
                             </div>
@@ -337,20 +337,20 @@
                   <i class="fas fa-plus-circle"></i>
                   <span>أضف خبرات اخرى</span>
                 </a>
-                <div class="items" data-group="test">
+                <div class="items" data-group="experince">
                   <div class="item-content">
                     <div class="row">
                       <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="form-group">
                           <label for="exampleFormControlInput1">اسم الشركه / المكتب </label>
-                          <input type="text" class="form-control" id="exampleFormControlInput1"
+                          <input type="text" name="" data-name="experince-company-name" class="form-control" id="exampleFormControlInput1"
                             placeholder="اسم المكتب هنا">
                         </div>
                       </div>
                       <div class="col-sm-12 col-md-6 col-lg-2">
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">تاريخ البداية</label>
-                          <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                          <select class="form-control select-form-control" name="" data-name="experince-start-year" id="exampleFormControlSelect1">
                             <option>2011</option>
                             <option>2</option>
                             <option>3</option>
@@ -362,7 +362,7 @@
                       <div class="col-sm-12 col-md-6 col-lg-2">
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">تاريخ نهاية العمل</label>
-                          <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                          <select class="form-control select-form-control" name="" data-name="experince-end-year" id="exampleFormControlSelect1">
                             <option>2011</option>
                             <option>2</option>
                             <option>3</option>
@@ -374,7 +374,7 @@
                       <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="form-group">
                           <label for="exampleFormControlInput1">المسمي الوظيفي بالشركه</label>
-                          <input type="text" class="form-control" id="exampleFormControlInput1"
+                          <input type="text" name="" data-name="experince-jop-title" class="form-control" id="exampleFormControlInput1"
                             placeholder="اسم المكتب هنا">
                         </div>
                       </div>
@@ -593,12 +593,12 @@
               <i class="fas fa-plus-circle"></i>
               <span>أضف يوم اخر</span>
             </a>
-            <form action="" class="items" data-group="test">
+            <form action="" class="items" data-group="timeswork">
               <div class="row item-content">
                 <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="form-group">
                     <label for="exampleFormControlSelect1">اختيار تاريخ اليوم</label>
-                    <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <select class="form-control select-form-control" name="" data-name="timeswork-day" id="exampleFormControlSelect1">
                       <option>اختر اليوم</option>
                       <option>2</option>
                       <option>3</option>
@@ -610,7 +610,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="form-group">
                     <label for="exampleFormControlSelect1">من</label>
-                    <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <select class="form-control select-form-control" name="" data-name="timeswork-start-hour" id="exampleFormControlSelect1">
                       <option>اختر الساعة</option>
                       <option>2</option>
                       <option>3</option>
@@ -622,7 +622,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="form-group">
                     <label for="exampleFormControlSelect1">الى</label>
-                    <select class="form-control select-form-control" id="exampleFormControlSelect1">
+                    <select class="form-control select-form-control" name="" data-name="timeswork-end-hour" id="exampleFormControlSelect1">
                       <option>اختر الساعة</option>
                       <option>2</option>
                       <option>3</option>
@@ -1852,14 +1852,15 @@
   </div>
   <!-- end footer -->
 
+
+
+
   <script src="./assets/js/jquery-3.3.1.min.js"></script>
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
-  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
-
-  <script src="./assets/js/repeater.js"></script>
   <script src="./assets/js/select2.full.min.js"></script>
+  <script src="./assets/js/repeater.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 

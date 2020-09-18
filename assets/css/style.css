@@ -1131,12 +1131,20 @@ img {
   right: -25px;
   top: 4px;
 }
-.condition .condition-card .modal-body ul li h1, .condition .condition-card .modal-body ul li h2, .condition .condition-card .modal-body ul li h3, .condition .condition-card .modal-body ul li h4, .condition .condition-card .modal-body ul li h5, .condition .condition-card .modal-body ul li h6 {
+.condition .condition-card .modal-body ul li h1,
+.condition .condition-card .modal-body ul li h2,
+.condition .condition-card .modal-body ul li h3,
+.condition .condition-card .modal-body ul li h4,
+.condition .condition-card .modal-body ul li h5,
+.condition .condition-card .modal-body ul li h6 {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 10px;
 }
-.condition .condition-card .modal-body ul li p, .condition .condition-card .modal-body ul li span, .condition .condition-card .modal-body ul li div, .condition .condition-card .modal-body ul li a {
+.condition .condition-card .modal-body ul li p,
+.condition .condition-card .modal-body ul li span,
+.condition .condition-card .modal-body ul li div,
+.condition .condition-card .modal-body ul li a {
   font-size: 15px;
   color: #444;
   line-height: 30px;
@@ -2026,13 +2034,23 @@ img {
   border: 0;
   margin-bottom: 50px;
 }
-.join-to-the-team-condition .condition-card h1, .join-to-the-team-condition .condition-card h2, .join-to-the-team-condition .condition-card h3, .join-to-the-team-condition .condition-card h4, .join-to-the-team-condition .condition-card h5, .join-to-the-team-condition .condition-card h6 {
+.join-to-the-team-condition .condition-card h1,
+.join-to-the-team-condition .condition-card h2,
+.join-to-the-team-condition .condition-card h3,
+.join-to-the-team-condition .condition-card h4,
+.join-to-the-team-condition .condition-card h5,
+.join-to-the-team-condition .condition-card h6 {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 10px;
   position: relative;
 }
-.join-to-the-team-condition .condition-card h1::before, .join-to-the-team-condition .condition-card h2::before, .join-to-the-team-condition .condition-card h3::before, .join-to-the-team-condition .condition-card h4::before, .join-to-the-team-condition .condition-card h5::before, .join-to-the-team-condition .condition-card h6::before {
+.join-to-the-team-condition .condition-card h1::before,
+.join-to-the-team-condition .condition-card h2::before,
+.join-to-the-team-condition .condition-card h3::before,
+.join-to-the-team-condition .condition-card h4::before,
+.join-to-the-team-condition .condition-card h5::before,
+.join-to-the-team-condition .condition-card h6::before {
   content: "";
   background-color: #ccad53;
   width: 15px;
@@ -2042,7 +2060,10 @@ img {
   right: -25px;
   top: 4px;
 }
-.join-to-the-team-condition .condition-card p, .join-to-the-team-condition .condition-card span, .join-to-the-team-condition .condition-card div, .join-to-the-team-condition .condition-card a {
+.join-to-the-team-condition .condition-card p,
+.join-to-the-team-condition .condition-card span,
+.join-to-the-team-condition .condition-card div,
+.join-to-the-team-condition .condition-card a {
   font-size: 15px;
   color: #444;
   line-height: 30px;
@@ -2051,7 +2072,7 @@ img {
   margin-top: 60px;
 }
 .join-to-the-team-condition .condition-card .approve-conditions .btn-aprrove-conditions {
-  background-color: #B31633;
+  background-color: #b31633;
   color: #fff;
 }
 
@@ -4473,7 +4494,13 @@ a {
 }
 
 .active-post i {
-  background-color: #D7B22C !important;
+  background-color: #d7b22c !important;
+}
+
+.join-to-the-team-1 .condition-card .condition-subject::before, .join-to-the-team-condition .condition-card .condition-subject::before {
+  content: "" !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
