@@ -4530,4 +4530,8 @@ a {
   border-radius: 5px;
 }
 
+.online-consult .online-consult-content .search-bar .search-bar-form .select2-container {
+  text-align: right !important;
+}
+
 /*# sourceMappingURL=style.css.map */
