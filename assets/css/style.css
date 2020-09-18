@@ -2081,7 +2081,8 @@ img {
   background-color: #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+  position: relative;
 }
 .join-to-the-team-1 .joining-form .form-group .form-control {
   height: 70px;
@@ -2114,14 +2115,13 @@ img {
 }
 .join-to-the-team-1 .repeater-add-btn {
   position: absolute;
-  bottom: 10px;
+  bottom: 40px;
 }
 .join-to-the-team-1 .remove-btn {
   position: absolute;
-  bottom: 10px;
+  bottom: -40px;
   left: 50px;
 }
-
 .free-consult .free-consult-content .department-details-search .free-consult-order-btn {
   text-align: left;
 }
@@ -4503,10 +4503,13 @@ a {
   height: 0 !important;
 }
 
+.spiinesrs {
+  display: none;
+}
+
 .loading {
   position: relative;
   overflow: hidden;
-  height: 100vh;
   z-index: 9999;
 }
 
@@ -4517,6 +4520,7 @@ a {
   z-index: 9999;
   border: 1px solid #000;
   position: absolute;
+  top: 0%;
 }
 
 .loading .loading-div .spiinesrs {

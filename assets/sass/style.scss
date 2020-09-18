@@ -2407,7 +2407,8 @@ img {
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     padding: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
+    position: relative;
     .form-group {
       .form-control {
         height: 70px;
@@ -2442,12 +2443,16 @@ img {
   }
   .repeater-add-btn {
     position: absolute;
-    bottom: 10px;
+    bottom: 40px;
   }
   .remove-btn {
     position: absolute;
-    bottom: 10px;
+    bottom: -40px;
     left: 50px;
+  }
+  .not-activate{
+    // position: absolute;  
+    // top: 176px !important;
   }
 }
 
@@ -5196,10 +5201,14 @@ a {
 // }
 
 
+.spiinesrs{
+  display: none;
+}
+
 .loading{
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  // height: 100vh;
   z-index: 9999;
 }
 .loading .loading-div{
@@ -5209,6 +5218,9 @@ a {
   z-index: 9999;
   border: 1px solid #000;
   position: absolute;
+  top: 0%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
 }
 
 .loading .loading-div .spiinesrs{
