@@ -447,6 +447,7 @@ img {
   padding: 0;
   .navbar-nav {
     margin: auto;
+    border-top: 2px solid $mainColor;
     .nav-item {
       margin-left: 15px;
       margin-right: 15px;
@@ -454,6 +455,11 @@ img {
       .nav-link {
         color: #fff;
         padding: 13px;
+        transition: all .1s;
+        &:hover{
+          // background-color: $thirdColor;
+          border-top: 2px solid $thirdColor;
+        }
       }
     }
     .active {
