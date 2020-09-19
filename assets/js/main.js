@@ -158,7 +158,7 @@ $(document).ready(function () {
   if($('.custom-pic').length){
     $('.custom-pic').on('change', function(e){
       var fileName = e.target.files[0].name;
-      alert(fileName + ' has been selected.')
+      // alert(fileName + ' has been selected.')
       $('#custom-pic-name').css('display', 'block');
       $('#custom-pic-name').text(fileName);
       $('#delete-pic-file').css('display', 'block');
@@ -179,7 +179,7 @@ $(document).ready(function () {
   if($('.custom-pdf-1').length){
     $('.custom-pdf-1').on('change', function(e){
       var fileName = e.target.files[0].name;
-      alert(fileName + ' has been selected.')
+      // alert(fileName + ' has been selected.')
       $('#custom-pdf-1-name').css('display', 'block');
       $('#custom-pdf-1-name').text(fileName);
       $('#delete-pdf-1-file').css('display', 'block');
@@ -199,7 +199,7 @@ $(document).ready(function () {
   if($('.custom-pdf-2').length){
     $('.custom-pdf-2').on('change', function(e){
       var fileName = e.target.files[0].name;
-      alert(fileName + ' has been selected.')
+      // alert(fileName + ' has been selected.')
       $('#custom-pdf-2-name').css('display', 'block');
       $('#custom-pdf-2-name').text(fileName);
       $('#delete-pdf-2-file').css('display', 'block');
@@ -219,7 +219,7 @@ $(document).ready(function () {
   if($('.custom-id-pic').length){
     $('.custom-id-pic').on('change', function(e){
       var fileName = e.target.files[0].name;
-      alert(fileName + ' has been selected.')
+      // alert(fileName + ' has been selected.')
       $('#custom-id-pic-name').css('display', 'block');
       $('#custom-id-pic-name').text(fileName);
       $('#custom-id-pic-delete').css('display', 'block');
@@ -239,7 +239,7 @@ $(document).ready(function () {
   if($('.custom-license').length){
     $('.custom-license').on('change', function(e){
       var fileName = e.target.files[0].name;
-      alert(fileName + ' has been selected.')
+      // alert(fileName + ' has been selected.')
       $('#custom-license-name').css('display', 'block');
       $('#custom-license-name').text(fileName);
       $('#custom-license-delete').css('display', 'block');
@@ -259,7 +259,7 @@ $(document).ready(function () {
   if($('.custom-cirtificate').length){
     $('.custom-cirtificate').on('change', function(e){
       var fileName = e.target.files[0].name;
-      alert(fileName + ' has been selected.')
+      // alert(fileName + ' has been selected.')
       $('#custom-cirtificate-name').css('display', 'block');
       $('#custom-cirtificate-name').text(fileName);
       $('#custom-cirtificate-delete').css('display', 'block');
@@ -285,6 +285,14 @@ $(document).ready(function () {
     $('.select-form-control').select2({
       dir: "rtl"
     });
+  }
+
+
+  if($($('.joining-form')).length){
+    $('.not-activate').on('change', function(){
+      $('.item-contetn').toggle( 'slow');
+      $('.repeater-add-btn').toggle('slow');
+    })
   }
 
 });

@@ -365,7 +365,6 @@ img {
 }
 .navbar .navbar-nav {
   margin: auto;
-  border-top: 2px solid #1a355b;
 }
 .navbar .navbar-nav .nav-item {
   margin-left: 15px;
@@ -377,10 +376,10 @@ img {
   transition: all 0.1s;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  border-top: 2px solid #ccad53;
+  background-color: #ccad53;
 }
 .navbar .navbar-nav .active {
-  border-top: 2px solid #ccad53;
+  background-color: #ccad53;
 }
 .navbar .navbar-nav .dropdown .dropdown-menu {
   margin-top: -2px;
