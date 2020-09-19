@@ -4508,8 +4508,10 @@ a {
 }
 
 .loading {
-  position: relative;
+  position: fixed;
   overflow: hidden;
+  width: 100%;
+  height: 100vh;
   z-index: 9999;
 }
 
@@ -4519,8 +4521,7 @@ a {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   z-index: 9999;
   border: 1px solid #000;
-  position: absolute;
-  top: 0%;
+  position: fixed;
 }
 
 .loading .loading-div .spiinesrs {

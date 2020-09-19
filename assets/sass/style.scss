@@ -5189,36 +5189,26 @@ a {
   }
 }
 
-// .join-to-the-team-condition .condition-card h1::before,
-// .join-to-the-team-condition .condition-card h2::before,
-// .join-to-the-team-condition .condition-card h3::before,
-// .join-to-the-team-condition .condition-card h4::before,
-// .join-to-the-team-condition .condition-card h5::before,
-// .join-to-the-team-condition .condition-card h6::before {
-//   content: "" !important;
-//   width: 0 !important;
-//   height: 0 !important;
-// }
-
 
 .spiinesrs{
   display: none;
 }
 
 .loading{
-  position: relative;
+  position: fixed;
   overflow: hidden;
-  // height: 100vh;
+  width: 100%;
+  height: 100vh;
   z-index: 9999;
 }
 .loading .loading-div{
-  width: 100% ;
+  width: 100%;
   height: 100vh !important;
   background-image: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
   z-index: 9999;
   border: 1px solid #000;
-  position: absolute;
-  top: 0%;
+  position: fixed;
+  // top: 0%;
   // left: 50%;
   // transform: translate(-50%, -50%);
 }
