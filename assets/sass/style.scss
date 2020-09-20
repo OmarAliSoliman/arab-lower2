@@ -2450,12 +2450,14 @@ img {
   }
   .repeater-add-btn {
     position: absolute;
-    bottom: 40px;
+    bottom: -100px;
+    z-index: 999;
   }
   .remove-btn {
     position: absolute;
     bottom: -40px;
     left: 50px;
+    z-index: 99;
   }
   .not-activate{
     // position: absolute;  
@@ -3329,6 +3331,7 @@ img {
     position: absolute;
     bottom: -20px;
     left: 20px;
+    z-index: 99;
   }
 
   #repeater3 {
@@ -3341,6 +3344,7 @@ img {
       position: absolute;
       bottom: -20px;
       left: 20px;
+      z-index: 99;
     }
   }
 }
@@ -3561,6 +3565,7 @@ img {
   .remove-btn {
     position: absolute;
     left: 20px;
+    z-index: 99;
   }
 }
 // ================================================================================================================================================

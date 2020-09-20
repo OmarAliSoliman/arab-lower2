@@ -150,58 +150,60 @@
         <h5 class="condition-subject">ثانياً : مواعيد العمل من اجل تفعيل الاستشارات الاون لاين</h5>
       </div>
       <div class="container">
-        <div class="joining-form" id="repeater">
-          <a class="add-day repeater-add-btn">
-            <i class="fas fa-plus-circle"></i>
-            <span>اضف يوم اخر</span>
-          </a>
-          <form action="" id="repeater">
-            <div class="items" data-group="timeonlinework">
-              <div class="item-contetn row">
-                <div class="col-sm-12 col-md-6 col-lg-5">
-                  <div class="form-group">
-                    <label for="exampleFormControlSelect1">اليوم من كل اسبوع</label>
-                    <select class="form-control select-form-control" name="" data-name="day"
-                      id="exampleFormControlSelect1">
-                      <option>اختر اليوم</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
+        <div class="joining-form">
+          <form action="">
+            <div id="repeater">
+              <a class="add-day repeater-add-btn">
+                <i class="fas fa-plus-circle"></i>
+                <span>اضف يوم اخر</span>
+              </a>  
+              <div class="items" data-group="timeonlinework">
+                <div class="item-contetn row">
+                  <div class="col-sm-12 col-md-6 col-lg-5">
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">اليوم من كل اسبوع</label>
+                      <select class="form-control select-form-control" name="" data-name="day"
+                        id="exampleFormControlSelect1">
+                        <option>اختر اليوم</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="form-group">
-                    <label for="exampleFormControlSelect1">من</label>
-                    <select class="form-control select-form-control" name="" data-name="start-hour"
-                      id="exampleFormControlSelect1">
-                      <option>اختر الساعة</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">من</label>
+                      <select class="form-control select-form-control time-start-select" name="" data-name="start-hour"
+                        id="exampleFormControlSelect1">
+                        <option value="pick-time" selected>اختر الساعة</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                  <div class="form-group">
-                    <label for="exampleFormControlSelect1">الى</label>
-                    <select class="form-control select-form-control" name="" data-name="end-hour"
-                      id="exampleFormControlSelect1">
-                      <option>اختر الساعة</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">الى</label>
+                      <select class="form-control select-form-control time-end-select" name="" data-name="end-hour"
+                        id="exampleFormControlSelect1">
+                        <option value="pick-time" selected>اختر الساعة</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-lg-12">
-                  <a class="add-day remove-btn">
-                    <i class="fas fa-minus-circle"></i>
-                    <span>حذف يوم</span>
-                  </a>
+                  <div class="col-sm-12 col-lg-12">
+                    <a class="add-day remove-btn">
+                      <i class="fas fa-minus-circle"></i>
+                      <span>حذف يوم</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -209,10 +211,10 @@
               <input type="checkbox" class="form-check-input" name="" data-name="dont-activate" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">لا اريد تفعيل خدمه الاستشارات الاون لاين</label>
             </div>
+            <div class="btn-send-order">
+              <button type="submit" class="btn">ارسال الطلب</button>
+            </div>
           </form>
-        </div>
-        <div class="btn-send-order">
-          <button type="submit" class="btn">ارسال الطلب</button>
         </div>
       </div>
     </div>

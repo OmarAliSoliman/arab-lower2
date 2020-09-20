@@ -2119,12 +2119,14 @@ img {
 }
 .join-to-the-team-1 .repeater-add-btn {
   position: absolute;
-  bottom: 40px;
+  bottom: -100px;
+  z-index: 999;
 }
 .join-to-the-team-1 .remove-btn {
   position: absolute;
   bottom: -40px;
   left: 50px;
+  z-index: 99;
 }
 .free-consult .free-consult-content .department-details-search .free-consult-order-btn {
   text-align: left;
@@ -2880,6 +2882,7 @@ img {
   position: absolute;
   bottom: -20px;
   left: 20px;
+  z-index: 99;
 }
 .ordanry-lawer-page #repeater3 {
   position: relative;
@@ -2892,6 +2895,7 @@ img {
   position: absolute;
   bottom: -20px;
   left: 20px;
+  z-index: 99;
 }
 
 .team-lower .my-account-tabs .nav-item .nav-link {
@@ -3078,6 +3082,7 @@ img {
 .team-lower .remove-btn {
   position: absolute;
   left: 20px;
+  z-index: 99;
 }
 
 .lower-page .lower-pic {
