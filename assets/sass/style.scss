@@ -5057,6 +5057,7 @@ footer {
 .btn-info {
   border: 0;
   background-color: #b31633;
+  color: #fff !important;
   &:hover {
     background-color: #b31633;
   }
@@ -5065,33 +5066,33 @@ footer {
 .btn-warning {
   border: 0;
   background-color: $thirdColor;
-  color: #fff;
+  color: #fff !important;
   &:hover {
     background-color: $thirdColor;
-    color: #fff;
+    color: #fff !important;
   }
 }
 
 .bg-primary,
 .alert-primary {
   background-color: $mainColor !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .bg-warning,
 .alert-warning {
   background-color: $thirdColor !important;
-  color: #000;
+  color: #fff !important;
 }
 .bg-success,
 .alert-success {
   background-color: $mainColor !important;
-  color: #fff;
+  color: #fff !important;
 }
 .bg-info,
 .alert-info {
   background-color: #b31633;
-  color: #fff;
+  color: #fff !important;
 }
 
 .text-primary {

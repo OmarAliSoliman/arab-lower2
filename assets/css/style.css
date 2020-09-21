@@ -4379,6 +4379,7 @@ footer .links ul li:last-child::before {
 .btn-info {
   border: 0;
   background-color: #b31633;
+  color: #fff !important;
 }
 .btn-info:hover {
   background-color: #b31633;
@@ -4387,35 +4388,35 @@ footer .links ul li:last-child::before {
 .btn-warning {
   border: 0;
   background-color: #ccad53;
-  color: #fff;
+  color: #fff !important;
 }
 .btn-warning:hover {
   background-color: #ccad53;
-  color: #fff;
+  color: #fff !important;
 }
 
 .bg-primary,
 .alert-primary {
   background-color: #1a355b !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .bg-warning,
 .alert-warning {
   background-color: #ccad53 !important;
-  color: #000;
+  color: #fff !important;
 }
 
 .bg-success,
 .alert-success {
   background-color: #1a355b !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .bg-info,
 .alert-info {
   background-color: #b31633;
-  color: #fff;
+  color: #fff !important;
 }
 
 .text-primary {
