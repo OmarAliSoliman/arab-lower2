@@ -388,12 +388,59 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="change-passowrd">
-              <a href="">تعديل كلمة المرور</a>
-            </div>
-            <div class="btn-change-data">
-              <a href="" class="btn">تعديل البيانات</a>
+              <div class="col-sm-12 col-lg-12">
+                <div class="change-passowrd">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-change-password" data-toggle="modal"
+                    data-target="#change-pass-modal">
+                    تعديل كلمة المرور
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade modal-change-passowrd" id="change-pass-modal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">تغيير كلمة المرور</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="" class="change-pass-form">
+                            <div class="row">
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="form-group mb-3">
+                                  <input type="password" class="form-control" placeholder="كلمة المرور القديمة"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="form-group mb-3">
+                                  <input type="password" id="newPassword" class="form-control"
+                                    placeholder="كلمة المرور الجديدة" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="btn-submit-change-pass">
+                                  <button type="submit" class="btn btn-block btn-success">حفظ</button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12">
+                <div class="btn-change-data">
+                  <a href="" class="btn">تعديل البيانات</a>
+                </div>
+              </div>
             </div>
           </form>
         </div>

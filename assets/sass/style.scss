@@ -455,8 +455,8 @@ img {
       .nav-link {
         color: #fff;
         padding: 13px;
-        transition: all .1s;
-        &:hover{
+        transition: all 0.1s;
+        &:hover {
           background-color: $thirdColor;
           // border-top: 2px solid $thirdColor;
         }
@@ -2459,10 +2459,6 @@ img {
     left: 50px;
     z-index: 99;
   }
-  .not-activate{
-    // position: absolute;  
-    // top: 176px !important;
-  }
 }
 
 // ================================================================================================================================================
@@ -2976,11 +2972,15 @@ img {
         }
       }
       .change-passowrd {
-        a {
+        .btn-change-password {
           display: inline-block;
           color: #b31633;
           font-size: 16px;
           margin-top: 40px;
+          &:focus {
+            outline: 0;
+            box-shadow: none;
+          }
         }
       }
       .btn-change-data {
@@ -3245,28 +3245,30 @@ img {
         color: #b31633;
       }
     }
-    .input-group {
-      background-color: #f2f2f2;
-      height: calc(1.5em + 0.75rem + 30px);
-      border-radius: 10px;
-      margin-top: 6px;
-      padding: 6px;
-      .custom-file-label {
-        border: 0;
-        background-color: transparent !important;
+    .personal-form {
+      .input-group {
+        background-color: #f2f2f2;
         height: calc(1.5em + 0.75rem + 30px);
-        line-height: 45px;
-        &:focus {
-          outline: 0;
-          box-shadow: 0 !important;
+        border-radius: 10px;
+        margin-top: 6px;
+        padding: 6px;
+        .custom-file-label {
+          border: 0;
+          background-color: transparent !important;
+          height: calc(1.5em + 0.75rem + 30px);
+          line-height: 45px;
+          &:focus {
+            outline: 0;
+            box-shadow: 0 !important;
+          }
         }
-      }
-      .custom-file-input {
-        border: 0;
-        background-color: transparent !important;
-        &:focus {
-          outline: 0;
-          box-shadow: 0 !important;
+        .custom-file-input {
+          border: 0;
+          background-color: transparent !important;
+          &:focus {
+            outline: 0;
+            box-shadow: 0 !important;
+          }
         }
       }
     }
@@ -5190,7 +5192,8 @@ a {
   }
 }
 
-.join-to-the-team-1, .join-to-the-team-condition {
+.join-to-the-team-1,
+.join-to-the-team-condition {
   .condition-card {
     .condition-subject {
       &::before {
@@ -5202,22 +5205,25 @@ a {
   }
 }
 
-
-.spiinesrs{
+.spiinesrs {
   display: none;
 }
 
-.loading{
+.loading {
   position: fixed;
   overflow: hidden;
   width: 100%;
   height: 100vh;
   z-index: 9999;
 }
-.loading .loading-div{
+.loading .loading-div {
   width: 100%;
   height: 100vh !important;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
   z-index: 9999;
   border: 1px solid #000;
   position: fixed;
@@ -5226,7 +5232,7 @@ a {
   // transform: translate(-50%, -50%);
 }
 
-.loading .loading-div .spiinesrs{
+.loading .loading-div .spiinesrs {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -5237,8 +5243,31 @@ a {
   border-radius: 5px;
 }
 
-.online-consult .online-consult-content .search-bar .search-bar-form{
-  .select2-container{
+.online-consult .online-consult-content .search-bar .search-bar-form {
+  .select2-container {
     text-align: right !important;
   }
 }
+
+// .ordanry-lawer-page .ordanry-lawer .personal-form .change-passowrd{
+//   .modal-change-passowrd {
+//     .modal-body {
+//       .change-pass-form {
+//         .form-control-change-pass{
+//           height: 20px !important;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.my-account #pills-personal-info .personal-form .change-passowrd .form-group{
+  .form-control{
+    height: 45px;
+    font-size: 20px;
+    &::placeholder{
+      font-size: 14px;
+    }
+  }
+}
+

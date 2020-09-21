@@ -313,4 +313,15 @@ $(document).ready(function () {
       // console.log("the end value after " + endValue);
     });
   }
+
+
+  if($('#newPassword').length){
+    $('#newPassword').passtrength({
+      minChars: 4,
+      passwordToggle: false,
+      tooltip: true
+    });
+  }
+
+
 });

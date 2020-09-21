@@ -2128,6 +2128,7 @@ img {
   left: 50px;
   z-index: 99;
 }
+
 .free-consult .free-consult-content .department-details-search .free-consult-order-btn {
   text-align: left;
 }
@@ -2585,11 +2586,15 @@ img {
 .my-account #pills-personal-info .personal-form .form-group .form-control {
   height: 65px;
 }
-.my-account #pills-personal-info .personal-form .change-passowrd a {
+.my-account #pills-personal-info .personal-form .change-passowrd .btn-change-password {
   display: inline-block;
   color: #b31633;
   font-size: 16px;
   margin-top: 40px;
+}
+.my-account #pills-personal-info .personal-form .change-passowrd .btn-change-password:focus {
+  outline: 0;
+  box-shadow: none;
 }
 .my-account #pills-personal-info .personal-form .btn-change-data {
   text-align: center;
@@ -2807,28 +2812,28 @@ img {
 .ordanry-lawer-page .ordanry-lawer .add-anouther-specilist i {
   color: #b31633;
 }
-.ordanry-lawer-page .ordanry-lawer .input-group {
+.ordanry-lawer-page .ordanry-lawer .personal-form .input-group {
   background-color: #f2f2f2;
   height: calc(1.5em + 0.75rem + 30px);
   border-radius: 10px;
   margin-top: 6px;
   padding: 6px;
 }
-.ordanry-lawer-page .ordanry-lawer .input-group .custom-file-label {
+.ordanry-lawer-page .ordanry-lawer .personal-form .input-group .custom-file-label {
   border: 0;
   background-color: transparent !important;
   height: calc(1.5em + 0.75rem + 30px);
   line-height: 45px;
 }
-.ordanry-lawer-page .ordanry-lawer .input-group .custom-file-label:focus {
+.ordanry-lawer-page .ordanry-lawer .personal-form .input-group .custom-file-label:focus {
   outline: 0;
   box-shadow: 0 !important;
 }
-.ordanry-lawer-page .ordanry-lawer .input-group .custom-file-input {
+.ordanry-lawer-page .ordanry-lawer .personal-form .input-group .custom-file-input {
   border: 0;
   background-color: transparent !important;
 }
-.ordanry-lawer-page .ordanry-lawer .input-group .custom-file-input:focus {
+.ordanry-lawer-page .ordanry-lawer .personal-form .input-group .custom-file-input:focus {
   outline: 0;
   box-shadow: 0 !important;
 }
@@ -4507,7 +4512,8 @@ a {
   background-color: #d7b22c !important;
 }
 
-.join-to-the-team-1 .condition-card .condition-subject::before, .join-to-the-team-condition .condition-card .condition-subject::before {
+.join-to-the-team-1 .condition-card .condition-subject::before,
+.join-to-the-team-condition .condition-card .condition-subject::before {
   content: "" !important;
   width: 0 !important;
   height: 0 !important;
@@ -4547,6 +4553,14 @@ a {
 
 .online-consult .online-consult-content .search-bar .search-bar-form .select2-container {
   text-align: right !important;
+}
+
+.my-account #pills-personal-info .personal-form .change-passowrd .form-group .form-control {
+  height: 45px;
+  font-size: 20px;
+}
+.my-account #pills-personal-info .personal-form .change-passowrd .form-group .form-control::placeholder {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

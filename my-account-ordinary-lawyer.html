@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./assets/css/slick-theme.css" />
   <link rel="stylesheet" href="./assets/css/select2.min.css">
   <link rel="stylesheet" href="./assets/css/style-tailwind.css">
+  <link rel="stylesheet" href="./assets/css/passtrength.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Document</title>
 </head>
@@ -271,7 +272,8 @@
                       <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">سنة التخرج</label>
-                          <select class="form-control select-form-control" name="" data-name="year" id="exampleFormControlSelect1">
+                          <select class="form-control select-form-control" name="" data-name="year"
+                            id="exampleFormControlSelect1">
                             <option>2011</option>
                             <option>2</option>
                             <option>3</option>
@@ -285,8 +287,8 @@
                           <label for="exampleFormControlSelect1"></label>
                           <div class="input-group">
                             <div class="custom-file">
-                              <input type="file" name="" data-name="file" class="custom-file-input custom-cirtificate" id="inputGroupFile01"
-                                aria-describedby="inputGroupFileAddon01">
+                              <input type="file" name="" data-name="file" class="custom-file-input custom-cirtificate"
+                                id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
                               <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الشهادة</label>
                             </div>
                           </div>
@@ -318,13 +320,15 @@
                       <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="form-group">
                           <label for="exampleFormControlInput1">اسم الشركه / المكتب </label>
-                          <input type="text" name="" data-name="company-name" class="form-control" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
+                          <input type="text" name="" data-name="company-name" class="form-control"
+                            id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
                         </div>
                       </div>
                       <div class="col-sm-12 col-md-6 col-lg-2">
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">تاريخ البداية</label>
-                          <select class="form-control select-form-control" name="" data-name="start-year" id="exampleFormControlSelect1">
+                          <select class="form-control select-form-control" name="" data-name="start-year"
+                            id="exampleFormControlSelect1">
                             <option>2011</option>
                             <option>2</option>
                             <option>3</option>
@@ -336,7 +340,8 @@
                       <div class="col-sm-12 col-md-6 col-lg-2">
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">تاريخ نهاية العمل</label>
-                          <select class="form-control select-form-control" data-name="end-year" id="exampleFormControlSelect1">
+                          <select class="form-control select-form-control" data-name="end-year"
+                            id="exampleFormControlSelect1">
                             <option>2011</option>
                             <option>2</option>
                             <option>3</option>
@@ -348,12 +353,13 @@
                       <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="form-group">
                           <label for="exampleFormControlInput1">المسمي الوظيفي بالشركه</label>
-                          <input type="text" class="form-control" data-name="jop-title" id="exampleFormControlInput1" placeholder="اسم المكتب هنا">
+                          <input type="text" class="form-control" data-name="jop-title" id="exampleFormControlInput1"
+                            placeholder="اسم المكتب هنا">
                         </div>
                       </div>
                       <div class="col-sm-12 col-md-12 col-lg-12">
                         <a class="add-anouther-specilist add-anouther-certifcate remove-btn">
-                          <i class="fas fa-plus-circle"></i>
+                          <i class="fas fa-minus-circle"></i>
                           <span>حذف خبره</span>
                         </a>
                       </div>
@@ -361,12 +367,59 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="change-passowrd">
-              <a href="">تعديل كلمة المرور</a>
-            </div>
-            <div class="btn-change-data">
-              <a href="" class="btn">تعديل البيانات</a>
+              <div class="col-sm-12 col-lg-12">
+                <div class="change-passowrd">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-change-password" data-toggle="modal"
+                    data-target="#change-pass-modal">
+                    تعديل كلمة المرور
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade modal-change-passowrd" id="change-pass-modal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">تغيير كلمة المرور</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="" class="change-pass-form">
+                            <div class="row">
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="form-group mb-3">
+                                  <input type="password" class="form-control" placeholder="كلمة المرور القديمة"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="form-group mb-3">
+                                  <input type="password" id="newPassword" class="form-control"
+                                    placeholder="كلمة المرور الجديدة" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="btn-submit-change-pass">
+                                  <button type="submit" class="btn btn-block btn-success">حفظ</button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12">
+                <div class="btn-change-data btn-submit-change-data text-center mb-5 mt-3">
+                  <button type="submit" class="btn btn-info">تعديل البيانات</button>
+                </div>
+              </div>
             </div>
           </form>
         </div>
@@ -763,6 +816,7 @@
   <!-- <script src="https://rawgit.com/select2/select2/4.0.5/dist/js/select2.full.min.js"></script> -->
   <script src="./assets/js/select2.full.min.js"></script>
   <script src="./assets/js/repeater.js"></script>
+  <script src="./assets/js/passtrength.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 
