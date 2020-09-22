@@ -1123,6 +1123,15 @@ img {
 .condition .condition-card .modal-body ul li {
   position: relative;
   margin-bottom: 20px;
+  font-size: 15px;
+  color: #444;
+  line-height: 30px;
+}
+.condition .condition-card .modal-body ul li::first-line {
+  font-weight: bold;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .condition .condition-card .modal-body ul li::before {
   content: "";
@@ -1133,24 +1142,6 @@ img {
   position: absolute;
   right: -25px;
   top: 4px;
-}
-.condition .condition-card .modal-body ul li h1,
-.condition .condition-card .modal-body ul li h2,
-.condition .condition-card .modal-body ul li h3,
-.condition .condition-card .modal-body ul li h4,
-.condition .condition-card .modal-body ul li h5,
-.condition .condition-card .modal-body ul li h6 {
-  font-weight: bold;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-.condition .condition-card .modal-body ul li p,
-.condition .condition-card .modal-body ul li span,
-.condition .condition-card .modal-body ul li div,
-.condition .condition-card .modal-body ul li a {
-  font-size: 15px;
-  color: #444;
-  line-height: 30px;
 }
 
 .our-library .image-header h5::after {
@@ -2032,10 +2023,6 @@ img {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 40px;
   padding-right: 70px;
-}
-.join-to-the-team-condition .condition-card .card {
-  border: 0;
-  margin-bottom: 50px;
 }
 .join-to-the-team-condition .condition-card h1,
 .join-to-the-team-condition .condition-card h2,
@@ -4599,7 +4586,8 @@ a {
   font-size: 14px;
 }
 
-.legal-post-slider .active-post .fa-folder-open, .legal-post-slider .active-post .fa-star {
+.legal-post-slider .active-post .fa-folder-open,
+.legal-post-slider .active-post .fa-star {
   background-color: transparent !important;
 }
 .legal-post-slider .active-post .fa-star {

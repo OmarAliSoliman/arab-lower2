@@ -1319,6 +1319,15 @@ img {
         li {
           position: relative;
           margin-bottom: 20px;
+          font-size: 15px;
+          color: #444;
+          line-height: 30px;
+          &::first-line {
+            font-weight: bold;
+            color: #000;
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
           &::before {
             content: "";
             background-color: $thirdColor;
@@ -1329,24 +1338,24 @@ img {
             right: -25px;
             top: 4px;
           }
-          h1,
-          h2,
-          h3,
-          h4,
-          h5,
-          h6 {
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
-          }
-          p,
-          span,
-          div,
-          a {
-            font-size: 15px;
-            color: #444;
-            line-height: 30px;
-          }
+          //   h1,
+          //   h2,
+          //   h3,
+          //   h4,
+          //   h5,
+          //   h6 {
+          //     font-weight: bold;
+          //     font-size: 18px;
+          //     margin-bottom: 10px;
+          //   }
+          //   p,
+          //   span,
+          //   div,
+          //   a {
+          //     font-size: 15px;
+          //     color: #444;
+          //     line-height: 30px;
+          //   }
         }
       }
     }
@@ -2364,10 +2373,6 @@ img {
       }
     }
 
-    .card {
-      border: 0;
-      margin-bottom: 50px;
-    }
     h1,
     h2,
     h3,
@@ -2969,15 +2974,15 @@ img {
         overflow: hidden;
         display: inline-block;
       }
-      
+
       .btn {
         background-color: #b31633;
         color: #fff;
         margin-right: 80px;
         margin-top: 35px;
       }
-      
-      .upload-btn-wrapper input[type=file] {
+
+      .upload-btn-wrapper input[type="file"] {
         font-size: 100px;
         position: absolute;
         left: 0;
@@ -3350,7 +3355,6 @@ img {
     position: absolute;
     bottom: -20px;
     z-index: 999;
-
   }
   .remove-btn {
     position: absolute;
@@ -3361,14 +3365,13 @@ img {
 
   #repeater3 {
     position: relative;
-    .items{
+    .items {
       margin-bottom: 30px;
     }
     .repeater-add-btn {
       position: absolute;
       bottom: 80px;
       z-index: 999;
-
     }
     .remove-btn {
       position: absolute;
@@ -3591,7 +3594,6 @@ img {
     position: absolute;
     bottom: -20px;
     z-index: 999;
-
   }
   .remove-btn {
     position: absolute;
@@ -5007,10 +5009,10 @@ footer {
       right: 30% !important ;
     }
   }
-  .my-account #pills-personal-info .personal-img .btn{
+  .my-account #pills-personal-info .personal-img .btn {
     margin-right: 0;
   }
-  .my-account #pills-personal-info .personal-img img{
+  .my-account #pills-personal-info .personal-img img {
     margin: auto;
   }
 }
@@ -5299,22 +5301,24 @@ a {
 //   }
 // }
 
-.my-account #pills-personal-info .personal-form .change-passowrd .form-group{
-  .form-control{
+.my-account #pills-personal-info .personal-form .change-passowrd .form-group {
+  .form-control {
     height: 45px;
     font-size: 20px;
-    &::placeholder{
+    &::placeholder {
       font-size: 14px;
     }
   }
 }
 
-
-.legal-post-slider{
-  .active-post{
-    .fa-folder-open, .fa-star{background-color: transparent !important;}
-    .fa-star{
-      background-color: #d7b22c  !important;
+.legal-post-slider {
+  .active-post {
+    .fa-folder-open,
+    .fa-star {
+      background-color: transparent !important;
+    }
+    .fa-star {
+      background-color: #d7b22c !important;
       color: #fff !important;
       border-radius: 50% !important;
       width: 30px;
@@ -5326,10 +5330,10 @@ a {
   }
 }
 
-.serv-in-progress{
+.serv-in-progress {
   background-color: $thirdColor !important;
 }
 
-.serv-compleate{
-  background-color: $mainColor!important;
+.serv-compleate {
+  background-color: $mainColor !important;
 }
