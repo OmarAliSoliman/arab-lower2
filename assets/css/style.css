@@ -3674,21 +3674,15 @@ img {
   border: 0;
   text-align: center;
   margin-top: 16px;
-}
-.law-services .card-law-info .col-lg-3,
-.law-services .card-law-info .col-lg-2,
-.law-services .card-law-info .col-lg-4 {
-  padding: 0;
-}
-.law-services .card-law-info .card-body {
-  padding: 0;
   position: relative;
+}
+.law-services .card-law-info ul li {
+  float: right;
+  padding: 10px;
+  padding-top: 20px;
 }
 .law-services .card-law-info i {
   color: #ccad53;
-  position: absolute;
-  right: 5px;
-  top: 5px;
 }
 .law-services .card-law-info span {
   font-size: 14px;
@@ -3700,6 +3694,10 @@ img {
   padding: 0;
   padding: 5px;
   margin-top: -5px;
+  width: 15%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 .law-services .card-law-info .card-body-3 span {
   margin-right: -20px;
