@@ -2899,6 +2899,7 @@ img {
 .ordanry-lawer-page .repeater-add-btn {
   position: absolute;
   bottom: -20px;
+  z-index: 999;
 }
 .ordanry-lawer-page .remove-btn {
   position: absolute;
@@ -2912,6 +2913,7 @@ img {
 .ordanry-lawer-page #repeater3 .repeater-add-btn {
   position: absolute;
   bottom: 10px;
+  z-index: 999;
 }
 .ordanry-lawer-page #repeater3 .remove-btn {
   position: absolute;
@@ -3100,6 +3102,7 @@ img {
 .team-lower .repeater-add-btn {
   position: absolute;
   bottom: -20px;
+  z-index: 999;
 }
 .team-lower .remove-btn {
   position: absolute;

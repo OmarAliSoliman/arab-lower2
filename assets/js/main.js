@@ -2,21 +2,22 @@ $(document).ready(function () {
   let startValue , endValue;
   if ($(".joining-form").length) {
     $("body").on("change", ".time-start-select", function () {
-      startValue = $(this).children("option:selected").val();
-      console.log("the start value before " + startValue);
-      if (endValue <= startValue) {
-        alert("please pickup anouthrt time");
-        $(".time-start-select").val(null).trigger("change");
-      }
+      // startValue = $(this).children("option:selected").val();
+      // console.log("the start value before " + startValue);
+      // if (endValue <= startValue) {
+      //   alert("please pickup anouthrt time");
+      //   $(".time-start-select").val(null).trigger("change");
+      // }
+      // console.log($(this).parent().parent().siblings('').children().children())
     });
 
     $("body").on("change", ".time-end-select", function () {
-      endValue = $(this).children("option:selected").val();
-      console.log("the end value before " + endValue);
-      if (endValue <= startValue) {
-        alert("please pickup anouthrt time");
-        $(".time-end-select").val(null).trigger("change");
-      }
+      // endValue = $(this).children("option:selected").val();
+      // console.log("the end value before " + endValue);
+      // if (endValue <= startValue) {
+      //   alert("please pickup anouthrt time");
+      //   $(".time-end-select").val(null).trigger("change");
+      // }
     });
   }
 

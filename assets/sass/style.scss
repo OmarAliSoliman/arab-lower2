@@ -3348,6 +3348,8 @@ img {
   .repeater-add-btn {
     position: absolute;
     bottom: -20px;
+    z-index: 999;
+
   }
   .remove-btn {
     position: absolute;
@@ -3361,6 +3363,8 @@ img {
     .repeater-add-btn {
       position: absolute;
       bottom: 10px;
+      z-index: 999;
+
     }
     .remove-btn {
       position: absolute;
@@ -3583,6 +3587,8 @@ img {
   .repeater-add-btn {
     position: absolute;
     bottom: -20px;
+    z-index: 999;
+
   }
   .remove-btn {
     position: absolute;
