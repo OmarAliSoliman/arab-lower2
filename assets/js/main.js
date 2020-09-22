@@ -1,9 +1,28 @@
 $(document).ready(function () {
+  let startValue , endValue;
+  if ($(".joining-form").length) {
+    $("body").on("change", ".time-start-select", function () {
+      startValue = $(this).children("option:selected").val();
+      console.log("the start value before " + startValue);
+      if (endValue <= startValue) {
+        alert("please pickup anouthrt time");
+        $(".time-start-select").val(null).trigger("change");
+      }
+    });
+
+    $("body").on("change", ".time-end-select", function () {
+      endValue = $(this).children("option:selected").val();
+      console.log("the end value before " + endValue);
+      if (endValue <= startValue) {
+        alert("please pickup anouthrt time");
+        $(".time-end-select").val(null).trigger("change");
+      }
+    });
+  }
+
   if ($("#repeater").length) {
     $("#repeater").createRepeater({
       showFirstItemToDefault: true,
-    }, function(){
-      // console.log('')
     });
   }
   if ($("#repeater2").length) {
@@ -287,41 +306,18 @@ $(document).ready(function () {
     });
   }
 
-  let startValue, endValue;
-  if ($(".joining-form").length) {
-    $("body").on("change", ".time-start-select", function () {
-      startValue = $(this).children("option:selected").val();
-      console.log("the start value before " + startValue);
-      if (endValue <= startValue) {
-        alert("please pickup anouthrt time");
-        $(".time-start-select").val(null).trigger("change");
-      }
-      // startValue = 0;
-      // endValue = 0 ;
-      // console.log("the start value after " + startValue);
-    });
-
-    $("body").on("change", ".time-end-select", function () {
-      endValue = $(this).children("option:selected").val();
-      console.log("the end value before " + endValue);
-      if (endValue <= startValue) {
-        alert("please pickup anouthrt time");
-        $(".time-end-select").val(null).trigger("change");
-      }
-      // startValue = 0;
-      // endValue = 0 ;
-      // console.log("the end value after " + endValue);
-    });
-  }
-
-
-  if($('#newPassword').length){
-    $('#newPassword').passtrength({
-      minChars: 4,
+  if ($("#newPassword").length) {
+    $("#newPassword").passtrength({
+      minChars: 8,
       passwordToggle: false,
-      tooltip: true
+      tooltip: true,
     });
   }
-
-
+  if ($("#newPassword2").length) {
+    $("#newPassword2").passtrength({
+      minChars: 8,
+      passwordToggle: false,
+      tooltip: true,
+    });
+  }
 });

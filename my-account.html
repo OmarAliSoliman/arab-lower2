@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./assets/css/slick-theme.css" />
   <link rel="stylesheet" href="./assets/css/select2.min.css">
   <link rel="stylesheet" href="./assets/css/style-tailwind.css">
+  <link rel="stylesheet" href="./assets/css/passtrength.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Document</title>
 </head>
@@ -179,7 +180,10 @@
           aria-labelledby="pills-home-tab">
           <div class="personal-img">
             <img src="./assets/images/cons1.png" alt="">
-            <a href="" class="change-pic btn">تعديل الصورة الشخصية</a>
+            <div class="upload-btn-wrapper">
+              <button class="btn">تعديل الصورة الشخصية</button>
+              <input type="file" name="myfile" />
+            </div>
           </div>
           <form action="" class="personal-form">
             <div class="row">
@@ -201,12 +205,59 @@
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
               </div>
-            </div>
-            <div class="change-passowrd">
-              <a href="">تعديل كلمة المرور</a>
-            </div>
-            <div class="btn-change-data">
-              <a href="" class="btn">تعديل البيانات</a>
+              <div class="col-sm-12 col-lg-12">
+                <div class="change-passowrd">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-change-password" data-toggle="modal"
+                    data-target="#change-pass-modal">
+                    تعديل كلمة المرور
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade modal-change-passowrd" id="change-pass-modal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">تغيير كلمة المرور</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="" class="change-pass-form">
+                            <div class="row">
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="form-group mb-3">
+                                  <input type="password" class="form-control" placeholder="كلمة المرور القديمة"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="form-group mb-3">
+                                  <input type="password" id="newPassword" class="form-control"
+                                    placeholder="كلمة المرور الجديدة" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-lg-12">
+                                <div class="btn-submit-change-pass">
+                                  <button type="submit" class="btn btn-block btn-success">حفظ</button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12">
+                <div class="btn-change-data">
+                  <a href="" class="btn">تعديل البيانات</a>
+                </div>
+              </div>
             </div>
           </form>
         </div>
@@ -1564,7 +1615,15 @@
   <script src="./assets/js/slick.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./assets/js/select2.full.min.js"></script>
+  <script src="./assets/js/passtrength.js"></script>
   <script src="./assets/js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      if(typeof window.location.hash != "undefined" && window.location.hash == "#new_service_order"){
+        $("#pills-legal-service-order-tab").click()
+      }
+    });
+  </script>
 </body>
 
 </html>

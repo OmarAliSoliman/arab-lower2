@@ -394,7 +394,7 @@ img {
       margin-bottom: 5px;
     }
     .account-name {
-      float: right;
+      // float: right;
       margin-right: 15px;
       // margin-top: 10px;
     }
@@ -2963,6 +2963,26 @@ img {
         margin-right: 80px;
         margin-top: 35px;
       }
+      .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+      }
+      
+      .btn {
+        background-color: #b31633;
+        color: #fff;
+        margin-right: 80px;
+        margin-top: 35px;
+      }
+      
+      .upload-btn-wrapper input[type=file] {
+        font-size: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
     }
     .personal-form {
       margin-top: 30px;
@@ -3575,7 +3595,10 @@ img {
   .lower-pic {
     margin-top: 32px;
     img {
-      height: 365px;
+      height: auto;
+      width: auto;
+      max-width: 355px;
+      max-height: 365px;
     }
     .card-title,
     .card-text {
@@ -4975,6 +4998,12 @@ footer {
       right: 30% !important ;
     }
   }
+  .my-account #pills-personal-info .personal-img .btn{
+    margin-right: 0;
+  }
+  .my-account #pills-personal-info .personal-img img{
+    margin: auto;
+  }
 }
 
 @media (max-width: 376px) {
@@ -5271,3 +5300,19 @@ a {
   }
 }
 
+
+.legal-post-slider{
+  .active-post{
+    .fa-folder-open, .fa-star{background-color: transparent !important;}
+    .fa-star{
+      background-color: #d7b22c  !important;
+      color: #fff !important;
+      border-radius: 50% !important;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 15px !important;
+    }
+  }
+}
