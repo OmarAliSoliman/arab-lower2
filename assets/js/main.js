@@ -1,25 +1,48 @@
 $(document).ready(function () {
   let startValue , endValue;
-  if ($(".joining-form").length) {
+  if ($(".pick-up-time-form").length) {
     $("body").on("change", ".time-start-select", function () {
-      // startValue = $(this).children("option:selected").val();
-      // console.log("the start value before " + startValue);
-      // if (endValue <= startValue) {
-      //   alert("please pickup anouthrt time");
-      //   $(".time-start-select").val(null).trigger("change");
-      // }
-      // console.log($(this).parent().parent().siblings('').children().children())
+      startValue = $(this).parent().parent().parent().find('.time-start-select').children("option:selected").val();
+      endValue = $(this).parent().parent().parent().find('.time-end-select').children("option:selected").val();
+      if (endValue <= startValue) {
+        alert("لابد أن يكون الساعة ( إلى )  أكبر من الساعة ( من )");
+        $(this).parent().parent().parent().find('.time-start-select').val(null).trigger("change");
+      }
+      // console.log()
     });
 
     $("body").on("change", ".time-end-select", function () {
-      // endValue = $(this).children("option:selected").val();
-      // console.log("the end value before " + endValue);
-      // if (endValue <= startValue) {
-      //   alert("please pickup anouthrt time");
-      //   $(".time-end-select").val(null).trigger("change");
-      // }
+      startValue = $(this).parent().parent().parent().find('.time-start-select').children("option:selected").val();
+      endValue = $(this).parent().parent().parent().find('.time-end-select').children("option:selected").val();
+      if (endValue <= startValue) {
+        alert("لابد أن يكون الساعة ( إلى )  أكبر من الساعة ( من )");
+        $(this).parent().parent().parent().find('.time-end-select').val(null).trigger("change");
+      }
     });
   }
+
+
+  if($('.pick-up-experince-date').length){
+    $("body").on("change", ".date-start-select", function () {
+      startValue = $(this).parent().parent().parent().find('.date-start-select').children("option:selected").val();
+      endValue = $(this).parent().parent().parent().find('.date-end-select').children("option:selected").val();
+      if (endValue < startValue) {
+        alert("لابد أن يكون التاريخ ( إلى )  أكبر من التاريخ ( من )");
+        $(this).parent().parent().parent().find('.date-start-select').val(null).trigger("change");
+      }
+      // console.log()
+    });
+
+    $("body").on("change", ".date-end-select", function () {
+      startValue = $(this).parent().parent().parent().find('.date-start-select').children("option:selected").val();
+      endValue = $(this).parent().parent().parent().find('.date-end-select').children("option:selected").val();
+      if (endValue < startValue) {
+        alert("لابد أن يكون التاريخ ( إلى )  أكبر من التاريخ ( من )");
+        $(this).parent().parent().parent().find('.date-end-select').val(null).trigger("change");
+      }
+    });
+  }
+
 
   if ($("#repeater").length) {
     $("#repeater").createRepeater({
