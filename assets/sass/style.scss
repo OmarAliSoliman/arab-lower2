@@ -3361,15 +3361,18 @@ img {
 
   #repeater3 {
     position: relative;
+    .items{
+      margin-bottom: 30px;
+    }
     .repeater-add-btn {
       position: absolute;
-      bottom: 10px;
+      bottom: 80px;
       z-index: 999;
 
     }
     .remove-btn {
       position: absolute;
-      bottom: -20px;
+      bottom: -40px;
       left: 20px;
       z-index: 99;
     }
@@ -3472,18 +3475,17 @@ img {
         padding-bottom: 20px;
         margin-bottom: 20px;
       }
-      ul {
-        li {
-          color: $mainColor;
-          margin-bottom: 10px;
-          font-size: 18px;
-        }
+      h6 {
+        color: $mainColor;
+        margin-bottom: 10px;
+        font-size: 18px;
       }
     }
     .card-add-new-appointment {
       background-color: #fff;
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
       padding: 30px;
+      padding-bottom: 90px;
       .form-group {
         .form-control {
           height: 55px;

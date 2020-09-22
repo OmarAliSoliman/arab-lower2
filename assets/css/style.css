@@ -2911,14 +2911,17 @@ img {
 .ordanry-lawer-page #repeater3 {
   position: relative;
 }
+.ordanry-lawer-page #repeater3 .items {
+  margin-bottom: 30px;
+}
 .ordanry-lawer-page #repeater3 .repeater-add-btn {
   position: absolute;
-  bottom: 10px;
+  bottom: 80px;
   z-index: 999;
 }
 .ordanry-lawer-page #repeater3 .remove-btn {
   position: absolute;
-  bottom: -20px;
+  bottom: -40px;
   left: 20px;
   z-index: 99;
 }
@@ -2999,7 +3002,7 @@ img {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-.team-lower #pills-legal-service-order .card-appointment ul li {
+.team-lower #pills-legal-service-order .card-appointment h6 {
   color: #1a355b;
   margin-bottom: 10px;
   font-size: 18px;
@@ -3008,6 +3011,7 @@ img {
   background-color: #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 30px;
+  padding-bottom: 90px;
 }
 .team-lower #pills-legal-service-order .card-add-new-appointment .form-group .form-control {
   height: 55px;
