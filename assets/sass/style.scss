@@ -2376,6 +2376,10 @@ img {
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
         padding: 40px;
         padding-right: 70px;
+        .card{
+          border: 0;
+          margin-bottom: 30px;
+        }
       }
     }
 
@@ -3393,7 +3397,7 @@ img {
   .my-account-tabs {
     .nav-item {
       .nav-link {
-        margin-left: 45px;
+        margin-left: 37px;
       }
     }
   }

@@ -2028,6 +2028,10 @@ img {
   padding: 40px;
   padding-right: 70px;
 }
+.join-to-the-team-condition .condition-card .container .all-condition-cards .card {
+  border: 0;
+  margin-bottom: 30px;
+}
 .join-to-the-team-condition .condition-card h1,
 .join-to-the-team-condition .condition-card h2,
 .join-to-the-team-condition .condition-card h3,
@@ -2918,7 +2922,7 @@ img {
 }
 
 .team-lower .my-account-tabs .nav-item .nav-link {
-  margin-left: 45px;
+  margin-left: 37px;
 }
 .team-lower #pills-my-consult .dont-answer {
   background-color: #fff !important;
