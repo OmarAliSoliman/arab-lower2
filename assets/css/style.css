@@ -1896,6 +1896,10 @@ img {
   color: #fff;
   margin: 38px 0 30px 0;
 }
+.post-details .add-fav-btn.active-post i {
+  color: #d7b22c;
+  background-color: transparent !important;
+}
 .post-details .post-details-par {
   color: #999;
   font-size: 16px;

@@ -2233,6 +2233,12 @@ img {
       margin: 38px 0 30px 0;
     }
   }
+  .add-fav-btn.active-post{
+    i{
+      color: #d7b22c;
+      background-color: transparent !important;
+    }
+  }
   .post-details-par {
     color: #999;
     font-size: 16px;
@@ -5337,3 +5343,4 @@ a {
 .serv-compleate {
   background-color: $mainColor !important;
 }
+
