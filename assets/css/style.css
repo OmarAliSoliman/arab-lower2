@@ -2149,6 +2149,7 @@ img {
   width: 100px;
   padding: 5px;
   z-index: 2;
+  cursor: auto;
 }
 .free-consult .free-consult-content .department-details-search .department-details-cards .card-text {
   padding-right: 10px;
@@ -4606,6 +4607,14 @@ a {
   text-align: center;
   line-height: 30px;
   font-size: 15px !important;
+}
+
+.serv-in-progress {
+  background-color: #ccad53 !important;
+}
+
+.serv-compleate {
+  background-color: #1a355b !important;
 }
 
 /*# sourceMappingURL=style.css.map */

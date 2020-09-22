@@ -2487,6 +2487,7 @@ img {
           width: 100px;
           padding: 5px;
           z-index: 2;
+          cursor: auto;
         }
         .card-text {
           padding-right: 10px;
@@ -5321,4 +5322,12 @@ a {
       font-size: 15px !important;
     }
   }
+}
+
+.serv-in-progress{
+  background-color: $thirdColor !important;
+}
+
+.serv-compleate{
+  background-color: $mainColor!important;
 }
