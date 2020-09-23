@@ -2520,6 +2520,7 @@ img {
         }
         .consult-number {
           font-size: 14px;
+          cursor: auto;
         }
         .card-body {
           .post-info {
@@ -3397,7 +3398,7 @@ img {
   .my-account-tabs {
     .nav-item {
       .nav-link {
-        margin-left: 37px;
+        margin-left: 30px;
       }
     }
   }
@@ -5350,3 +5351,6 @@ a {
   background-color: $mainColor !important;
 }
 
+.free-consult .free-consult-content .department-details-search .department-details-cards .consult-number{
+  cursor: auto;
+}

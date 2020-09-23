@@ -2162,6 +2162,7 @@ img {
 }
 .free-consult .free-consult-content .department-details-search .department-details-cards .consult-number {
   font-size: 14px;
+  cursor: auto;
 }
 .free-consult .free-consult-content .department-details-search .department-details-cards .card-body .post-info {
   padding-right: 30px;
@@ -2922,7 +2923,7 @@ img {
 }
 
 .team-lower .my-account-tabs .nav-item .nav-link {
-  margin-left: 37px;
+  margin-left: 30px;
 }
 .team-lower #pills-my-consult .dont-answer {
   background-color: #fff !important;
@@ -4611,6 +4612,10 @@ a {
 
 .serv-compleate {
   background-color: #1a355b !important;
+}
+
+.free-consult .free-consult-content .department-details-search .department-details-cards .consult-number {
+  cursor: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
