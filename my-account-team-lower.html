@@ -1951,6 +1951,15 @@
   <script src="./assets/js/repeater.js"></script>
   <script src="./assets/js/passtrength.js"></script>
   <script src="./assets/js/main.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      if(typeof window.location.hash != "undefined" && window.location.hash == "#service_orders"){
+        $("#pills-pills-consult-order-tab").click()
+      }
+    });
+  </script>
+
 </body>
 
 </html>
