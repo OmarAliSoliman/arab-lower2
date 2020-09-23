@@ -349,4 +349,12 @@ $(document).ready(function () {
       tooltip: true,
     });
   }
+
+  $(document).ready(function () {
+    if(typeof window.location.hash != "undefined" && window.location.hash == "#service_orders"){
+      $("#pills-pills-consult-order-tab").click()
+    }
+  });
+
+
 });
