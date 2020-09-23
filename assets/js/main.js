@@ -1,6 +1,6 @@
 $(document).ready(function () {
   let startValue , endValue;
-  if ($(".joining-form").length) {
+  if ($(".pick-up-time-form").length) {
     $("body").on("change", ".time-start-select", function () {
       startValue = $(this).parent().parent().parent().find('.time-start-select').children("option:selected").val();
       endValue = $(this).parent().parent().parent().find('.time-end-select').children("option:selected").val();
@@ -22,7 +22,7 @@ $(document).ready(function () {
   }
 
 
-  if($('#repeater2').length){
+  if($('.pick-up-date-experince').length){
     $("body").on("change", ".date-start-select", function () {
       startValue = $(this).parent().parent().parent().find('.date-start-select').children("option:selected").val();
       endValue = $(this).parent().parent().parent().find('.date-end-select').children("option:selected").val();
@@ -195,7 +195,7 @@ $(document).ready(function () {
   }
 
   function mark_all_as_unread(){
-    console.log("hi");
+    
   }
 
   $(".drop-down-hover").hover(function () {
@@ -350,11 +350,11 @@ $(document).ready(function () {
     });
   }
 
+
   $(document).ready(function () {
     if(typeof window.location.hash != "undefined" && window.location.hash == "#service_orders"){
       $("#pills-pills-consult-order-tab").click()
     }
   });
-
 
 });
