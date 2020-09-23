@@ -2233,10 +2233,12 @@ img {
       margin: 38px 0 30px 0;
     }
   }
-  .add-fav-btn.active-post{
-    i{
-      color: #d7b22c;
-      background-color: transparent !important;
+  .add-fav-btn{
+    .active-post{
+      i{
+        color: #d7b22c !important;
+        background-color: transparent !important;
+      }
     }
   }
   .post-details-par {
