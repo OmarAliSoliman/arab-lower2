@@ -1,6 +1,6 @@
 $(document).ready(function () {
   let startValue , endValue;
-  if ($(".pick-up-time-form").length) {
+  if ($(".joining-form").length) {
     $("body").on("change", ".time-start-select", function () {
       startValue = $(this).parent().parent().parent().find('.time-start-select').children("option:selected").val();
       endValue = $(this).parent().parent().parent().find('.time-end-select').children("option:selected").val();
@@ -22,7 +22,7 @@ $(document).ready(function () {
   }
 
 
-  if($('.pick-up-experince-date').length){
+  if($('#repeater2').length){
     $("body").on("change", ".date-start-select", function () {
       startValue = $(this).parent().parent().parent().find('.date-start-select').children("option:selected").val();
       endValue = $(this).parent().parent().parent().find('.date-end-select').children("option:selected").val();
