@@ -194,10 +194,6 @@ $(document).ready(function () {
     });
   }
 
-  function mark_all_as_unread(){
-    
-  }
-
   $(".drop-down-hover").hover(function () {
     $(".dropdown-toggle", this).trigger("click");
   });
