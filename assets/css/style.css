@@ -2221,28 +2221,45 @@ img {
   width: 55px !important;
   height: 5px !important;
 }
-.notifaction-page .notification-cards {
-  margin-top: 60px;
+.notifaction-page .notification-li {
+  margin-top: 50px;
 }
-.notifaction-page .notification-cards .card {
+.notifaction-page .notification-li li {
   position: relative;
-  padding-bottom: 80px;
-  padding-top: 40px;
-  border: 0;
+  padding: 15px;
   border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+  padding-right: 100px;
+  padding-top: 30px;
 }
-.notifaction-page .notification-cards .card img {
+.notifaction-page .notification-li li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.notifaction-page .notification-li li img {
   width: 95px;
   height: 95px;
   border-radius: 50%;
   position: absolute;
   right: 0;
+  top: 20%;
+  transform: translate(0, -20%);
+  margin-left: 10px;
 }
-.notifaction-page .notification-cards .card .card-text {
-  margin-right: 110px;
-  margin-top: 15px;
-  line-height: 28px;
-  font-size: 18px;
+.notifaction-page .notification-li li .notification-name {
+  color: #1a355b;
+  font-size: 17px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.notifaction-page .notification-li li .name,
+.notifaction-page .notification-li li .time,
+.notifaction-page .notification-li li .type {
+  font-size: 12px;
+  color: #626262;
+}
+.notifaction-page .notification-li li:hover {
+  background-color: #f2f2f2;
 }
 
 .free-consult-details-replay .card {
