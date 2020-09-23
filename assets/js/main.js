@@ -186,7 +186,7 @@ $(document).ready(function () {
     $("#notification-span").on("click", function () {
       if (!openNotificationBody) {
         $(".notification-body").css("display", "block");
-        mark_all_as_unread();
+        window.mark_all_as_unread();
       } else {
         $(".notification-body").css("display", "none");
       }
