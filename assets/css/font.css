@@ -1,0 +1,21 @@
+@charset "UTF-8"; 
+ /* @font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/slick.eot");
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
+@font-face {
+  font-family: "Neo Sans Arabic Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Neo Sans Arabic Regular.woff");
+}
+
+
+body {
+  direction: rtl;
+  font-family: "Almarai", sans-serif !important;
+}

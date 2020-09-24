@@ -2303,7 +2303,7 @@ img {
 }
 .free-consult-details-replay .card .card-image .info p {
   font-size: 14px;
-  color: #ddd;
+  color: #b5b4b4;
   margin-top: 4px;
 }
 .free-consult-details-replay .card .card-text {
@@ -4172,6 +4172,25 @@ footer .links ul li:last-child::before {
   .pagination {
     overflow: scroll;
   }
+
+  .navbar-light .navbar-toggler {
+    background-color: #fff;
+  }
+}
+@media (max-width: 767px) {
+  .middle-header {
+    text-align: center;
+  }
+
+  .middle-header .social {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .top-header .company-email {
+    text-align: right;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 524px) {
   .top-header {
@@ -4360,6 +4379,10 @@ footer .links ul li:last-child::before {
 
   .my-account #pills-personal-info .personal-img img {
     margin: auto;
+  }
+
+  .middle-header .account-drop-down .btn {
+    overflow: auto;
   }
 }
 @media (max-width: 376px) {
@@ -4633,6 +4656,10 @@ a {
 
 .free-consult .free-consult-content .department-details-search .department-details-cards .consult-number {
   cursor: auto;
+}
+
+.middle-header .sign-up-in {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
