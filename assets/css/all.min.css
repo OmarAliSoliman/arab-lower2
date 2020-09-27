@@ -84357,10 +84357,13 @@ img {
 .my-account #pills-consult-order .consult-price .card .price,
 .my-account #pills-legal-service-order .consult-price .card .price {
   position: absolute;
+  width: auto;
   left: 20px;
+  border: 1px solid #000;
   top: 50%;
-  margin-top: 3px;
-  transform: translate(-20%, -50%);
+  /* margin-top: 3px; */
+  transform: translate(-20px, -50%);
+  /* float: left; */
   color: #ccad53;
   font-size: 24px;
 }
