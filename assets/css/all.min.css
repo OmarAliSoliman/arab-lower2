@@ -86574,3 +86574,14 @@ a {
 .details-free-consult .department-details-cards .card .card-text p:hover a {
   color: #1a355b;
 }
+
+.follwing{
+  background-color: #1a355b !important;
+  border: 1px solid #1a355b !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  color: #fff;
+  border-radius: 20px;
+}
+.follwing:hover{
+  color: #fff;
+}
