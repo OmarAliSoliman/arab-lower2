@@ -86581,6 +86581,7 @@ a {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   color: #fff;
   border-radius: 20px;
+  transition: all .5s ease;
 }
 .follwing:hover{
   color: #fff;
