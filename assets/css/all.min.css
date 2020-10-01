@@ -86586,3 +86586,22 @@ a {
 .follwing:hover{
   color: #fff;
 }
+.my-account-special-consult{
+  margin-top: 0 !important;
+}
+
+.ordanry-lawer-page .ordanry-lawer-2 .my-account-special-consult .department-details-search .department-details-cards .card .card-text::after{
+  right: 0 !important;
+  width: 91% !important;
+  bottom: -10px;
+}
+
+.ordanry-lawer-page .ordanry-lawer-2 .my-account-special-consult .department-details-search .department-details-cards .card .consult-replay-btn{
+  background-color: #ccad53;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  z-index: 2;
+}
+
