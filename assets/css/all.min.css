@@ -86605,6 +86605,15 @@ a {
   z-index: 2;
 }
 
-.ordanry-lawer-page .ordanry-lawer-2 .my-account-special-consult .department-details-search .department-details-cards .card .dont-answer{
-  
+.team-lower #pills-my-consult .pills-my-account-row #v-pills-special-consult .card .serv-compleate{
+  background-color: #1a355b !important;
+  color: #fff !important;
+  border: 1px solid #1a355b;
+}
+
+
+.team-lower #pills-my-consult .pills-my-account-row #v-pills-special-consult .card .serv-in-progress {
+  background-color: #ccad53 !important;
+  color: #fff !important;
+  border: 1px solid #ccad53;
 }
