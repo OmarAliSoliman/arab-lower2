@@ -82473,7 +82473,7 @@ img {
   transition: all 1s;
 }
 .single-serv-sidebar ul li:hover a::before {
-  content: "ïŒŠ";
+  content: "\f30a";
   font-size: 13px;
   margin-left: 5px;
 }
@@ -86579,7 +86579,7 @@ a {
   background-color: #1a355b !important;
   border: 1px solid #1a355b !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #fff !important;
   border-radius: 20px;
   transition: all .5s ease;
 }
@@ -86613,6 +86613,19 @@ a {
 
 
 .team-lower #pills-my-consult .pills-my-account-row #v-pills-special-consult .card .serv-in-progress {
+  background-color: #ccad53 !important;
+  color: #fff !important;
+  border: 1px solid #ccad53;
+}
+
+.team-lower #pills-my-consult .pills-my-account-row #v-pills-free-consult .card .serv-compleate{
+  background-color: #1a355b !important;
+  color: #fff !important;
+  border: 1px solid #1a355b;
+}
+
+
+.team-lower #pills-my-consult .pills-my-account-row #v-pills-free-consult .card .serv-in-progress {
   background-color: #ccad53 !important;
   color: #fff !important;
   border: 1px solid #ccad53;
