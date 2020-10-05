@@ -86642,6 +86642,14 @@ a {
   margin-bottom: 10px;
 }
 
+.online-consult .online-consult-cards .modal-times-of-work  .modal-dialog .modal-header .modal-title{
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .online-consult .online-consult-cards .modal-times-of-work  .modal-dialog{
   width: 350px;
 }
@@ -86649,6 +86657,10 @@ a {
 .online-consult .online-consult-cards .modal-times-of-work .modal-header .close{
   position: absolute;
   right: 0;
+}
+
+.online-consult .online-consult-cards .modal-times-of-work .modal-header .close:focus{
+  outline: 0 !important;
 }
 
 .online-consult .online-consult-cards .modal-times-of-work .modal-body ul li{
