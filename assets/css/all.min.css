@@ -86630,3 +86630,44 @@ a {
   color: #fff !important;
   border: 1px solid #ccad53;
 }
+
+
+.times-btn-modal:focus{
+  outline: 0 !important;
+}
+
+.online-consult .online-consult-cards .modal-times-of-work  .modal-dialog .modal-header{
+  border-bottom: 0 !important;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.online-consult .online-consult-cards .modal-times-of-work  .modal-dialog{
+  width: 350px;
+}
+
+.online-consult .online-consult-cards .modal-times-of-work .modal-header .close{
+  position: absolute;
+  right: 0;
+}
+
+.online-consult .online-consult-cards .modal-times-of-work .modal-body ul li{
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.online-consult .online-consult-cards .modal-times-of-work .modal-body .the-day{
+  font-weight: bold;
+}
+
+.online-consult .online-consult-cards .modal-times-of-work .modal-body .the-time{
+  float: left;
+  color: #888;
+}
+
+@media(max-width: 800px){
+  .online-consult .online-consult-cards .modal-times-of-work  .modal-dialog{
+    width: auto;
+  }
+}
