@@ -2,8 +2,8 @@ $(document).ready(function () {
   let startValue , endValue;
   if ($(".pick-up-time-form").length) {
     $("body").on("change", ".time-start-select", function () {
-      startValue = $(this).parent().parent().parent().find('.time-start-select').children("option:selected").val();
-      endValue = $(this).parent().parent().parent().find('.time-end-select').children("option:selected").val();
+      startValue = parseInt($(this).parent().parent().parent().find('.time-start-select').children("option:selected").val());
+      endValue = parseInt($(this).parent().parent().parent().find('.time-end-select').children("option:selected").val());
       if (endValue <= startValue) {
         alert("لابد أن يكون الساعة ( إلى )  أكبر من الساعة ( من )");
         $(this).parent().parent().parent().find('.time-start-select').val(null).trigger("change");
@@ -12,8 +12,8 @@ $(document).ready(function () {
     });
 
     $("body").on("change", ".time-end-select", function () {
-      startValue = $(this).parent().parent().parent().find('.time-start-select').children("option:selected").val();
-      endValue = $(this).parent().parent().parent().find('.time-end-select').children("option:selected").val();
+      startValue = parseInt($(this).parent().parent().parent().find('.time-start-select').children("option:selected").val());
+      endValue = parseInt($(this).parent().parent().parent().find('.time-end-select').children("option:selected").val());
       if (endValue <= startValue) {
         alert("لابد أن يكون الساعة ( إلى )  أكبر من الساعة ( من )");
         $(this).parent().parent().parent().find('.time-end-select').val(null).trigger("change");
@@ -24,8 +24,8 @@ $(document).ready(function () {
 
   if($('.pick-up-date-experince').length){
     $("body").on("change", ".date-start-select", function () {
-      startValue = $(this).parent().parent().parent().find('.date-start-select').children("option:selected").val();
-      endValue = $(this).parent().parent().parent().find('.date-end-select').children("option:selected").val();
+      startValue = parseInt($(this).parent().parent().parent().find('.date-start-select').children("option:selected").val());
+      endValue = parseInt($(this).parent().parent().parent().find('.date-end-select').children("option:selected").val());
       if (endValue < startValue) {
         alert("لابد أن يكون التاريخ ( إلى )  أكبر من التاريخ ( من )");
         $(this).parent().parent().parent().find('.date-start-select').val(null).trigger("change");
@@ -34,8 +34,8 @@ $(document).ready(function () {
     });
 
     $("body").on("change", ".date-end-select", function () {
-      startValue = $(this).parent().parent().parent().find('.date-start-select').children("option:selected").val();
-      endValue = $(this).parent().parent().parent().find('.date-end-select').children("option:selected").val();
+      startValue = parseInt($(this).parent().parent().parent().find('.date-start-select').children("option:selected").val());
+      endValue = parseInt($(this).parent().parent().parent().find('.date-end-select').children("option:selected").val());
       if (endValue < startValue) {
         alert("لابد أن يكون التاريخ ( إلى )  أكبر من التاريخ ( من )");
         $(this).parent().parent().parent().find('.date-end-select').val(null).trigger("change");
