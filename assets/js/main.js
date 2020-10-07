@@ -1,48 +1,134 @@
 $(document).ready(function () {
-  let startValue , endValue;
+  let startValue, endValue;
   if ($(".pick-up-time-form").length) {
     $("body").on("change", ".time-start-select", function () {
-      startValue = parseInt($(this).parent().parent().parent().find('.time-start-select').children("option:selected").val());
-      endValue = parseInt($(this).parent().parent().parent().find('.time-end-select').children("option:selected").val());
+      startValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".time-start-select")
+          .children("option:selected")
+          .val()
+      );
+      endValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".time-end-select")
+          .children("option:selected")
+          .val()
+      );
       if (endValue <= startValue) {
         alert("لابد أن يكون الساعة ( إلى )  أكبر من الساعة ( من )");
-        $(this).parent().parent().parent().find('.time-start-select').val(null).trigger("change");
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".time-start-select")
+          .val(null)
+          .trigger("change");
       }
       // console.log()
     });
 
     $("body").on("change", ".time-end-select", function () {
-      startValue = parseInt($(this).parent().parent().parent().find('.time-start-select').children("option:selected").val());
-      endValue = parseInt($(this).parent().parent().parent().find('.time-end-select').children("option:selected").val());
+      startValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".time-start-select")
+          .children("option:selected")
+          .val()
+      );
+      endValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".time-end-select")
+          .children("option:selected")
+          .val()
+      );
       if (endValue <= startValue) {
         alert("لابد أن يكون الساعة ( إلى )  أكبر من الساعة ( من )");
-        $(this).parent().parent().parent().find('.time-end-select').val(null).trigger("change");
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".time-end-select")
+          .val(null)
+          .trigger("change");
       }
     });
   }
 
-
-  if($('.pick-up-date-experince').length){
+  if ($(".pick-up-date-experince").length) {
     $("body").on("change", ".date-start-select", function () {
-      startValue = parseInt($(this).parent().parent().parent().find('.date-start-select').children("option:selected").val());
-      endValue = parseInt($(this).parent().parent().parent().find('.date-end-select').children("option:selected").val());
+      startValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".date-start-select")
+          .children("option:selected")
+          .val()
+      );
+      endValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".date-end-select")
+          .children("option:selected")
+          .val()
+      );
       if (endValue < startValue) {
         alert("لابد أن يكون التاريخ ( إلى )  أكبر من التاريخ ( من )");
-        $(this).parent().parent().parent().find('.date-start-select').val(null).trigger("change");
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".date-start-select")
+          .val(null)
+          .trigger("change");
       }
       // console.log()
     });
 
     $("body").on("change", ".date-end-select", function () {
-      startValue = parseInt($(this).parent().parent().parent().find('.date-start-select').children("option:selected").val());
-      endValue = parseInt($(this).parent().parent().parent().find('.date-end-select').children("option:selected").val());
+      startValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".date-start-select")
+          .children("option:selected")
+          .val()
+      );
+      endValue = parseInt(
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".date-end-select")
+          .children("option:selected")
+          .val()
+      );
       if (endValue < startValue) {
         alert("لابد أن يكون التاريخ ( إلى )  أكبر من التاريخ ( من )");
-        $(this).parent().parent().parent().find('.date-end-select').val(null).trigger("change");
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .find(".date-end-select")
+          .val(null)
+          .trigger("change");
       }
     });
   }
-
 
   if ($("#repeater").length) {
     $("#repeater").createRepeater({
@@ -312,11 +398,19 @@ $(document).ready(function () {
     });
   }
 
-  if ($("#countdown").length) {
+  // if ($("#countdown").length) {
+  //   $("#countdown").timeTo(3600, function () {
+  //     alert("Countdown finished");
+  //   });
+  // }
+
+  function videoTimeStart() {
     $("#countdown").timeTo(3600, function () {
-      alert("Countdown finished");
+      window.videoTimeEnd();
     });
   }
+
+  videoTimeStart();
 
   if ($(".select-form-control").length) {
     $(".select-form-control").select2({
@@ -346,11 +440,12 @@ $(document).ready(function () {
     });
   }
 
-
   $(document).ready(function () {
-    if(typeof window.location.hash != "undefined" && window.location.hash == "#service_orders"){
-      $("#pills-pills-consult-order-tab").click()
+    if (
+      typeof window.location.hash != "undefined" &&
+      window.location.hash == "#service_orders"
+    ) {
+      $("#pills-pills-consult-order-tab").click();
     }
   });
-
 });
