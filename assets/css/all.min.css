@@ -81509,12 +81509,13 @@ img {
   display: none;
 }
 #countdown {
-  position: absolute;
+  /* position: absolute; */
   color: #fff;
   bottom: 19%;
   z-index: 4;
-  left: 50%;
-  transform: translate(-50%, 0);
+  /* left: 50%; */
+  float: right;
+  /* transform: translate(-50%, 0); */
   direction: ltr;
 }
 #countdown div {
@@ -81523,6 +81524,7 @@ img {
 }
 #countdown .first {
   border: 0;
+  margin: 0 !important;
 }
 .container {
   max-width: 1140px;
