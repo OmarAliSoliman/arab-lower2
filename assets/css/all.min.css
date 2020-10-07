@@ -81511,10 +81511,10 @@ img {
 #countdown {
   /* position: absolute; */
   color: #fff;
-  bottom: 19%;
+  /* bottom: 19%; */
   z-index: 4;
   /* left: 50%; */
-  float: right;
+  /* float: right; */
   /* transform: translate(-50%, 0); */
   direction: ltr;
 }
