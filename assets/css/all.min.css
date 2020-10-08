@@ -84650,7 +84650,7 @@ img {
   position: relative;
 }
 .my-account #pills-legal-service .nav-pills .active::after {
-  content: "ï“";
+  content: "\f104";
   position: absolute;
   left: 10px;
   color: #ccad53;
