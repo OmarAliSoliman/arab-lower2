@@ -81990,7 +81990,8 @@ img {
 .posts .card .post-content {
   position: absolute;
   bottom: 20px;
-  left: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
   color: #fff;
   padding-top: 30px;
   transition: all 0.5s;
@@ -82003,7 +82004,8 @@ img {
   bottom: 100% !important;
   width: 50px !important;
   height: 5px !important;
-  right: 30% !important;
+  left: 50% !important;
+  transform: translate(-50%, 0);
   background-color: #fff !important;
 }
 .posts .card .overlay {
@@ -82020,8 +82022,9 @@ img {
 }
 .posts .card .overlay .overlay-content {
   position: absolute;
-  top: 36%;
-  left: 23%;
+  top: 50%;
+  left: 40%;
+  transform: translate(-40%, -50%);
   color: #fff;
   padding-top: 30px;
 }
@@ -82033,7 +82036,8 @@ img {
   bottom: 100% !important;
   width: 50px !important;
   height: 5px !important;
-  right: 30% !important;
+  left: 50%;
+  transform: translate(-50%, 0);
   background-color: #fff !important;
 }
 .posts .card:hover .post-content {
@@ -86075,9 +86079,10 @@ footer .links ul li:last-child::before {
   }
   .posts .card .overlay .overlay-content {
     position: absolute;
-    top: 38%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
     color: #fff;
+    transform: translate(-50%, -50%);
     padding-top: 30px;
   }
   .section-header::after {
