@@ -85150,6 +85150,7 @@ img {
   position: relative;
   padding-bottom: 40px;
   display: inline-block;
+  max-width: 85%;
 }
 .lower-page .legal-post-slider .legal-post-slider-content span::after {
   right: 1%;
@@ -85167,7 +85168,7 @@ img {
 }
 .lower-page .legal-post-slider .slick-prev {
   left: 5%;
-  top: -15%;
+  top: -12%;
   z-index: 99;
 }
 .lower-page .legal-post-slider .slick-prev::before {
@@ -85177,7 +85178,7 @@ img {
 }
 .lower-page .legal-post-slider .slick-next {
   right: 88%;
-  top: -15%;
+  top: -12%;
 }
 .lower-page .legal-post-slider .slick-next::before {
   content: "\f138";
