@@ -84206,6 +84206,7 @@ img {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 45px;
+  color: #fff !important;
 }
 .video-call .video-call-pic .card-image-call {
   height: 295px;
