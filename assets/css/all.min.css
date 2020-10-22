@@ -4560,8 +4560,15 @@ input[type="submit"].btn-block {
   bottom: 0;
   z-index: 3;
   display: block;
+  content: "\f0c6" !important;
+  background-color: transparent !important;
+  height: calc(1.5em + 0.75rem + 20px) !important;
+  line-height: 35px !important;
+  color: #b31633 !important;
   /* height: calc(1.5em + 0.75rem); */
   padding: 0.375rem 0.75rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   /* line-height: 1.5; */
   /* color: #495057; */
   /* content: "Browse"; */
@@ -86640,6 +86647,25 @@ a {
   border: 1px solid #ccad53;
 }
 
+.my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .serv-compleate{
+  background-color: #1a355b !important;
+  color: #fff !important;
+  border: 1px solid #1a355b;
+}
+
+
+.my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .serv-in-progress {
+  background-color: #ccad53 !important;
+  color: #fff !important;
+  border: 1px solid #ccad53;
+}
+
+.my-account #pills-my-consult #v-pills-online-consult .department-details-search .department-details-cards .card .dont-answer-2 {
+  background-color: #fff !important;
+  color: #1a355b !important;
+  border: 1px solid #1a355b !important;
+}
+
 
 .times-btn-modal:focus{
   outline: 0 !important;
@@ -86729,6 +86755,6 @@ a {
 }
 
 .custom-file .error{
-  position: absolute;
-  bottom: -50px;
+  position: absolute !important;
+  bottom: -50px !important;
 }
