@@ -86727,3 +86727,8 @@ a {
     max-width: 250% !important;
   }
 }
+
+.custom-file .error{
+  position: absolute;
+  bottom: -50px;
+}
