@@ -4533,7 +4533,7 @@ input[type="submit"].btn-block {
   background-color: #e9ecef;
 }
 .custom-file-input:lang(en) ~ .custom-file-label::after {
-  content: "Browse";
+  /* content: "Browse"; */
 }
 .custom-file-input ~ .custom-file-label[data-browse]::after {
   content: attr(data-browse);
@@ -4560,14 +4560,14 @@ input[type="submit"].btn-block {
   bottom: 0;
   z-index: 3;
   display: block;
-  height: calc(1.5em + 0.75rem);
+  /* height: calc(1.5em + 0.75rem); */
   padding: 0.375rem 0.75rem;
-  line-height: 1.5;
-  color: #495057;
-  content: "Browse";
-  background-color: #e9ecef;
-  border-right: inherit;
-  border-radius: 0.25rem 0 0 0.25rem;
+  /* line-height: 1.5; */
+  /* color: #495057; */
+  /* content: "Browse"; */
+  /* background-color: #e9ecef; */
+  /* border-right: inherit; */
+  /* border-radius: 0.25rem 0 0 0.25rem; */
 }
 .custom-range {
   width: 100%;
@@ -82929,10 +82929,10 @@ img {
   .consult-order-form
   .custom-file-input:lang(en)
   ~ .custom-file-label::after {
-  content: "\f0c6";
-  background-color: transparent;
-  height: calc(1.5em + 0.75rem + 20px);
-  line-height: 35px;
+  content: "\f0c6" !important;
+  background-color: transparent !important;
+  height: calc(1.5em + 0.75rem + 20px) !important;
+  line-height: 35px !important;
 }
 .consult-order-content
   .consult-order-form
@@ -84719,11 +84719,11 @@ img {
   .ordanry-lawer
   .custom-file-input:lang(en)
   ~ .custom-file-label::after {
-  content: "\f0c6";
-  background-color: transparent;
-  height: calc(1.5em + 0.75rem + 30px);
-  line-height: 45px;
-  color: #b31633;
+  content: "\f0c6" !important;
+  background-color: transparent !important;
+  height: calc(1.5em + 0.75rem + 30px) !important;
+  line-height: 45px !important;
+  color: #b31633 !important;
 }
 .ordanry-lawer-page
   .ordanry-lawer
@@ -85367,11 +85367,11 @@ img {
   .new-account-form
   .custom-file-input:lang(en)
   ~ .custom-file-label::after {
-  content: "\f0c6";
-  background-color: transparent;
-  height: calc(1.5em + 0.75rem + 20px);
-  line-height: 35px;
-  color: #b31633;
+  content: "\f0c6" !important;
+  background-color: transparent !important;
+  height: calc(1.5em + 0.75rem + 20px) !important;
+  line-height: 35px !important;
+  color: #b31633 !important;
 }
 .new-account-page
   .new-account-form
