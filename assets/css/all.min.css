@@ -82386,13 +82386,15 @@ img {
     url("../images/goa;.png");
   background-size: cover;
   background-position: center;
-  height: 390px;
+  height: auto;
   margin-top: 60px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .about-arab-lower .goals .container {
   border: 1px solid #fff;
   border-radius: 10px;
+  padding-bottom: 40px;
 }
 .about-arab-lower .goals .card {
   background-color: transparent;
