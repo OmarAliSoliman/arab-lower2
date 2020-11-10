@@ -81585,11 +81585,23 @@ img {
   width: 233px;
 }
 .top-header .company-email {
-  text-align: left;
+  text-align: center;
   color: #1a355b;
   font-size: 14px;
   margin-top: 10px;
 }
+
+.top-header .contact-us-top{
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.top-header .contact-us-top i{
+  color: #1a355b;
+  font-size: 13px;
+}
+
 .top-header .notification {
   margin-top: 6px;
   margin-right: 20px;
