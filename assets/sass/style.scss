@@ -323,51 +323,50 @@ img {
     }
   }
 
-  // .account-card {
-  //   margin-top: 40px;
-  //   border-radius: 0;
-  //   border: 0;
-  //   text-decoration: none;
-  //   .row {
-  //     margin: 0;
-  //     padding: 0;
-  //     .col-lg-3,
-  //     .col-lg-9 {
-  //       padding: 0;
-  //       margin: 0;
-  //     }
-  //   }
-  //   .card-image {
-  //     img {
-  //       width: 50px;
-  //       height: 40px;
-  //       border-radius: 50%;
-  //     }
-  //   }
-  //   .card-body {
-  //     padding: 0;
-  //     padding-right: 6px;
-  //     a{
-  //       text-decoration: none;
-  //     }
-  //     p {
-  //       margin: 0;
-  //       font-size: 16px;
-  //       color: $mainColor;
-  //     }
-  //     .my-account {
-  //       font-size: 14px;
-  //       color: #888;
-  //       color: #888;
-  //       display: block;
-  //       margin-top: -1px;
-  //     }
-  //     .log-out{
-  //       color: $secondColor;
-  //       font-size: 14px;
-  //     }
-  //   }
-  // }
+  .account-card {
+    margin-top: 40px;
+    border-radius: 0;
+    border: 0;
+    text-decoration: none;
+    .card {
+      position: relative;
+      padding-right: 70px;
+      border: 0;
+      background-color: transparent;
+    }
+    .card-img {
+      background-position: center;
+      background-size: cover;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      right: 0;
+    }
+    .card-body {
+      padding-right: 0;
+      padding-top: 10px;
+      .card-title,
+      .card-text {
+        margin: 0;
+      }
+      .card-title {
+        margin-bottom: 5px;
+      }
+      .card-text {
+        color: rgb(148, 147, 147);
+        font-size: 14px;
+        border-right: 1px solid #999;
+      }
+      .my-account-link {
+        border-right: 0 !important;
+      }
+      .my-account-log-out {
+        padding-right: 5px;
+        color: #b31633;
+      }
+    }
+  }
 
   .account-drop-down {
     display: inline-block;
@@ -2233,9 +2232,9 @@ img {
       margin: 38px 0 30px 0;
     }
   }
-  .add-fav-btn{
-    .active-post{
-      i{
+  .add-fav-btn {
+    .active-post {
+      i {
         color: #d7b22c !important;
         background-color: transparent !important;
       }
@@ -2378,7 +2377,7 @@ img {
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
         padding: 40px;
         padding-right: 70px;
-        .card{
+        .card {
           border: 0;
           margin-bottom: 30px;
         }
@@ -2597,17 +2596,17 @@ img {
       height: 5px !important;
     }
   }
-  .notification-li{
+  .notification-li {
     margin-top: 50px;
-    li{
+    li {
       position: relative;
       padding: 15px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 40px;
       padding-right: 100px;
       padding-top: 30px;
-      a{
-        &:hover{
+      a {
+        &:hover {
           color: #000;
           text-decoration: none;
         }
@@ -4803,20 +4802,20 @@ footer {
   .pagination {
     overflow: scroll;
   }
-  .navbar-light .navbar-toggler{
+  .navbar-light .navbar-toggler {
     background-color: #fff;
   }
 }
 
-@media(max-width: 767px){
-  .middle-header{
+@media (max-width: 767px) {
+  .middle-header {
     text-align: center;
   }
-  .middle-header .social{
+  .middle-header .social {
     margin-top: 0;
     margin-bottom: 20px;
   }
-  .top-header .company-email{
+  .top-header .company-email {
     text-align: right;
     margin-bottom: 20px;
   }
@@ -5067,8 +5066,11 @@ footer {
   .my-account #pills-personal-info .personal-img img {
     margin: auto;
   }
-  .middle-header .account-drop-down .btn{
+  .middle-header .account-drop-down .btn {
     overflow: auto;
+  }
+  .account-card .card{
+    text-align: right;
   }
 }
 
@@ -5393,10 +5395,14 @@ a {
   background-color: $mainColor !important;
 }
 
-.free-consult .free-consult-content .department-details-search .department-details-cards .consult-number{
+.free-consult
+  .free-consult-content
+  .department-details-search
+  .department-details-cards
+  .consult-number {
   cursor: auto;
 }
 
-.middle-header .sign-up-in{
+.middle-header .sign-up-in {
   text-align: center;
 }

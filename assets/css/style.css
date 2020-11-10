@@ -290,6 +290,50 @@ img {
   font-size: 14px;
   margin-top: 10px;
 }
+.middle-header .account-card {
+  margin-top: 40px;
+  border-radius: 0;
+  border: 0;
+  text-decoration: none;
+}
+.middle-header .account-card .card {
+  position: relative;
+  padding-right: 70px;
+  border: 0;
+  background-color: transparent;
+}
+.middle-header .account-card .card-img {
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.middle-header .account-card .card-body {
+  padding-right: 0;
+  padding-top: 10px;
+}
+.middle-header .account-card .card-body .card-title,
+.middle-header .account-card .card-body .card-text {
+  margin: 0;
+}
+.middle-header .account-card .card-body .card-title {
+  margin-bottom: 5px;
+}
+.middle-header .account-card .card-body .card-text {
+  color: #949393;
+  font-size: 14px;
+  border-right: 1px solid #999;
+}
+.middle-header .account-card .card-body .my-account-link {
+  border-right: 0 !important;
+}
+.middle-header .account-card .card-body .my-account-log-out {
+  padding-right: 5px;
+  color: #b31633;
+}
 .middle-header .account-drop-down {
   display: inline-block;
   margin-top: 50px;
@@ -4383,6 +4427,10 @@ footer .links ul li:last-child::before {
 
   .middle-header .account-drop-down .btn {
     overflow: auto;
+  }
+
+  .account-card .card {
+    text-align: right;
   }
 }
 @media (max-width: 376px) {
