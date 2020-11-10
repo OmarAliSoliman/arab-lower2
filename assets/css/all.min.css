@@ -83448,6 +83448,8 @@ img {
 .add-legal-post .note {
   padding-top: 40px;
 }
+
+
 .work-team .work-team-content .work-team-cards .card {
   background-color: #f5f5f5;
 }
@@ -83476,6 +83478,18 @@ img {
   color: #ccad53;
   margin-top: 10px;
 }
+
+
+.work-team .work-page-title:after{
+  display: none;
+  padding-bottom: 0 !important;
+}
+.work-team .country-name{
+  font-size: 20px !important;
+  padding-top: 0 !important;
+  margin-top: -20px;
+}
+
 .post-details {
   margin-bottom: 60px;
 }
