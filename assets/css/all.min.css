@@ -82423,6 +82423,9 @@ img {
   color: #888;
   position: relative;
   padding-top: 40px;
+  /* font-weight: bold; */
+  font-size: 30px;
+  margin-bottom: 5px;
 }
 .about-arab-lower .why .why-header h6::after {
   background-color: #ccad53 !important;
