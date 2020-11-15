@@ -86852,3 +86852,11 @@ body {
 	user-select: none;			/* Non-prefixed version,
 								  currently supported by Chrome and Opera */
 }
+
+.free-consult-modal-order .close{
+  float: right;
+}
+
+.free-consult-modal-order .modal-body h5{
+  font-size: 20px;
+}
