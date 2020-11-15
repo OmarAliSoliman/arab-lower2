@@ -86784,6 +86784,32 @@ a {
     width: 150%;
     max-width: 150% !important;
   }
+  .top-header .company-email{
+    text-align: center;
+    /* margin-bottom: 20px; */
+  }
+}
+
+@media(max-width: 767px){
+  .top-header {
+    text-align: center;
+  }
+  .top-header .company-email {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .top-header .lang .dropdown .dropdown-menu {
+    width: 209px;
+  }
+  .top-header .notification {
+    margin-top: 20px;
+  }
+  .top-header .notification-number {
+    right: 40% !important;
+  }
+  .middle-header .account-card .card-body{
+    text-align: right;
+  }
 }
 
 @media(max-width: 524px){
@@ -86793,6 +86819,12 @@ a {
   .header-slider .item-slider-video video {
     width: 250%;
     max-width: 250% !important;
+  }
+  .top-header .notification{
+    margin-top: 0 !important;
+  }
+  .top-header .notification-number {
+    right: 30% !important;
   }
 }
 
