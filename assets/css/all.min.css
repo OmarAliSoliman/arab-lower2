@@ -86860,3 +86860,12 @@ body {
 .free-consult-modal-order .modal-body h5{
   font-size: 20px;
 }
+
+.pdf-viewer{
+  /* padding: 30px; */
+  /* margin: 20px; */
+}
+
+.pdf-viewer .pdf-viewer-iframe{
+    height: 800px;
+}
