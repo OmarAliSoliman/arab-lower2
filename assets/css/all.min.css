@@ -81767,6 +81767,7 @@ img {
 }
 .middle-header .account-card .card-body .card-title {
   margin-bottom: 5px;
+  font-weight: bold;
 }
 .middle-header .account-card .card-body .card-text {
   color: #949393;
@@ -86788,6 +86789,9 @@ a {
     text-align: center;
     /* margin-bottom: 20px; */
   }
+  .middle-header .account-card .card-body{
+    text-align: right;
+  }
 }
 
 @media(max-width: 767px){
@@ -86807,8 +86811,13 @@ a {
   .top-header .notification-number {
     right: 40% !important;
   }
+  .middle-header .account-card .card{
+    border: 1px solid #000;
+    width: 50%;
+    margin: auto;
+  }
   .middle-header .account-card .card-body{
-    text-align: right;
+    /* text-align: right; */
   }
 }
 
@@ -86825,6 +86834,10 @@ a {
   }
   .top-header .notification-number {
     right: 30% !important;
+  }
+  .middle-header .account-card .card{
+    border: 1px solid #000;
+    width: 100%;
   }
 }
 
