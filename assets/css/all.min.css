@@ -81734,6 +81734,7 @@ img {
   margin: 0;
   font-size: 14px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 .middle-header .account-card {
@@ -81767,7 +81768,6 @@ img {
 }
 .middle-header .account-card .card-body .card-title {
   margin-bottom: 5px;
-  font-weight: bold;
 }
 .middle-header .account-card .card-body .card-text {
   color: #949393;
