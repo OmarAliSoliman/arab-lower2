@@ -86864,8 +86864,29 @@ body {
 .pdf-viewer{
   /* padding: 30px; */
   /* margin: 20px; */
+  background-color: #F1F1F1;
+  padding: 80px;
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+  margin-bottom: 90px;
 }
 
-.pdf-viewer .pdf-viewer-iframe{
+.pdf-viewer .pdf-viewr-iframe{
     height: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+.pdf-header{
+  font-size: 32px;
+  margin: 70px 0;
+  text-align: center;
+}
+
+@media(max-width: 800px){
+  .pdf-viewer{
+    padding: 20px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 }

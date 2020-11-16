@@ -404,13 +404,13 @@ $(document).ready(function () {
   //   });
   // }
 
-  function videoTimeStart() {
-    $("#countdown").timeTo(3600, function () {
-      window.videoTimeEnd();
-    });
-  }
+  // function videoTimeStart() {
+  //   $("#countdown").timeTo(3600, function () {
+  //     window.videoTimeEnd();
+  //   });
+  // }
 
-  videoTimeStart();
+  // videoTimeStart();
 
   if ($(".select-form-control").length) {
     $(".select-form-control").select2({
@@ -449,3 +449,9 @@ $(document).ready(function () {
     }
   });
 });
+
+// $(document).ready(function () {
+//   $('#iframe').load(function(){
+//     $('#iframe').contents().find("#toolbarViewerRight").hide();
+//   }); 
+// });
