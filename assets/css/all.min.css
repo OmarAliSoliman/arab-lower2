@@ -86883,6 +86883,10 @@ body {
   text-align: center;
 }
 
+.pdf-info{
+  font-size: 20px;
+}
+
 @media(max-width: 800px){
   .pdf-viewer{
     padding: 20px;
