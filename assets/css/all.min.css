@@ -86878,9 +86878,12 @@ body {
 }
 
 .pdf-header{
-  font-size: 32px;
-  margin: 70px 0;
+  margin: 50px 0;
   text-align: center;
+}
+
+.pdf-header h5{
+  font-size: 32px;
 }
 
 .pdf-info{
