@@ -86916,8 +86916,16 @@ body {
   margin-top: 10px;
 }
 
+.personla-img-max-note{
+  margin-right: -50px !important;
+  margin-top: 30px;
+}
+
 @media(max-width: 524px){
   .personal-img .custome-file-validation-name, .personal-img .custome-file-validation-delete{
     margin-right: 0px;
+  }
+  .personla-img-max-note{
+    margin-right: 0;
   }
 }
