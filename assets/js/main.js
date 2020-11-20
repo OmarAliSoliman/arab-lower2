@@ -356,6 +356,24 @@ if($('.custome-file-validation').length){
 }
 
 
+if($('.personal-img-validation').length){
+  $('body').on('click', '.custome-file-validation-delete', function(e){
+    $(this).siblings('span').text("");
+    $(this).css("display", "none");
+    $(this).parent().find('.custome-file-validation').val("");
+    e.preventDefault();
+  })
+}
+
+if($('.personal-img-validation').length){
+  $('body').on('change', '.personal-img-validation', function(e){
+    var fileName = e.target.files[0].name;
+    $(this).parent().parent().find('.custome-file-validation-name').css("display", "block");
+    $(this).parent().parent().find('.custome-file-validation-name').text(fileName);
+    $(this).parent().parent().find('.custome-file-validation-delete').css("display", "inline-block");
+  })
+}
+
 
 
 // if ($(".max-file-upload").length) {

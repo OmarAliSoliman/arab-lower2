@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css" />
+  <!-- <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css" /> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-  <link rel="stylesheet" href="./assets/css/slick.css" />
+  <!-- <link rel="stylesheet" href="./assets/css/slick.css" />
   <link rel="stylesheet" href="./assets/css/slick-theme.css" />
   <link rel="stylesheet" href="./assets/css/select2.min.css">
   <link rel="stylesheet" href="./assets/css/style-tailwind.css">
-  <link rel="stylesheet" href="./assets/css/passtrength.css">
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/passtrength.css"> -->
+  <link rel="stylesheet" href="./assets/css/all.min.css" />
   <title>Document</title>
 </head>
 
@@ -166,8 +166,10 @@
             <img src="./assets/images/cons1.png" alt="">
             <div class="upload-btn-wrapper">
               <button class="btn">تعديل الصورة الشخصية</button>
-              <input type="file" name="myfile" />
+              <input type="file" class="personal-img-validation" name="myfile" />
             </div>
+            <span id="custom-id-pic-name" class="custome-file-validation-name"></span>
+            <a href="" id="custom-id-pic-delete" class="custome-file-validation-delete">حذف</a>
           </div>
           <form action="" class="personal-form">
             <div class="row">
@@ -231,8 +233,8 @@
                   <label for="exampleFormControlSelect1"></label>
                   <div class="input-group">
                     <div class="custom-file">
-                      <input type="file" class="custom-file-input custom-id-pic custome-file-validation" id="inputGroupFile01"
-                        aria-describedby="inputGroupFileAddon01">
+                      <input type="file" class="custom-file-input custom-id-pic custome-file-validation"
+                        id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
                       <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الهويه الوطنيه</label>
                     </div>
                   </div>
@@ -245,8 +247,8 @@
                   <label for="exampleFormControlSelect1"></label>
                   <div class="input-group">
                     <div class="custom-file">
-                      <input type="file" class="custom-file-input custome-file-validation custom-license" id="inputGroupFile01"
-                        aria-describedby="inputGroupFileAddon01">
+                      <input type="file" class="custom-file-input custome-file-validation custom-license"
+                        id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
                       <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الترخيص / الكارنيه </label>
                     </div>
                   </div>
@@ -290,7 +292,8 @@
                           <label for="exampleFormControlSelect1"></label>
                           <div class="input-group">
                             <div class="custom-file">
-                              <input type="file" name="" data-name="file" class="custom-file-input custome-file-validation custom-cirtificate"
+                              <input type="file" name="" data-name="file"
+                                class="custom-file-input custome-file-validation custom-cirtificate"
                                 id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
                               <label class="custom-file-label" for="inputGroupFile01">ارفاق صوره الشهادة</label>
                             </div>
@@ -330,9 +333,9 @@
                       <div class="col-sm-12 col-md-6 col-lg-2">
                         <div class="form-group">
                           <label for="exampleFormControlSelect1">تاريخ البداية</label>
-                          <select class="form-control select-form-control date-start-select" name="" data-name="start-year"
-                            id="exampleFormControlSelect1">
-                            <option  selected>اختر تاريخ</option>
+                          <select class="form-control select-form-control date-start-select" name=""
+                            data-name="start-year" id="exampleFormControlSelect1">
+                            <option selected>اختر تاريخ</option>
                             <option value="2011">2011</option>
                             <option value="2012">2012</option>
                             <option value="2013">2013</option>
@@ -346,7 +349,7 @@
                           <label for="exampleFormControlSelect1">تاريخ نهاية العمل</label>
                           <select class="form-control select-form-control date-end-select" data-name="end-year"
                             id="exampleFormControlSelect1">
-                            <option  selected>اختر تاريخ</option>
+                            <option selected>اختر تاريخ</option>
                             <option value="2011">2011</option>
                             <option value="2012">2012</option>
                             <option value="2013">2013</option>
