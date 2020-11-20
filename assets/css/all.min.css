@@ -86897,3 +86897,8 @@ body {
     padding-right: 10px !important;
   }
 }
+
+.custome-file-validation-name, 
+.custome-file-validation-delete{
+  display: none;
+}
