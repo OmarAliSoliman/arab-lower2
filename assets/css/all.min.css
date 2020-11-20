@@ -86911,6 +86911,11 @@ body {
   margin-right: -50px !important;
 }
 
+.max-note{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
 @media(max-width: 524px){
   .personal-img .custome-file-validation-name, .personal-img .custome-file-validation-delete{
     margin-right: 0px;

@@ -361,6 +361,7 @@ if($('.personal-img-validation').length){
     $(this).siblings('span').text("");
     $(this).css("display", "none");
     $(this).parent().find('.custome-file-validation').val("");
+    $(this).parent().append("<h6 class='max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
     e.preventDefault();
   })
 }
@@ -376,17 +377,24 @@ if($('.personal-img-validation').length){
 
 
 
-// if ($(".max-file-upload").length) {
-//   var maxSizeUpload = 4000;
-//   $('body').on('change', '.max-file-upload', function(e){
-//     var fileSizeUpload = e.target.files[0].size
-//     if(fileSizeUpload > maxSizeUpload){
-//       $(this).parent().parent().parent().find(".upload-error").css('display', 'block');
-//       $(this).val("");
-//       $(this).parent().parent().parent().find(".upload-error").siblings('a').css('display', 'none');
-//       $(this).parent().parent().parent().find(".upload-error").siblings('span').css('display', 'none');
-//     }else{
-//       $(this).parent().parent().parent().find(".upload-error").css('display', 'none');
-//     }
-//   });
-// } 
+if ($(".custome-file-validation").length) {
+  $(".custome-file-validation").parent().parent().parent().append("<h6 class='max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
+  $('body').on('change', '.custome-file-validation', function(e){
+    var maxSizeUpload = $(this).attr('data-file-upload');
+    if(maxSizeUpload == ""){
+      maxSizeUpload = 2000000;
+    }
+    console.log(maxSizeUpload);
+    var fileSizeUpload = e.target.files[0].size
+    if(fileSizeUpload > maxSizeUpload){
+      // $(this).parent().parent().parent().find(".upload-error").css('display', 'block');
+      alert('حجم الملف الذي تم اختياره اكبر من المحدد')
+      $(this).val("");
+      $(this).parent().parent().parent().find(".max-note").css('display', 'block');
+      $(this).parent().parent().parent().find(".custome-file-validation-name").css('display', 'none');
+      $(this).parent().parent().parent().find(".custome-file-validation-delete").css('display', 'none');
+    }else{
+      $(this).parent().parent().parent().find(".max-note").css('display', 'none');
+    }
+  });
+} 
