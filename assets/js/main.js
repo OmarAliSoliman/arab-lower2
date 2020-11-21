@@ -337,88 +337,88 @@ $(document).ready(function () {
 });
 
 
-if($('.custome-file-validation').length){
-  $('body').on('change', '.custome-file-validation', function(e){
-    var fileName = e.target.files[0].name;
-      $(this).parent().parent().parent().find('.custome-file-validation-name').css("display", "block");
-      $(this).parent().parent().parent().find('.custome-file-validation-name').text(fileName);
-      $(this).parent().parent().parent().find('.custome-file-validation-delete').css("display", "inline-block");
-  })
-}
+// if($('.custome-file-validation').length){
+//   $('body').on('change', '.custome-file-validation', function(e){
+//     var fileName = e.target.files[0].name;
+//       $(this).parent().parent().parent().find('.custome-file-validation-name').css("display", "block");
+//       $(this).parent().parent().parent().find('.custome-file-validation-name').text(fileName);
+//       $(this).parent().parent().parent().find('.custome-file-validation-delete').css("display", "inline-block");
+//   })
+// }
 
-if($('.custome-file-validation').length){
-  $('body').on('click', '.custome-file-validation-delete', function(e){
-      $(this).siblings('span').text("");
-      $(this).css("display", "none");
-      $(this).parent().find('.custome-file-validation').val("");
-      $(this).parent().append("<h6 class='max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
-      e.preventDefault();
-  })
-}
-
-
-if($('.personal-img-validation').length){
-  $('body').on('change', '.personal-img-validation', function(e){
-    var fileName = e.target.files[0].name;
-    $(this).parent().parent().find('.personal-img-validation-name').css("display", "block");
-    $(this).parent().parent().find('.personal-img-validation-name').text(fileName);
-    $(this).parent().parent().find('.personal-img-validation-delete').css("display", "inline-block");
-  })
-}
-
-if($('.personal-img-validation').length){
-  $('body').on('click', '.personal-img-validation-delete', function(e){
-    $(this).siblings('span').text("");
-    $(this).css("display", "none");
-    $(this).parent().find('.personal-img-validation').val("");
-    $(this).parent().find('.max-note').css('display', "none");
-    $(this).parent().append("<h6 class='personla-img-max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
-    e.preventDefault();
-  })
-}
+// if($('.custome-file-validation').length){
+//   $('body').on('click', '.custome-file-validation-delete', function(e){
+//       $(this).siblings('span').text("");
+//       $(this).css("display", "none");
+//       $(this).parent().find('.custome-file-validation').val("");
+//       $(this).parent().append("<h6 class='max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
+//       e.preventDefault();
+//   })
+// }
 
 
+// if($('.personal-img-validation').length){
+//   $('body').on('change', '.personal-img-validation', function(e){
+//     var fileName = e.target.files[0].name;
+//     $(this).parent().parent().find('.personal-img-validation-name').css("display", "block");
+//     $(this).parent().parent().find('.personal-img-validation-name').text(fileName);
+//     $(this).parent().parent().find('.personal-img-validation-delete').css("display", "inline-block");
+//   })
+// }
 
-if ($(".custome-file-validation").length) {
-  $(".custome-file-validation").parent().parent().parent().append("<h6 class='max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
-  $('body').on('change', '.custome-file-validation', function(e){
-    var maxSizeUpload = $(this).attr('data-file-upload');
-    if(maxSizeUpload == ""){
-      maxSizeUpload = 2000000;
-    }
-    console.log(maxSizeUpload);
-    var fileSizeUpload = e.target.files[0].size
-    if(fileSizeUpload > maxSizeUpload){
-      // $(this).parent().parent().parent().find(".upload-error").css('display', 'block');
-      alert('حجم الملف الذي تم اختياره اكبر من المحدد')
-      $(this).val("");
-      $(this).parent().parent().parent().find(".max-note").css('display', 'block');
-      $(this).parent().parent().parent().find(".custome-file-validation-name").css('display', 'none');
-      $(this).parent().parent().parent().find(".custome-file-validation-delete").css('display', 'none');
-    }else{
-      $(this).parent().parent().parent().find(".max-note").css('display', 'none');
-    }
-  });
-} 
+// if($('.personal-img-validation').length){
+//   $('body').on('click', '.personal-img-validation-delete', function(e){
+//     $(this).siblings('span').text("");
+//     $(this).css("display", "none");
+//     $(this).parent().find('.personal-img-validation').val("");
+//     $(this).parent().find('.max-note').css('display', "none");
+//     $(this).parent().append("<h6 class='personla-img-max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
+//     e.preventDefault();
+//   })
+// }
 
-if ($(".personal-img-validation").length) {
-  $(".personal-img-validation").parent().parent().append("<h6 class='personla-img-max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
-  $('body').on('change', '.personal-img-validation', function(e){
-    var maxSizeUpload = $(this).attr('data-file-upload');
-    if(maxSizeUpload == ""){
-      maxSizeUpload = 2000000;
-    }
-    console.log(maxSizeUpload);
-    var fileSizeUpload = e.target.files[0].size
-    if(fileSizeUpload > maxSizeUpload){
-      // $(this).parent().parent().parent().find(".upload-error").css('display', 'block');
-      alert('حجم الملف الذي تم اختياره اكبر من المحدد')
-      $(this).val("");
-      $(this).parent().parent().find(".personla-img-max-note").css('display', 'block');
-      $(this).parent().parent().find(".personal-img-validation-name").css('display', 'none');
-      $(this).parent().parent().find(".personal-img-validation-delete").css('display', 'none');
-    }else{
-      $(this).parent().parent().parent().find(".personla-img-max-note").css('display', 'none');
-    }
-  });
-} 
+
+
+// if ($(".custome-file-validation").length) {
+//   $(".custome-file-validation").parent().parent().parent().append("<h6 class='max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
+//   $('body').on('change', '.custome-file-validation', function(e){
+//     var maxSizeUpload = $(this).attr('data-file-upload');
+//     if(maxSizeUpload == ""){
+//       maxSizeUpload = 2000000;
+//     }
+//     console.log(maxSizeUpload);
+//     var fileSizeUpload = e.target.files[0].size
+//     if(fileSizeUpload > maxSizeUpload){
+//       // $(this).parent().parent().parent().find(".upload-error").css('display', 'block');
+//       alert('حجم الملف الذي تم اختياره اكبر من المحدد')
+//       $(this).val("");
+//       $(this).parent().parent().parent().find(".max-note").css('display', 'block');
+//       $(this).parent().parent().parent().find(".custome-file-validation-name").css('display', 'none');
+//       $(this).parent().parent().parent().find(".custome-file-validation-delete").css('display', 'none');
+//     }else{
+//       $(this).parent().parent().parent().find(".max-note").css('display', 'none');
+//     }
+//   });
+// } 
+
+// if ($(".personal-img-validation").length) {
+//   $(".personal-img-validation").parent().parent().append("<h6 class='personla-img-max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
+//   $('body').on('change', '.personal-img-validation', function(e){
+//     var maxSizeUpload = $(this).attr('data-file-upload');
+//     if(maxSizeUpload == ""){
+//       maxSizeUpload = 2000000;
+//     }
+//     console.log(maxSizeUpload);
+//     var fileSizeUpload = e.target.files[0].size
+//     if(fileSizeUpload > maxSizeUpload){
+//       // $(this).parent().parent().parent().find(".upload-error").css('display', 'block');
+//       alert('حجم الملف الذي تم اختياره اكبر من المحدد')
+//       $(this).val("");
+//       $(this).parent().parent().find(".personla-img-max-note").css('display', 'block');
+//       $(this).parent().parent().find(".personal-img-validation-name").css('display', 'none');
+//       $(this).parent().parent().find(".personal-img-validation-delete").css('display', 'none');
+//     }else{
+//       $(this).parent().parent().parent().find(".personla-img-max-note").css('display', 'none');
+//     }
+//   });
+// } 

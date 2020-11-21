@@ -84413,7 +84413,6 @@ img {
   position: absolute;
   width: auto;
   left: 20px;
-  border: 1px solid #000;
   top: 50%;
   /* margin-top: 3px; */
   transform: translate(-20px, -50%);
@@ -86914,11 +86913,13 @@ body {
 .max-note{
   font-size: 15px;
   margin-top: 10px;
+  display: none;
 }
 
 .personla-img-max-note{
   margin-right: -50px !important;
   margin-top: 30px;
+  display: none;
 }
 
 @media(max-width: 524px){
