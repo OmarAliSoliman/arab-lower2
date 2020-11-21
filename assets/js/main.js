@@ -360,17 +360,17 @@ if($('.custome-file-validation').length){
 if($('.personal-img-validation').length){
   $('body').on('change', '.personal-img-validation', function(e){
     var fileName = e.target.files[0].name;
-    $(this).parent().parent().find('.custome-file-validation-name').css("display", "block");
-    $(this).parent().parent().find('.custome-file-validation-name').text(fileName);
-    $(this).parent().parent().find('.custome-file-validation-delete').css("display", "inline-block");
+    $(this).parent().parent().find('.personal-img-validation-name').css("display", "block");
+    $(this).parent().parent().find('.personal-img-validation-name').text(fileName);
+    $(this).parent().parent().find('.personal-img-validation-delete').css("display", "inline-block");
   })
 }
 
 if($('.personal-img-validation').length){
-  $('body').on('click', '.custome-file-validation-delete', function(e){
+  $('body').on('click', '.personal-img-validation-delete', function(e){
     $(this).siblings('span').text("");
     $(this).css("display", "none");
-    $(this).parent().find('.custome-file-validation').val("");
+    $(this).parent().find('.personal-img-validation').val("");
     $(this).parent().find('.max-note').css('display', "none");
     $(this).parent().append("<h6 class='personla-img-max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
     e.preventDefault();
@@ -415,8 +415,8 @@ if ($(".personal-img-validation").length) {
       alert('حجم الملف الذي تم اختياره اكبر من المحدد')
       $(this).val("");
       $(this).parent().parent().find(".personla-img-max-note").css('display', 'block');
-      $(this).parent().parent().find(".custome-file-validation-name").css('display', 'none');
-      $(this).parent().parent().find(".custome-file-validation-delete").css('display', 'none');
+      $(this).parent().parent().find(".personal-img-validation-name").css('display', 'none');
+      $(this).parent().parent().find(".personal-img-validation-delete").css('display', 'none');
     }else{
       $(this).parent().parent().parent().find(".personla-img-max-note").css('display', 'none');
     }

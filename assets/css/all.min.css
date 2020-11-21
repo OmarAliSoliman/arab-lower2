@@ -86903,11 +86903,11 @@ body {
   display: none;
 }
 
-.personal-img .custome-file-validation-name{
+.personal-img .personal-img-validation-name{
   margin-top: 20px;
 }
 
-.personal-img .custome-file-validation-name, .personal-img .custome-file-validation-delete{
+.personal-img .personal-img-validation-name, .personal-img .personal-img-validation-delete{
   margin-right: -50px !important;
 }
 
@@ -86922,7 +86922,7 @@ body {
 }
 
 @media(max-width: 524px){
-  .personal-img .custome-file-validation-name, .personal-img .custome-file-validation-delete{
+  .personal-img .personal-img-validation-name, .personal-img .personal-img-validation-delete{
     margin-right: 0px;
   }
   .personla-img-max-note{
