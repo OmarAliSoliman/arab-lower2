@@ -86930,3 +86930,13 @@ body {
     margin-right: 0;
   }
 }
+
+.print-btn{
+  text-align: center !important;
+  margin-bottom: 40px;
+}
+
+.print-btn .btn{
+  background-color: #1a355b;
+  color: #fff;
+}
