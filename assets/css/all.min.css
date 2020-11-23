@@ -86931,12 +86931,12 @@ body {
   }
 }
 
-.print-btn{
+.for-print{
   text-align: center !important;
   margin-bottom: 40px;
 }
 
-.print-btn .btn{
+.for-print .print-btn{
   background-color: #1a355b;
   color: #fff;
 }
