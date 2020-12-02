@@ -84311,9 +84311,11 @@ img {
 .my-account #pills-personal-info .personal-img {
   margin: 50px;
 }
-.my-account #pills-personal-info .personal-img img {
+.my-account #pills-personal-info .personal-img .per {
   width: 95px;
   height: 95px;
+  background-size: cover;
+  background-position: center;
   border-radius: 50%;
   position: absolute;
   right: 0;
