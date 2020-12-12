@@ -83499,6 +83499,12 @@ img {
   font-size: 25px;
   line-height: 40px;
 }
+
+.post-details .post-details-header:hover{
+  color: #1A355B;
+  text-decoration: underline;
+}
+
 .post-details .main-card {
   position: relative;
   border-radius: 0;
