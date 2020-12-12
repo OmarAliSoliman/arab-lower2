@@ -83520,6 +83520,15 @@ img {
 .post-details .main-card span h6 {
   margin: 0;
 }
+
+.post-details .main-card span a{
+  display: inline-block;
+  font-size: 15px;
+  color: #626262;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
 .post-details .main-card span p {
   font-size: 13px;
   color: #888;
