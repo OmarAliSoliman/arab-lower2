@@ -86943,3 +86943,14 @@ body {
   color: #fff;
 }
 
+.books-search .books-slider .slick-dots li button:before{
+  content: "" !important;
+  opacity: 0 !important; 
+  display: none !important;
+}
+
+.books-search .books-slider .slick-dots .slick-active button:before{
+  content: "" !important;
+  opacity: 0 !important; 
+  display: none !important;
+}
