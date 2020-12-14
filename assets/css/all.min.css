@@ -86993,7 +86993,8 @@ body {
 .posts .posts-bg .card{
   position: relative;
   z-index: 999;
-  height: auto;
+  height: 240px;
+  width: 100%;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
