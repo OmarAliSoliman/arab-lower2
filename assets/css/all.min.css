@@ -87010,7 +87010,12 @@ body {
 
 .posts .posts-bg .card .card-text{
   font-size: 15px;
-  color: #999
+  color: #999;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
 
 @media(max-width: 800px){
