@@ -81720,14 +81720,14 @@ img {
   text-decoration: none;
 }
 .middle-header .logo img {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 4px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
 }
 .middle-header .logo p {
   margin: 0;
   color: #888;
+  margin-top: -10px;
   font-size: 15px;
 }
 .middle-header .logo .office-name {
