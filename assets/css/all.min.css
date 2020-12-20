@@ -81720,8 +81720,8 @@ img {
   text-decoration: none;
 }
 .middle-header .logo img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 4px;
   display: inline-block;
 }
@@ -85858,7 +85858,7 @@ footer .footer-img {
   padding: 10px;
 }
 footer .footer-img img {
-  width: 136px;
+  width: 170px;
   height: 137px;
   display: inline-block;
 }
