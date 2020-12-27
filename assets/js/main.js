@@ -334,8 +334,78 @@ $(document).ready(function () {
       $("#pills-pills-consult-order-tab").click();
     }
   });
-});
 
+  document.addEventListener("contextmenu", (event) => event.preventDefault());
+  $("body").bind("cut copy paste", function (e) {
+    e.preventDefault();
+  });
+
+  var allowPaste = function (e) {
+    e.stopImmediatePropagation();
+    return true;
+  };
+  document.addEventListener("paste", allowPaste, true);
+  // console.log()
+
+  $('body').after().append('<div id="context-menu"><div class="item paste-item"><i class="fa fa-paste"></i> لصق</div></div>')
+
+  var inputText = document.querySelectorAll("input[type=text]");
+  var textArea = document.querySelectorAll("textarea");
+
+  // $('input[type=text]').bind("contextmenu", function (event) {
+  //   event.preventDefault();
+  //   var target = $(this);
+  //   console.log(target);
+  //   var contextElement = document.getElementById("context-menu");
+  //   contextElement.style.top = event.clientY + "px";
+  //   contextElement.style.left = event.clientX + "px";
+  //   contextElement.classList.add("active");
+  //   $(".paste-item").on("click", function () {
+  //     // navigator.clipboard.readText().then((text) => ($(target).val() = text));
+  //     var pastedData = e.originalEvent.clipboardData.getData('text');
+  //     console.log(pastedData);
+  //   });
+  //   window.addEventListener("click", function () {
+  //     document.getElementById("context-menu").classList.remove("active");
+  //   });
+  // });
+
+  var targetInput;
+  inputText.forEach((item, index) => {
+    // console.log(item);
+    item.addEventListener("contextmenu", function (event) {
+      event.preventDefault();
+      targetInput = item;
+      // console.log(item);
+      var contextElement = document.getElementById("context-menu");
+      contextElement.style.top = event.clientY + "px";
+      contextElement.style.left = event.clientX + "px";
+      contextElement.classList.add("active");
+    });
+    window.addEventListener("click", function () {
+      document.getElementById("context-menu").classList.remove("active");
+    });
+  });
+
+  textArea.forEach((item, index) => {
+    // console.log(item);
+    item.addEventListener("contextmenu", function (event) {
+      event.preventDefault();
+      targetInput = item;
+      var contextElement = document.getElementById("context-menu");
+      contextElement.style.top = event.clientY + "px";
+      contextElement.style.left = event.clientX + "px";
+      contextElement.classList.add("active");
+    });
+    window.addEventListener("click", function () {
+      document.getElementById("context-menu").classList.remove("active");
+    });
+  });
+
+  $(".paste-item").on("click", function () {
+    navigator.clipboard.readText().then((text) => (targetInput.value += text)); // console.log(navigator.clipboard.readText());
+  });
+});
 
 // if($('.custome-file-validation').length){
 //   $('body').on('change', '.custome-file-validation', function(e){
@@ -355,7 +425,6 @@ $(document).ready(function () {
 //       e.preventDefault();
 //   })
 // }
-
 
 // if($('.personal-img-validation').length){
 //   $('body').on('change', '.personal-img-validation', function(e){
@@ -377,8 +446,6 @@ $(document).ready(function () {
 //   })
 // }
 
-
-
 // if ($(".custome-file-validation").length) {
 //   $(".custome-file-validation").parent().parent().parent().append("<h6 class='max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
 //   $('body').on('change', '.custome-file-validation', function(e){
@@ -399,7 +466,7 @@ $(document).ready(function () {
 //       $(this).parent().parent().parent().find(".max-note").css('display', 'none');
 //     }
 //   });
-// } 
+// }
 
 // if ($(".personal-img-validation").length) {
 //   $(".personal-img-validation").parent().parent().append("<h6 class='personla-img-max-note'>اقصى حجم لرفع ملف هي 2 ميجا</h6>");
@@ -421,4 +488,4 @@ $(document).ready(function () {
 //       $(this).parent().parent().parent().find(".personla-img-max-note").css('display', 'none');
 //     }
 //   });
-// } 
+// }
