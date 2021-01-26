@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/css/style-en.css" />
-    <title>Document</title>
-  </head>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/custom.css">
+  <title>Document</title>
+</head>
+
 
 <body>
 
@@ -153,8 +154,23 @@
                   <h5>تصفية النتائج حسب</h5>
                 </div>
                 <div class="card-body">
+                  <div class="dropdown select-language">
+                    <button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="dropdownMenuButton"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      اختر الدولة
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">جمهورية مصر العربية</a>
+                      <a class="dropdown-item" href="#">المملكة العربية السعودية</a>
+                      <a class="dropdown-item" href="#">الامارات العربية المتحدة</a>
+                      <a class="dropdown-item" href="#">الامارات</a>
+                      <a class="dropdown-item" href="#">تونس</a>
+                      <a class="dropdown-item" href="#">المغرب</a>
+                      <a class="dropdown-item" href="#">الجزائر</a>
+                    </div>
+                  </div>
                   <div id="accordion">
-                    <div class="card">
+                    <!-- <div class="card">
                       <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
@@ -198,7 +214,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="card">
                       <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
@@ -365,7 +381,7 @@
     </div>
   </div>
 
-  
+
   <!-- start footer -->
   <footer>
     <div class="">
@@ -417,7 +433,7 @@
   </div>
   <!-- end footer -->
 
-<!-- 
+  <!-- 
   <script src="./assets/js/jquery-3.3.1.min.js"></script>
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>

@@ -342,6 +342,31 @@ $thirdColor: #ccad53;
   }
 }
 
+.legal-posts-content, .free-consult-content{
+  .select-language{
+    margin-bottom: 10px;
+    width: 100%;
+    .btn{
+      text-align: right;
+      background-color: transparent;
+      color: #000;
+      border: 0;
+      &:focus{
+        outline: 0 !important;
+        box-shadow: none !important;
+        background-color: transparent;
+        color: #000;
+      }
+    }
+    .dropdown-toggle::after{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+}
+
 .legal-library-cards, .department-books-cards{
   .card{
     height: 480px;

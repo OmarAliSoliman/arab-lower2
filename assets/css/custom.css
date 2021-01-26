@@ -312,6 +312,29 @@
   text-decoration: underline;
 }
 
+.legal-posts-content .select-language, .free-consult-content .select-language {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.legal-posts-content .select-language .btn, .free-consult-content .select-language .btn {
+  text-align: right;
+  background-color: transparent;
+  color: #000;
+  border: 0;
+}
+.legal-posts-content .select-language .btn:focus, .free-consult-content .select-language .btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  color: #000;
+}
+.legal-posts-content .select-language .dropdown-toggle::after, .free-consult-content .select-language .dropdown-toggle::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 .legal-library-cards .card, .department-books-cards .card {
   height: 480px;
 }
