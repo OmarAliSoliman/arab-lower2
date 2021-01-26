@@ -274,6 +274,35 @@ $thirdColor: #ccad53;
   }
 }
 
+#modalOrderCopy{
+  .modal-body{
+    text-align: center;
+    padding: 25px;
+  }
+  .modal-footer{
+    padding: 5px;
+  }
+}
+
+.legal-library-cards, .department-books-cards{
+  .card{
+    height: 480px;
+    .card-body{
+      .card-link-need-copy{
+        text-align: center !important;
+        margin: 0 !important;
+        background-color: $thirdColor;
+        padding: 5px;
+        border-radius: 5px;
+        a{
+          color: #fff !important;
+        }
+
+      }
+    }
+  }
+}
+
 footer {
   .row {
     .col-lg-3 {

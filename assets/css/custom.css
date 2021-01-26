@@ -253,6 +253,28 @@
   margin-right: 5px;
 }
 
+#modalOrderCopy .modal-body {
+  text-align: center;
+  padding: 25px;
+}
+#modalOrderCopy .modal-footer {
+  padding: 5px;
+}
+
+.legal-library-cards .card, .department-books-cards .card {
+  height: 480px;
+}
+.legal-library-cards .card .card-body .card-link-need-copy, .department-books-cards .card .card-body .card-link-need-copy {
+  text-align: center !important;
+  margin: 0 !important;
+  background-color: #ccad53;
+  padding: 5px;
+  border-radius: 5px;
+}
+.legal-library-cards .card .card-body .card-link-need-copy a, .department-books-cards .card .card-body .card-link-need-copy a {
+  color: #fff !important;
+}
+
 footer .row .col-lg-3 {
   margin: 0;
   padding: 0;
