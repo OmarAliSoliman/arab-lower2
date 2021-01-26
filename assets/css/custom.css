@@ -261,6 +261,57 @@
   padding: 5px;
 }
 
+.single-serv .department-lawers-cards .card {
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+}
+.single-serv .department-lawers-cards .card .card-img {
+  background-size: cover;
+  background-position: center;
+  height: 266px;
+  border-radius: 0;
+}
+.single-serv .department-lawers-cards .card .card-body {
+  background-color: #f2f2f2;
+}
+.single-serv .department-lawers-cards .card .card-body .card-title {
+  text-align: center;
+  position: relative;
+  padding-bottom: 25px;
+}
+.single-serv .department-lawers-cards .card .card-body .card-title a {
+  color: #000;
+  text-decoration: none;
+}
+.single-serv .department-lawers-cards .card .card-body .card-title a:hover {
+  color: #ccad53;
+}
+.single-serv .department-lawers-cards .card .card-body .card-title::after {
+  right: 40% !important;
+  transform: translate(0, -40%) !important;
+  background-color: #ccad53 !important;
+  width: 55px !important;
+  height: 5px !important;
+}
+.single-serv .department-lawers-cards .card .card-body .card-text a {
+  color: #1a355b;
+  text-decoration: none;
+}
+.single-serv .department-lawers-cards .card .card-body .card-text i {
+  color: #ccad53;
+  margin-left: 4px;
+}
+.single-serv .department-lawers-cards .card .card-body .card-text span {
+  color: #1a355b;
+}
+.single-serv .department-lawers-cards .card .card-body .card-link {
+  color: #ccad53;
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
 .legal-library-cards .card, .department-books-cards .card {
   height: 480px;
 }
@@ -633,7 +684,7 @@ footer .footer-payment .social a {
     max-width: 85%;
   }
 }
-.details-of-law .tab-content .department-lawers-cards .card .card-body .card-title::after {
+.details-of-law .tab-content .department-lawers-cards .card .card-body .card-title::after, .single-serv .department-lawers-cards .card .card-body .card-title::after {
   content: "";
   position: absolute;
   width: 100px;
