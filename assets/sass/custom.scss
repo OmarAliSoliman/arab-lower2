@@ -283,36 +283,36 @@ footer {
   }
   .footer-img {
     padding-top: 20px;
-    img{
+    img {
       max-width: 136px;
       max-height: 137px;
     }
-    p{
+    p {
       font-size: 14px;
       margin-bottom: 15px;
     }
   }
-  .links{
+  .links {
     padding-top: 50px;
-    ul{
-      li{
+    ul {
+      li {
         width: 33.3333%;
       }
     }
   }
-  .footer-payment{
+  .footer-payment {
     padding-top: 40px;
     text-align: right;
-    h5{
+    h5 {
       font-size: 18px;
       color: #fff;
     }
-    .pank{
+    .pank {
       max-width: 199px;
       margin-top: 30px;
       max-height: 30px;
     }
-    .paypal{
+    .paypal {
       max-width: 76px;
       max-height: 22px;
       margin-top: 10px;
@@ -328,11 +328,279 @@ footer {
   }
 }
 
-.number-of-visit{
+.number-of-visit {
   background-color: #193050;
-  p{
-    span{
+  p {
+    span {
       font-size: 15px;
+    }
+  }
+}
+
+
+#pills-pills-account-message-tab{
+  position: relative;
+  .msg-number{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: $thirdColor;
+    color: #000;
+    display: inline-block;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.team-lower {
+  .nav-pills {
+    overflow-x: auto;
+    overflow-y: hidden;
+    // flex-wrap: nowrap;
+  }
+  .my-account-tabs {
+    .nav-item {
+      .nav-link {
+        margin-left: 2px;
+      }
+    }
+  }
+  .account-message-tabs {
+    margin-top: 50px;
+    .nav-pills {
+      .nav-link {
+        padding: 20px;
+        &:hover {
+          color: $mainColor !important;
+        }
+      }
+      .active {
+        background-color: #f7f7f7;
+        color: #ccad53;
+        position: relative;
+        font-weight: bold;
+        &:hover {
+          color: $thirdColor !important;
+          &::after {
+            color: $thirdColor !important;
+          }
+        }
+        &::after {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f104";
+          position: absolute;
+          left: 10px;
+        }
+      }
+    }
+    .message-msg-inpox {
+      margin-bottom: 90px;
+      .col-lg-4, .col-lg-8{
+        margin: 0;
+        padding: 0;
+      }
+      .card-of-sent {
+        background-color: #fff;
+        border: 1px solid #e7e7e7;
+        padding: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        height: 617px;
+        overflow: auto;
+        .card {
+          position: relative;
+          background-color: transparent;
+          border: 0;
+          display: inline-block;
+          text-decoration: none;
+          padding: 15px;
+          padding-right: 75px;
+          margin-bottom: 10px;
+          .card-img {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 50%;
+            right: 10px;
+            top: 50%;
+            transform: translate(0, -50%);
+          }
+          .card-title,
+          .card-text {
+            margin: 0;
+          }
+          .card-title {
+            font-size: 15px;
+            overflow: hidden;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            color: #043555;
+            font-weight: bold;
+          }
+          .card-text {
+            overflow: hidden;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 1;
+            font-size: 15px;
+            -webkit-box-orient: vertical;
+          }
+          &:hover{
+            background-color: #F3F3F3;
+          }
+        }
+        .active{
+          background-color: #F3F3F3;
+        }
+      }
+      .msg-content-parent{
+        border: 1px solid #e7e7e7;
+        height: 617px;
+        .card-footer{
+          border: 0;
+          background-color: transparent;
+          padding: 0;
+          padding-top: 30px;
+          .message-form {
+            height: 60px;
+            width: 100%;
+            margin: auto;
+            .fa-arrow-left {
+              color: $mainColor;
+              font-size: 20px;
+            }
+            .input-group {
+              padding-right: 10px;
+              padding-left: 10px;
+              margin-top: 15px;
+              .input-group-append {
+                border: 1px solid #ddd;
+                border-right: 0 !important;
+                border-bottom-left-radius: 5px;
+                border-top-left-radius: 5px;
+                height: 40px;
+              }
+              .input-group-prepend,
+              .form-control {
+                height: 40px;
+                background-color: transparent;
+                border: 0;
+                border: 1px solid #ddd;
+                border-left: 0 !important;
+                height: 40px;
+                &:focus {
+                  box-shadow: none !important;
+                }
+              }
+              .input-group-append {
+                // border: 0;
+                background-color: $mainColor;
+                text-decoration: none;
+                i {
+                  color: #fff;
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .card-of-msg-content{
+        overflow: auto;
+        height: 500px;
+        .card-header{
+          position: relative;
+          background-color: transparent;
+          border: 0;
+          padding: 30px;
+          padding-right: 80px;
+          // padding-bottom: 20px;  
+          border-bottom: 1px solid #e7e7e7;
+          img{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 50%;
+            right: 10px;
+            top: 50%;
+            transform: translate(0, -50%);
+          }
+          h5{
+            // margin-top: 5px;
+            margin: 0;
+          }
+        }
+        .card {
+          width: 70%;
+          border: 0;
+          margin-bottom: 20px;
+          h5 {
+            color: #59bb66;
+            font-size: 16px;
+            padding: 12px;
+            margin: 0;
+            padding-right: 0;
+          }
+          .card-send-body {
+            padding: 0;
+            color: #fff;
+            padding: 18px;
+            border-top-left-radius: 32px;
+            border-top-right-radius: 32px;
+            border-bottom-left-radius: 32px;
+            .card-text {
+              margin: 0;
+              font-size: 13px;
+              color: #626262;
+            }
+          }
+          .time {
+            font-size: 13px !important;
+            // margin-top: 14px;
+            color: #585858;
+          }
+        }
+        .send {
+          margin-left: auto;
+          .card-send-body {
+            background-color: #f3f3f3;
+          }
+        }
+        .reseive {
+          margin-right: auto;
+          position: relative;
+          margin-bottom: 40px;
+          .card-send-body {
+            background-color: $mainColor;
+            .card-text {
+              color: #fff !important;
+            }
+          }
+          .time {
+            font-size: 13px !important;
+            margin-left: auto;
+            float: left;
+            position: absolute;
+            left: 0;
+            bottom: -20px;
+          }
+        }
+        .has-attachment{
+          width: 50% !important;
+        }
+      }
     }
   }
 }

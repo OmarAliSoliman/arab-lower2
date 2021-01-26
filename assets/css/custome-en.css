@@ -27,9 +27,9 @@
 .details-of-law .nav-pills .active::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "";
+  content: "\f105";
   position: absolute;
-  left: 10px;
+  right: 10px;
 }
 .details-of-law .tab-content .department-posts-cards .card {
   background-color: #f9f9f9;
@@ -44,12 +44,12 @@
   width: 100px;
   height: 100px;
   line-height: 120px;
-  text-align: right;
-  padding-right: 25px;
+  text-align: left;
+  padding-left: 25px;
   color: #fff;
   background-color: #1a355b;
   border-radius: 50%;
-  left: -30px;
+  right: -30px;
   top: -30px;
   font-size: 30px;
   z-index: 2;
@@ -62,13 +62,13 @@
 }
 .details-of-law .tab-content .department-posts-cards .card .card-text i {
   position: absolute;
-  right: 0;
+  left: 0;
   color: #1a355b;
   font-size: 20px;
   top: 6px;
 }
 .details-of-law .tab-content .department-posts-cards .card .card-text p {
-  padding-right: 35px;
+  padding-left: 35px;
   font-size: 18px;
   line-height: 30px;
   max-width: 90%;
@@ -90,11 +90,11 @@
   height: 58px;
   border-radius: 50%;
   position: absolute;
-  right: 20px;
+  left: 20px;
 }
 .details-of-law .tab-content .department-posts-cards .card .card-body .post-info {
   display: inline-block;
-  padding-right: 70px;
+  padding-left: 70px;
 }
 .details-of-law .tab-content .department-posts-cards .card .card-body .post-info p {
   margin: 0;
@@ -103,7 +103,7 @@
   color: #1a355b;
 }
 .details-of-law .tab-content .department-posts-cards .card .card-body .post-info i {
-  margin-left: 5px;
+  margin-right: 5px;
   color: #ccad53;
   margin-top: 10px;
 }
@@ -138,7 +138,7 @@
   color: #ccad53;
 }
 .details-of-law .tab-content .department-lawers-cards .card .card-body .card-title::after {
-  right: 40% !important;
+  left: 40% !important;
   transform: translate(0, -40%) !important;
   background-color: #ccad53 !important;
   width: 55px !important;
@@ -150,7 +150,7 @@
 }
 .details-of-law .tab-content .department-lawers-cards .card .card-body .card-text i {
   color: #ccad53;
-  margin-left: 4px;
+  margin-right: 4px;
 }
 .details-of-law .tab-content .department-lawers-cards .card .card-body .card-text span {
   color: #1a355b;
@@ -179,7 +179,7 @@
   width: 100%;
   height: 100%;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: rgba(235, 235, 235, 0.4);
 }
 .details-of-law .tab-content .department-books-cards .card .card-body {
@@ -202,8 +202,8 @@
   color: #1a355b;
 }
 .details-of-law .tab-content .department-books-cards .card .card-body .card-link {
-  text-align: left;
-  margin-left: 10px;
+  text-align: right;
+  margin-right: 10px;
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -229,8 +229,8 @@
   position: absolute;
   top: 100%;
   margin-top: 10px;
-  left: 50%;
-  transform: translate(-50%, -100%);
+  right: 50%;
+  transform: translate(50%, -100%);
 }
 .details-of-law .tab-content .department-law-services-cards .card img {
   width: 81px;
@@ -249,8 +249,8 @@
   color: #d52818;
 }
 .details-of-law .tab-content .department-law-services-cards .card .card-link::after {
-  content: "";
-  margin-right: 5px;
+  content: "\f30b";
+  margin-left: 5px;
 }
 
 footer .row .col-lg-3 {
@@ -276,7 +276,7 @@ footer .links ul li {
 }
 footer .footer-payment {
   padding-top: 40px;
-  text-align: right;
+  text-align: left;
 }
 footer .footer-payment h5 {
   font-size: 18px;
@@ -298,7 +298,7 @@ footer .footer-payment .social {
 footer .footer-payment .social a {
   color: #fff;
   font-size: 22px;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .number-of-visit {
@@ -319,7 +319,7 @@ footer .footer-payment .social a {
   color: #000;
   display: inline-block;
   border-radius: 50%;
-  left: 0;
+  right: 0;
   top: 0;
   text-align: center;
   line-height: 20px;
@@ -332,7 +332,7 @@ footer .footer-payment .social a {
   overflow-y: hidden;
 }
 .team-lower .my-account-tabs .nav-item .nav-link {
-  margin-left: 2px;
+  margin-right: 2px;
 }
 .team-lower .account-message-tabs {
   margin-top: 50px;
@@ -358,9 +358,9 @@ footer .footer-payment .social a {
 .team-lower .account-message-tabs .nav-pills .active::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "";
+  content: "\f105";
   position: absolute;
-  left: 10px;
+  right: 10px;
 }
 .team-lower .account-message-tabs .message-msg-inpox {
   margin-bottom: 90px;
@@ -373,8 +373,8 @@ footer .footer-payment .social a {
   background-color: #fff;
   border: 1px solid #e7e7e7;
   padding: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   height: 617px;
   overflow: auto;
 }
@@ -385,7 +385,7 @@ footer .footer-payment .social a {
   display: inline-block;
   text-decoration: none;
   padding: 15px;
-  padding-right: 75px;
+  padding-left: 75px;
   margin-bottom: 10px;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-sent .card .card-img {
@@ -395,7 +395,7 @@ footer .footer-payment .social a {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  right: 10px;
+  left: 10px;
   top: 50%;
   transform: translate(0, -50%);
 }
@@ -445,17 +445,18 @@ footer .footer-payment .social a {
 .team-lower .account-message-tabs .message-msg-inpox .msg-content-parent .card-footer .message-form .fa-arrow-left {
   color: #1a355b;
   font-size: 20px;
+  transform: rotate(180deg);
 }
 .team-lower .account-message-tabs .message-msg-inpox .msg-content-parent .card-footer .message-form .input-group {
-  padding-right: 10px;
   padding-left: 10px;
+  padding-right: 10px;
   margin-top: 15px;
 }
 .team-lower .account-message-tabs .message-msg-inpox .msg-content-parent .card-footer .message-form .input-group .input-group-append {
   border: 1px solid #ddd;
-  border-right: 0 !important;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-left: 0 !important;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
   height: 40px;
 }
 .team-lower .account-message-tabs .message-msg-inpox .msg-content-parent .card-footer .message-form .input-group .input-group-prepend,
@@ -464,7 +465,7 @@ footer .footer-payment .social a {
   background-color: transparent;
   border: 0;
   border: 1px solid #ddd;
-  border-left: 0 !important;
+  border-right: 0 !important;
   height: 40px;
 }
 .team-lower .account-message-tabs .message-msg-inpox .msg-content-parent .card-footer .message-form .input-group .input-group-prepend:focus,
@@ -488,7 +489,7 @@ footer .footer-payment .social a {
   background-color: transparent;
   border: 0;
   padding: 30px;
-  padding-right: 80px;
+  padding-left: 80px;
   border-bottom: 1px solid #e7e7e7;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .card-header img {
@@ -498,7 +499,7 @@ footer .footer-payment .social a {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  right: 10px;
+  left: 10px;
   top: 50%;
   transform: translate(0, -50%);
 }
@@ -515,15 +516,15 @@ footer .footer-payment .social a {
   font-size: 16px;
   padding: 12px;
   margin: 0;
-  padding-right: 0;
+  padding-left: 0;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .card .card-send-body {
   padding: 0;
   color: #fff;
   padding: 18px;
-  border-top-left-radius: 32px;
   border-top-right-radius: 32px;
-  border-bottom-left-radius: 32px;
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .card .card-send-body .card-text {
   margin: 0;
@@ -535,13 +536,13 @@ footer .footer-payment .social a {
   color: #585858;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .send {
-  margin-left: auto;
+  margin-right: auto;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .send .card-send-body {
   background-color: #f3f3f3;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .reseive {
-  margin-right: auto;
+  margin-left: auto;
   position: relative;
   margin-bottom: 40px;
 }
@@ -553,10 +554,10 @@ footer .footer-payment .social a {
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .reseive .time {
   font-size: 13px !important;
-  margin-left: auto;
-  float: left;
+  margin-right: auto;
+  float: right;
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: -20px;
 }
 .team-lower .account-message-tabs .message-msg-inpox .card-of-msg-content .has-attachment {
@@ -575,12 +576,12 @@ footer .footer-payment .social a {
   font-weight: bold;
   margin: 0;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
+  right: 50%;
+  transform: translate(50%, 0);
 }
 .modal-times-of-work-details-law-page .modal-header .close {
   position: absolute;
-  right: 0;
+  left: 0;
 }
 .modal-times-of-work-details-law-page .modal-header .close:focus {
   outline: 0 !important;
@@ -594,13 +595,13 @@ footer .footer-payment .social a {
   font-weight: bold;
 }
 .modal-times-of-work-details-law-page .modal-body .the-time {
-  float: left;
+  float: right;
   color: #888;
 }
 
 @media (max-width: 800px) {
   .modal-times-of-work-details-law-page {
-    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
   .modal-times-of-work-details-law-page .modal-dialog {
     width: auto;
@@ -625,4 +626,3 @@ footer .footer-payment .social a {
   font-weight: 900;
 }
 
-/*# sourceMappingURL=custom.css.map */
